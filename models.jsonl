@@ -1,0 +1,70 @@
+{"id":97,"api_id":"jondurbin\/airoboros-l2-70b-2.1","name":"Airoboros L2 70B","api":"openrouter","type":"chat","org":"Jon Durbin"}
+{"id":29,"api_id":"togethercomputer\/alpaca-7b","name":"Alpaca (7B)","api":"together","type":"chat","org":"Stanford"}
+{"id":5,"api_id":"Austism\/chronos-hermes-13b","name":"Chronos Hermes (13B)","api":"together","type":"chat","org":"Austism"}
+{"id":83,"api_id":"anthropic\/claude-instant-v1","name":"Claude Instant v1","api":"openrouter","type":"chat","org":"Anthropic"}
+{"id":101,"api_id":"anthropic\/claude-v1","name":"Claude v1","api":"openrouter","type":"chat","org":"Anthropic"}
+{"id":100,"api_id":"anthropic\/claude-1.2","name":"Claude v1.2","api":"openrouter","type":"chat","org":"Anthropic"}
+{"id":84,"api_id":"anthropic\/claude-2","name":"Claude v2","api":"openrouter","type":"chat","org":"Anthropic"}
+{"id":68,"api_id":"togethercomputer\/CodeLlama-13b","name":"Code Llama (13B)","api":"together","type":"code","org":"Meta"}
+{"id":69,"api_id":"togethercomputer\/CodeLlama-34b","name":"Code Llama (34B)","api":"together","type":"code","org":"Meta"}
+{"id":67,"api_id":"togethercomputer\/CodeLlama-7b","name":"Code Llama (7B)","api":"together","type":"code","org":"Meta"}
+{"id":19,"api_id":"togethercomputer\/CodeLlama-13b-Instruct","name":"Code Llama Instruct (13B)","api":"together","type":"chat","org":"Meta"}
+{"id":20,"api_id":"togethercomputer\/CodeLlama-34b-Instruct","name":"Code Llama Instruct (34B)","api":"together","type":"chat","org":"Meta"}
+{"id":18,"api_id":"togethercomputer\/CodeLlama-7b-Instruct","name":"Code Llama Instruct (7B)","api":"together","type":"chat","org":"Meta"}
+{"id":71,"api_id":"togethercomputer\/CodeLlama-13b-Python","name":"Code Llama Python (13B)","api":"together","type":"code","org":"Meta"}
+{"id":72,"api_id":"togethercomputer\/CodeLlama-34b-Python","name":"Code Llama Python (34B)","api":"together","type":"code","org":"Meta"}
+{"id":70,"api_id":"togethercomputer\/CodeLlama-7b-Python","name":"Code Llama Python (7B)","api":"together","type":"code","org":"Meta"}
+{"id":66,"api_id":"togethercomputer\/codegen2-16B","name":"CodeGen2 (16B)","api":"together","type":"code","org":"Salesforce"}
+{"id":65,"api_id":"togethercomputer\/codegen2-7B","name":"CodeGen2 (7B)","api":"together","type":"code","org":"Salesforce"}
+{"id":9,"api_id":"databricks\/dolly-v2-12b","name":"Dolly v2 (12B)","api":"together","type":"chat","org":"Databricks"}
+{"id":7,"api_id":"databricks\/dolly-v2-3b","name":"Dolly v2 (3B)","api":"together","type":"chat","org":"Databricks"}
+{"id":8,"api_id":"databricks\/dolly-v2-7b","name":"Dolly v2 (7B)","api":"together","type":"chat","org":"Databricks"}
+{"id":31,"api_id":"togethercomputer\/falcon-40b-instruct","name":"Falcon Instruct (40B)","api":"together","type":"chat","org":"TII UAE"}
+{"id":30,"api_id":"togethercomputer\/falcon-7b-instruct","name":"Falcon Instruct (7B)","api":"together","type":"chat","org":"TII UAE"}
+{"id":81,"api_id":"gpt-3.5-turbo","name":"GPT 3.5 Turbo","api":"openai","type":"chat","org":"OpenAI"}
+{"id":82,"api_id":"gpt-3.5-turbo-16k","name":"GPT 3.5 Turbo (16k)","api":"openai","type":"chat","org":"OpenAI"}
+{"id":80,"api_id":"gpt-4","name":"GPT 4","api":"openai","type":"chat","org":"OpenAI"}
+{"id":4,"api_id":"togethercomputer\/GPT-NeoXT-Chat-Base-20B","name":"GPT-NeoXT-Chat-Base (20B)","api":"together","type":"chat","org":"Together"}
+{"id":32,"api_id":"togethercomputer\/guanaco-13b","name":"Guanaco (13B)","api":"together","type":"chat","org":"Tim Dettmers"}
+{"id":33,"api_id":"togethercomputer\/guanaco-33b","name":"Guanaco (33B)","api":"together","type":"chat","org":"Tim Dettmers"}
+{"id":34,"api_id":"togethercomputer\/guanaco-65b","name":"Guanaco (65B)","api":"together","type":"chat","org":"Tim Dettmers"}
+{"id":85,"api_id":"j2-light","name":"Jurassic 2 Light","api":"ai21","type":"chat","org":"AI21"}
+{"id":86,"api_id":"j2-mid","name":"Jurassic 2 Mid","api":"ai21","type":"chat","org":"AI21"}
+{"id":87,"api_id":"j2-ultra","name":"Jurassic 2 Ultra","api":"ai21","type":"chat","org":"AI21"}
+{"id":23,"api_id":"togethercomputer\/Koala-13B","name":"Koala (13B)","api":"together","type":"chat","org":"LM Sys"}
+{"id":22,"api_id":"OpenAssistant\/llama2-70b-oasst-sft-v10","name":"LLaMA 2 SFT v10 (70B)","api":"together","type":"chat","org":"OpenAssistant"}
+{"id":16,"api_id":"togethercomputer\/llama-2-13b-chat","name":"LLaMA-2-Chat (13B)","api":"together","type":"chat","org":"Meta"}
+{"id":17,"api_id":"togethercomputer\/llama-2-70b-chat","name":"LLaMA-2-Chat (70B)","api":"together","type":"chat","org":"Meta"}
+{"id":15,"api_id":"togethercomputer\/llama-2-7b-chat","name":"LLaMA-2-Chat (7B)","api":"together","type":"chat","org":"Meta"}
+{"id":91,"api_id":"luminous-base","name":"Luminous Base","api":"alephalpha","type":"chat","org":"Aleph Alpha"}
+{"id":93,"api_id":"luminous-base-control","name":"Luminous Base Control","api":"alephalpha","type":"chat","org":"Aleph Alpha"}
+{"id":90,"api_id":"luminous-extended","name":"Luminous Extended","api":"alephalpha","type":"chat","org":"Aleph Alpha"}
+{"id":92,"api_id":"luminous-extended-control","name":"Luminous Extended Control","api":"alephalpha","type":"chat","org":"Aleph Alpha"}
+{"id":88,"api_id":"luminous-supreme","name":"Luminous Supreme","api":"alephalpha","type":"chat","org":"Aleph Alpha"}
+{"id":89,"api_id":"luminous-supreme-control","name":"Luminous Supreme Control","api":"alephalpha","type":"chat","org":"Aleph Alpha"}
+{"id":28,"api_id":"togethercomputer\/mpt-30b-chat","name":"MPT-Chat (30B)","api":"together","type":"chat","org":"Mosaic ML"}
+{"id":27,"api_id":"togethercomputer\/mpt-7b-chat","name":"MPT-Chat (7B)","api":"together","type":"chat","org":"Mosaic ML"}
+{"id":96,"api_id":"pygmalionai\/mythalion-13b","name":"Mythalion 13B","api":"openrouter","type":"chat","org":"PygmalionAI"}
+{"id":11,"api_id":"Gryphe\/MythoMax-L2-13b","name":"MythoMax-L2 (13B)","api":"together","type":"chat","org":"Gryphe"}
+{"id":73,"api_id":"NumbersStation\/nsql-llama-2-7B","name":"NSQL LLaMA-2 (7B)","api":"together","type":"code","org":"Number Station"}
+{"id":14,"api_id":"OpenAssistant\/oasst-sft-4-pythia-12b-epoch-3.5","name":"Open-Assistant Pythia SFT-4 (12B)","api":"together","type":"chat","org":"LAION"}
+{"id":13,"api_id":"OpenAssistant\/stablelm-7b-sft-v7-epoch-3","name":"Open-Assistant StableLM SFT-7 (7B)","api":"together","type":"chat","org":"LAION"}
+{"id":94,"api_id":"google\/palm-2-chat-bison","name":"PaLM 2 Bison","api":"openrouter","type":"chat","org":"Google"}
+{"id":95,"api_id":"google\/palm-2-codechat-bison","name":"PaLM 2 Bison (Code Chat)","api":"openrouter","type":"chat","org":"Google"}
+{"id":10,"api_id":"garage-bAInd\/Platypus2-70B-instruct","name":"Platypus-2 Instruct (70B)","api":"together","type":"chat","org":"Garage-bAInd"}
+{"id":2,"api_id":"togethercomputer\/Pythia-Chat-Base-7B-v0.16","name":"Pythia-Chat-Base (7B)","api":"together","type":"chat","org":"Together"}
+{"id":6,"api_id":"togethercomputer\/Qwen-7B-Chat","name":"Qwen-Chat (7B)","api":"together","type":"chat","org":"Qwen"}
+{"id":99,"api_id":"undi95\/remm-slerp-l2-13b","name":"ReMM SLERP L2 13B","api":"openrouter","type":"chat","org":"undi95"}
+{"id":1,"api_id":"togethercomputer\/RedPajama-INCITE-Chat-3B-v1","name":"RedPajama-INCITE Chat (3B)","api":"together","type":"chat","org":"Together"}
+{"id":3,"api_id":"togethercomputer\/RedPajama-INCITE-7B-Chat","name":"RedPajama-INCITE Chat (7B)","api":"together","type":"chat","org":"Together"}
+{"id":64,"api_id":"bigcode\/starcoder","name":"StarCoder (16B)","api":"together","type":"code","org":"BigCode"}
+{"id":12,"api_id":"HuggingFaceH4\/starchat-alpha","name":"StarCoderChat Alpha (16B)","api":"together","type":"chat","org":"HuggingFaceH4"}
+{"id":25,"api_id":"lmsys\/vicuna-13b-v1.3","name":"Vicuna v1.3 (13B)","api":"together","type":"chat","org":"LM Sys"}
+{"id":24,"api_id":"lmsys\/vicuna-7b-v1.3","name":"Vicuna v1.3 (7B)","api":"together","type":"chat","org":"LM Sys"}
+{"id":26,"api_id":"lmsys\/vicuna-13b-v1.5","name":"Vicuna v1.5 (13B)","api":"together","type":"chat","org":"LM Sys"}
+{"id":21,"api_id":"lmsys\/fastchat-t5-3b-v1.0","name":"Vicuna-FastChat-T5 (3B)","api":"together","type":"chat","org":"LM Sys"}
+{"id":98,"api_id":"mancer\/weaver","name":"Weaver 12k","api":"openrouter","type":"chat","org":"Mancer"}
+{"id":74,"api_id":"WizardLM\/WizardCoder-Python-34B-V1.0","name":"WizardCoder Python v1.0 (34B)","api":"together","type":"code","org":"WizardLM"}
+{"id":75,"api_id":"command","name":"command","api":"cohere","type":"chat","org":"Cohere"}
+{"id":76,"api_id":"command-light","name":"command-light","api":"cohere","type":"chat","org":"Cohere"}
+{"id":79,"api_id":"command-nightly","name":"command-nightly","api":"cohere","type":"chat","org":"Cohere"}
