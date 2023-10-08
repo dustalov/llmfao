@@ -1,0 +1,2140 @@
+id,prompt,model_x,model_y,winner,left,right
+0,8,97,98,left,Airoboros L2 70B,Weaver 12k
+1,8,29,98,right,Alpaca (7B),Weaver 12k
+2,8,98,5,left,Weaver 12k,Chronos Hermes (13B)
+3,8,83,98,left,Claude Instant v1,Weaver 12k
+4,8,101,98,left,Claude v1,Weaver 12k
+5,8,100,98,left,Claude v1.2,Weaver 12k
+6,8,84,98,left,Claude v2,Weaver 12k
+7,8,19,98,right,Code Llama Instruct (13B),Weaver 12k
+8,8,20,98,right,Code Llama Instruct (34B),Weaver 12k
+9,8,98,18,left,Weaver 12k,Code Llama Instruct (7B)
+10,8,98,9,left,Weaver 12k,Dolly v2 (12B)
+11,8,7,98,right,Dolly v2 (3B),Weaver 12k
+12,8,98,8,right,Weaver 12k,Dolly v2 (7B)
+13,8,98,30,left,Weaver 12k,Falcon Instruct (7B)
+14,8,81,98,left,GPT 3.5 Turbo,Weaver 12k
+15,8,98,82,right,Weaver 12k,GPT 3.5 Turbo (16k)
+16,8,80,98,left,GPT 4,Weaver 12k
+17,8,98,4,left,Weaver 12k,GPT-NeoXT-Chat-Base (20B)
+18,8,98,32,right,Weaver 12k,Guanaco (13B)
+19,8,33,98,right,Guanaco (33B),Weaver 12k
+20,8,34,98,right,Guanaco (65B),Weaver 12k
+21,8,98,86,left,Weaver 12k,Jurassic 2 Mid
+22,8,87,98,right,Jurassic 2 Ultra,Weaver 12k
+23,8,23,98,right,Koala (13B),Weaver 12k
+24,8,22,98,right,LLaMA 2 SFT v10 (70B),Weaver 12k
+25,8,98,16,right,Weaver 12k,LLaMA-2-Chat (13B)
+26,8,17,98,left,LLaMA-2-Chat (70B),Weaver 12k
+27,8,15,98,right,LLaMA-2-Chat (7B),Weaver 12k
+28,8,91,98,right,Luminous Base,Weaver 12k
+29,8,98,93,left,Weaver 12k,Luminous Base Control
+30,8,98,90,left,Weaver 12k,Luminous Extended
+31,8,98,92,left,Weaver 12k,Luminous Extended Control
+32,8,88,98,right,Luminous Supreme,Weaver 12k
+33,8,98,89,left,Weaver 12k,Luminous Supreme Control
+34,8,28,98,left,MPT-Chat (30B),Weaver 12k
+35,8,27,98,right,MPT-Chat (7B),Weaver 12k
+36,8,98,96,right,Weaver 12k,Mythalion 13B
+37,8,11,98,right,MythoMax-L2 (13B),Weaver 12k
+38,8,98,14,left,Weaver 12k,Open-Assistant Pythia SFT-4 (12B)
+39,8,98,13,right,Weaver 12k,Open-Assistant StableLM SFT-7 (7B)
+40,8,98,94,left,Weaver 12k,PaLM 2 Bison
+41,8,98,95,right,Weaver 12k,PaLM 2 Bison (Code Chat)
+42,8,98,10,right,Weaver 12k,Platypus-2 Instruct (70B)
+43,8,2,98,right,Pythia-Chat-Base (7B),Weaver 12k
+44,8,98,6,left,Weaver 12k,Qwen-Chat (7B)
+45,8,98,99,right,Weaver 12k,ReMM SLERP L2 13B
+46,8,1,98,right,RedPajama-INCITE Chat (3B),Weaver 12k
+47,8,3,98,right,RedPajama-INCITE Chat (7B),Weaver 12k
+48,8,98,12,left,Weaver 12k,StarCoderChat Alpha (16B)
+49,8,25,98,right,Vicuna v1.3 (13B),Weaver 12k
+50,8,24,98,left,Vicuna v1.3 (7B),Weaver 12k
+51,8,98,26,right,Weaver 12k,Vicuna v1.5 (13B)
+52,8,21,98,right,Vicuna-FastChat-T5 (3B),Weaver 12k
+53,8,85,97,right,Jurassic 2 Light,Airoboros L2 70B
+54,8,29,85,right,Alpaca (7B),Jurassic 2 Light
+55,8,5,85,left,Chronos Hermes (13B),Jurassic 2 Light
+56,8,85,83,right,Jurassic 2 Light,Claude Instant v1
+57,8,101,85,left,Claude v1,Jurassic 2 Light
+58,8,100,85,left,Claude v1.2,Jurassic 2 Light
+59,8,85,84,right,Jurassic 2 Light,Claude v2
+60,8,19,85,left,Code Llama Instruct (13B),Jurassic 2 Light
+61,8,85,20,right,Jurassic 2 Light,Code Llama Instruct (34B)
+62,8,85,18,tie,Jurassic 2 Light,Code Llama Instruct (7B)
+63,8,85,9,right,Jurassic 2 Light,Dolly v2 (12B)
+64,8,85,7,tie,Jurassic 2 Light,Dolly v2 (3B)
+65,8,8,85,right,Dolly v2 (7B),Jurassic 2 Light
+66,8,30,85,right,Falcon Instruct (7B),Jurassic 2 Light
+67,8,85,81,right,Jurassic 2 Light,GPT 3.5 Turbo
+68,8,85,82,right,Jurassic 2 Light,GPT 3.5 Turbo (16k)
+69,8,85,80,right,Jurassic 2 Light,GPT 4
+70,8,85,4,tie,Jurassic 2 Light,GPT-NeoXT-Chat-Base (20B)
+71,8,85,32,right,Jurassic 2 Light,Guanaco (13B)
+72,8,85,33,right,Jurassic 2 Light,Guanaco (33B)
+73,8,34,85,left,Guanaco (65B),Jurassic 2 Light
+74,8,97,31,left,Airoboros L2 70B,Falcon Instruct (40B)
+75,8,31,29,right,Falcon Instruct (40B),Alpaca (7B)
+76,8,31,5,left,Falcon Instruct (40B),Chronos Hermes (13B)
+77,8,83,31,left,Claude Instant v1,Falcon Instruct (40B)
+78,8,101,31,left,Claude v1,Falcon Instruct (40B)
+79,8,100,31,left,Claude v1.2,Falcon Instruct (40B)
+80,8,84,31,left,Claude v2,Falcon Instruct (40B)
+81,8,19,31,right,Code Llama Instruct (13B),Falcon Instruct (40B)
+82,8,31,20,right,Falcon Instruct (40B),Code Llama Instruct (34B)
+83,8,9,31,right,Dolly v2 (12B),Falcon Instruct (40B)
+84,8,31,8,left,Falcon Instruct (40B),Dolly v2 (7B)
+85,8,19,18,tie,Code Llama Instruct (13B),Code Llama Instruct (7B)
+86,8,19,7,left,Code Llama Instruct (13B),Dolly v2 (3B)
+87,8,90,19,right,Luminous Extended,Code Llama Instruct (13B)
+88,8,90,8,right,Luminous Extended,Dolly v2 (7B)
+89,8,88,19,left,Luminous Supreme,Code Llama Instruct (13B)
+90,8,85,88,tie,Jurassic 2 Light,Luminous Supreme
+91,8,3,19,right,RedPajama-INCITE Chat (7B),Code Llama Instruct (13B)
+92,8,3,85,tie,RedPajama-INCITE Chat (7B),Jurassic 2 Light
+93,8,19,12,tie,Code Llama Instruct (13B),StarCoderChat Alpha (16B)
+94,8,12,85,right,StarCoderChat Alpha (16B),Jurassic 2 Light
+95,8,19,76,right,Code Llama Instruct (13B),command-light
+96,8,85,76,tie,Jurassic 2 Light,command-light
+97,8,76,98,right,command-light,Weaver 12k
+98,8,23,31,right,Koala (13B),Falcon Instruct (40B)
+99,8,23,85,left,Koala (13B),Jurassic 2 Light
+100,8,30,31,right,Falcon Instruct (7B),Falcon Instruct (40B)
+101,8,81,31,left,GPT 3.5 Turbo,Falcon Instruct (40B)
+102,8,82,31,left,GPT 3.5 Turbo (16k),Falcon Instruct (40B)
+103,8,80,31,left,GPT 4,Falcon Instruct (40B)
+104,8,4,31,right,GPT-NeoXT-Chat-Base (20B),Falcon Instruct (40B)
+105,8,32,31,right,Guanaco (13B),Falcon Instruct (40B)
+106,8,33,31,right,Guanaco (33B),Falcon Instruct (40B)
+107,8,31,34,right,Falcon Instruct (40B),Guanaco (65B)
+108,8,86,31,right,Jurassic 2 Mid,Falcon Instruct (40B)
+109,8,85,86,right,Jurassic 2 Light,Jurassic 2 Mid
+110,8,87,31,right,Jurassic 2 Ultra,Falcon Instruct (40B)
+111,8,87,85,left,Jurassic 2 Ultra,Jurassic 2 Light
+112,8,22,31,right,LLaMA 2 SFT v10 (70B),Falcon Instruct (40B)
+113,8,22,85,left,LLaMA 2 SFT v10 (70B),Jurassic 2 Light
+114,8,16,31,right,LLaMA-2-Chat (13B),Falcon Instruct (40B)
+115,8,16,85,left,LLaMA-2-Chat (13B),Jurassic 2 Light
+116,8,31,17,right,Falcon Instruct (40B),LLaMA-2-Chat (70B)
+117,8,17,85,left,LLaMA-2-Chat (70B),Jurassic 2 Light
+118,8,15,31,right,LLaMA-2-Chat (7B),Falcon Instruct (40B)
+119,8,15,85,right,LLaMA-2-Chat (7B),Jurassic 2 Light
+120,8,31,91,left,Falcon Instruct (40B),Luminous Base
+121,8,91,85,right,Luminous Base,Jurassic 2 Light
+122,8,31,93,left,Falcon Instruct (40B),Luminous Base Control
+123,8,93,85,right,Luminous Base Control,Jurassic 2 Light
+124,8,92,31,right,Luminous Extended Control,Falcon Instruct (40B)
+125,8,92,85,right,Luminous Extended Control,Jurassic 2 Light
+126,8,31,89,left,Falcon Instruct (40B),Luminous Supreme Control
+127,8,85,89,right,Jurassic 2 Light,Luminous Supreme Control
+128,8,31,28,right,Falcon Instruct (40B),MPT-Chat (30B)
+129,8,28,85,left,MPT-Chat (30B),Jurassic 2 Light
+130,8,27,31,right,MPT-Chat (7B),Falcon Instruct (40B)
+131,8,85,27,right,Jurassic 2 Light,MPT-Chat (7B)
+132,8,96,31,left,Mythalion 13B,Falcon Instruct (40B)
+133,8,96,85,left,Mythalion 13B,Jurassic 2 Light
+134,8,31,11,right,Falcon Instruct (40B),MythoMax-L2 (13B)
+135,8,11,85,left,MythoMax-L2 (13B),Jurassic 2 Light
+136,8,31,14,left,Falcon Instruct (40B),Open-Assistant Pythia SFT-4 (12B)
+137,8,85,14,right,Jurassic 2 Light,Open-Assistant Pythia SFT-4 (12B)
+138,8,31,13,right,Falcon Instruct (40B),Open-Assistant StableLM SFT-7 (7B)
+139,8,13,85,right,Open-Assistant StableLM SFT-7 (7B),Jurassic 2 Light
+140,8,94,31,right,PaLM 2 Bison,Falcon Instruct (40B)
+141,8,94,85,left,PaLM 2 Bison,Jurassic 2 Light
+142,8,95,31,right,PaLM 2 Bison (Code Chat),Falcon Instruct (40B)
+143,8,95,85,right,PaLM 2 Bison (Code Chat),Jurassic 2 Light
+144,8,31,10,right,Falcon Instruct (40B),Platypus-2 Instruct (70B)
+145,8,85,10,right,Jurassic 2 Light,Platypus-2 Instruct (70B)
+146,8,2,31,right,Pythia-Chat-Base (7B),Falcon Instruct (40B)
+147,8,85,2,right,Jurassic 2 Light,Pythia-Chat-Base (7B)
+148,8,6,31,right,Qwen-Chat (7B),Falcon Instruct (40B)
+149,8,6,85,left,Qwen-Chat (7B),Jurassic 2 Light
+150,8,31,99,right,Falcon Instruct (40B),ReMM SLERP L2 13B
+151,8,85,99,right,Jurassic 2 Light,ReMM SLERP L2 13B
+152,8,31,1,left,Falcon Instruct (40B),RedPajama-INCITE Chat (3B)
+153,8,85,1,right,Jurassic 2 Light,RedPajama-INCITE Chat (3B)
+154,8,31,25,right,Falcon Instruct (40B),Vicuna v1.3 (13B)
+155,8,85,25,right,Jurassic 2 Light,Vicuna v1.3 (13B)
+156,8,24,31,left,Vicuna v1.3 (7B),Falcon Instruct (40B)
+157,8,24,85,left,Vicuna v1.3 (7B),Jurassic 2 Light
+158,8,31,26,right,Falcon Instruct (40B),Vicuna v1.5 (13B)
+159,8,26,85,left,Vicuna v1.5 (13B),Jurassic 2 Light
+160,8,31,21,left,Falcon Instruct (40B),Vicuna-FastChat-T5 (3B)
+161,8,21,85,right,Vicuna-FastChat-T5 (3B),Jurassic 2 Light
+162,8,31,75,left,Falcon Instruct (40B),command
+163,8,75,85,left,command,Jurassic 2 Light
+164,8,75,98,right,command,Weaver 12k
+165,8,31,79,left,Falcon Instruct (40B),command-nightly
+166,8,85,79,right,Jurassic 2 Light,command-nightly
+167,8,98,79,right,Weaver 12k,command-nightly
+168,5,97,23,left,Airoboros L2 70B,Koala (13B)
+169,5,23,29,right,Koala (13B),Alpaca (7B)
+170,5,9,23,right,Dolly v2 (12B),Koala (13B)
+171,5,7,23,right,Dolly v2 (3B),Koala (13B)
+172,5,8,23,left,Dolly v2 (7B),Koala (13B)
+173,5,23,4,right,Koala (13B),GPT-NeoXT-Chat-Base (20B)
+174,5,23,33,right,Koala (13B),Guanaco (33B)
+175,5,23,34,right,Koala (13B),Guanaco (65B)
+176,5,97,14,left,Airoboros L2 70B,Open-Assistant Pythia SFT-4 (12B)
+177,5,14,9,right,Open-Assistant Pythia SFT-4 (12B),Dolly v2 (12B)
+178,5,14,7,right,Open-Assistant Pythia SFT-4 (12B),Dolly v2 (3B)
+179,5,14,8,right,Open-Assistant Pythia SFT-4 (12B),Dolly v2 (7B)
+180,5,4,14,left,GPT-NeoXT-Chat-Base (20B),Open-Assistant Pythia SFT-4 (12B)
+181,5,33,14,left,Guanaco (33B),Open-Assistant Pythia SFT-4 (12B)
+182,5,34,14,left,Guanaco (65B),Open-Assistant Pythia SFT-4 (12B)
+183,5,14,17,right,Open-Assistant Pythia SFT-4 (12B),LLaMA-2-Chat (70B)
+184,5,91,14,right,Luminous Base,Open-Assistant Pythia SFT-4 (12B)
+185,5,90,14,left,Luminous Extended,Open-Assistant Pythia SFT-4 (12B)
+186,5,14,92,right,Open-Assistant Pythia SFT-4 (12B),Luminous Extended Control
+187,5,18,97,right,Code Llama Instruct (7B),Airoboros L2 70B
+188,5,97,29,left,Airoboros L2 70B,Alpaca (7B)
+189,5,5,97,right,Chronos Hermes (13B),Airoboros L2 70B
+190,5,97,83,left,Airoboros L2 70B,Claude Instant v1
+191,5,101,97,right,Claude v1,Airoboros L2 70B
+192,5,97,100,left,Airoboros L2 70B,Claude v1.2
+193,5,97,84,left,Airoboros L2 70B,Claude v2
+194,5,19,97,right,Code Llama Instruct (13B),Airoboros L2 70B
+195,5,20,97,right,Code Llama Instruct (34B),Airoboros L2 70B
+196,5,97,31,left,Airoboros L2 70B,Falcon Instruct (40B)
+197,5,97,30,left,Airoboros L2 70B,Falcon Instruct (7B)
+198,5,97,81,left,Airoboros L2 70B,GPT 3.5 Turbo
+199,5,97,82,left,Airoboros L2 70B,GPT 3.5 Turbo (16k)
+200,5,80,97,right,GPT 4,Airoboros L2 70B
+201,5,97,32,left,Airoboros L2 70B,Guanaco (13B)
+202,5,85,97,right,Jurassic 2 Light,Airoboros L2 70B
+203,5,86,97,right,Jurassic 2 Mid,Airoboros L2 70B
+204,5,87,97,right,Jurassic 2 Ultra,Airoboros L2 70B
+205,5,22,97,right,LLaMA 2 SFT v10 (70B),Airoboros L2 70B
+206,5,97,16,left,Airoboros L2 70B,LLaMA-2-Chat (13B)
+207,5,97,15,left,Airoboros L2 70B,LLaMA-2-Chat (7B)
+208,5,97,93,left,Airoboros L2 70B,Luminous Base Control
+209,5,89,97,right,Luminous Supreme Control,Airoboros L2 70B
+210,5,89,7,left,Luminous Supreme Control,Dolly v2 (3B)
+211,5,28,97,right,MPT-Chat (30B),Airoboros L2 70B
+212,5,27,97,right,MPT-Chat (7B),Airoboros L2 70B
+213,5,96,97,right,Mythalion 13B,Airoboros L2 70B
+214,5,11,97,right,MythoMax-L2 (13B),Airoboros L2 70B
+215,5,13,97,right,Open-Assistant StableLM SFT-7 (7B),Airoboros L2 70B
+216,5,95,97,right,PaLM 2 Bison (Code Chat),Airoboros L2 70B
+217,5,94,95,left,PaLM 2 Bison,PaLM 2 Bison (Code Chat)
+218,5,97,10,left,Airoboros L2 70B,Platypus-2 Instruct (70B)
+219,5,10,94,left,Platypus-2 Instruct (70B),PaLM 2 Bison
+220,5,2,97,right,Pythia-Chat-Base (7B),Airoboros L2 70B
+221,5,94,2,left,PaLM 2 Bison,Pythia-Chat-Base (7B)
+222,5,97,6,left,Airoboros L2 70B,Qwen-Chat (7B)
+223,5,6,94,right,Qwen-Chat (7B),PaLM 2 Bison
+224,5,12,97,right,StarCoderChat Alpha (16B),Airoboros L2 70B
+225,5,94,12,left,PaLM 2 Bison,StarCoderChat Alpha (16B)
+226,5,97,25,left,Airoboros L2 70B,Vicuna v1.3 (13B)
+227,5,25,94,left,Vicuna v1.3 (13B),PaLM 2 Bison
+228,5,97,24,left,Airoboros L2 70B,Vicuna v1.3 (7B)
+229,5,24,94,right,Vicuna v1.3 (7B),PaLM 2 Bison
+230,5,97,26,left,Airoboros L2 70B,Vicuna v1.5 (13B)
+231,5,26,94,right,Vicuna v1.5 (13B),PaLM 2 Bison
+232,5,21,97,right,Vicuna-FastChat-T5 (3B),Airoboros L2 70B
+233,5,94,21,left,PaLM 2 Bison,Vicuna-FastChat-T5 (3B)
+234,5,98,29,left,Weaver 12k,Alpaca (7B)
+235,5,98,5,left,Weaver 12k,Chronos Hermes (13B)
+236,5,98,83,right,Weaver 12k,Claude Instant v1
+237,5,98,101,right,Weaver 12k,Claude v1
+238,5,100,98,left,Claude v1.2,Weaver 12k
+239,5,84,98,left,Claude v2,Weaver 12k
+240,5,19,98,right,Code Llama Instruct (13B),Weaver 12k
+241,5,98,20,left,Weaver 12k,Code Llama Instruct (34B)
+242,5,18,98,right,Code Llama Instruct (7B),Weaver 12k
+243,5,9,98,right,Dolly v2 (12B),Weaver 12k
+244,5,8,98,right,Dolly v2 (7B),Weaver 12k
+245,5,31,98,right,Falcon Instruct (40B),Weaver 12k
+246,5,98,30,left,Weaver 12k,Falcon Instruct (7B)
+247,5,98,81,right,Weaver 12k,GPT 3.5 Turbo
+248,5,82,98,left,GPT 3.5 Turbo (16k),Weaver 12k
+249,5,80,98,left,GPT 4,Weaver 12k
+250,5,98,4,left,Weaver 12k,GPT-NeoXT-Chat-Base (20B)
+251,5,98,32,left,Weaver 12k,Guanaco (13B)
+252,5,98,33,left,Weaver 12k,Guanaco (33B)
+253,5,34,98,left,Guanaco (65B),Weaver 12k
+254,5,85,98,right,Jurassic 2 Light,Weaver 12k
+255,5,86,98,right,Jurassic 2 Mid,Weaver 12k
+256,5,87,98,right,Jurassic 2 Ultra,Weaver 12k
+257,5,98,23,left,Weaver 12k,Koala (13B)
+258,5,22,98,right,LLaMA 2 SFT v10 (70B),Weaver 12k
+259,5,98,16,left,Weaver 12k,LLaMA-2-Chat (13B)
+260,5,98,17,right,Weaver 12k,LLaMA-2-Chat (70B)
+261,5,15,98,left,LLaMA-2-Chat (7B),Weaver 12k
+262,5,98,91,left,Weaver 12k,Luminous Base
+263,5,98,93,left,Weaver 12k,Luminous Base Control
+264,5,90,98,right,Luminous Extended,Weaver 12k
+265,5,92,98,right,Luminous Extended Control,Weaver 12k
+266,5,88,98,right,Luminous Supreme,Weaver 12k
+267,5,98,89,left,Weaver 12k,Luminous Supreme Control
+268,5,28,98,left,MPT-Chat (30B),Weaver 12k
+269,5,98,27,left,Weaver 12k,MPT-Chat (7B)
+270,5,96,98,left,Mythalion 13B,Weaver 12k
+271,5,98,11,left,Weaver 12k,MythoMax-L2 (13B)
+272,5,98,14,left,Weaver 12k,Open-Assistant Pythia SFT-4 (12B)
+273,5,13,98,right,Open-Assistant StableLM SFT-7 (7B),Weaver 12k
+274,5,98,95,left,Weaver 12k,PaLM 2 Bison (Code Chat)
+275,5,98,10,left,Weaver 12k,Platypus-2 Instruct (70B)
+276,5,2,98,right,Pythia-Chat-Base (7B),Weaver 12k
+277,5,6,98,right,Qwen-Chat (7B),Weaver 12k
+278,5,99,98,left,ReMM SLERP L2 13B,Weaver 12k
+279,5,1,98,right,RedPajama-INCITE Chat (3B),Weaver 12k
+280,5,3,98,right,RedPajama-INCITE Chat (7B),Weaver 12k
+281,5,98,12,left,Weaver 12k,StarCoderChat Alpha (16B)
+282,5,98,25,left,Weaver 12k,Vicuna v1.3 (13B)
+283,5,24,98,right,Vicuna v1.3 (7B),Weaver 12k
+284,5,26,98,right,Vicuna v1.5 (13B),Weaver 12k
+285,5,21,98,right,Vicuna-FastChat-T5 (3B),Weaver 12k
+286,5,5,94,right,Chronos Hermes (13B),PaLM 2 Bison
+287,5,94,83,right,PaLM 2 Bison,Claude Instant v1
+288,5,101,94,left,Claude v1,PaLM 2 Bison
+289,5,94,100,right,PaLM 2 Bison,Claude v1.2
+290,5,84,94,left,Claude v2,PaLM 2 Bison
+291,5,19,94,right,Code Llama Instruct (13B),PaLM 2 Bison
+292,5,94,20,left,PaLM 2 Bison,Code Llama Instruct (34B)
+293,5,18,94,right,Code Llama Instruct (7B),PaLM 2 Bison
+294,5,31,94,right,Falcon Instruct (40B),PaLM 2 Bison
+295,5,94,30,left,PaLM 2 Bison,Falcon Instruct (7B)
+296,5,94,81,right,PaLM 2 Bison,GPT 3.5 Turbo
+297,5,82,94,left,GPT 3.5 Turbo (16k),PaLM 2 Bison
+298,5,94,80,right,PaLM 2 Bison,GPT 4
+299,5,94,32,left,PaLM 2 Bison,Guanaco (13B)
+300,5,94,85,left,PaLM 2 Bison,Jurassic 2 Light
+301,5,94,86,left,PaLM 2 Bison,Jurassic 2 Mid
+302,5,94,87,left,PaLM 2 Bison,Jurassic 2 Ultra
+303,5,94,23,left,PaLM 2 Bison,Koala (13B)
+304,5,22,94,left,LLaMA 2 SFT v10 (70B),PaLM 2 Bison
+305,5,94,16,right,PaLM 2 Bison,LLaMA-2-Chat (13B)
+306,5,94,15,right,PaLM 2 Bison,LLaMA-2-Chat (7B)
+307,5,93,94,right,Luminous Base Control,PaLM 2 Bison
+308,5,88,94,right,Luminous Supreme,PaLM 2 Bison
+309,5,28,94,left,MPT-Chat (30B),PaLM 2 Bison
+310,5,27,94,right,MPT-Chat (7B),PaLM 2 Bison
+311,5,94,96,right,PaLM 2 Bison,Mythalion 13B
+312,5,11,94,left,MythoMax-L2 (13B),PaLM 2 Bison
+313,5,94,14,left,PaLM 2 Bison,Open-Assistant Pythia SFT-4 (12B)
+314,5,13,94,right,Open-Assistant StableLM SFT-7 (7B),PaLM 2 Bison
+315,5,7,18,right,Dolly v2 (3B),Code Llama Instruct (7B)
+316,5,23,17,right,Koala (13B),LLaMA-2-Chat (70B)
+317,5,91,23,right,Luminous Base,Koala (13B)
+318,5,23,90,right,Koala (13B),Luminous Extended
+319,5,92,23,left,Luminous Extended Control,Koala (13B)
+320,5,23,88,left,Koala (13B),Luminous Supreme
+321,5,99,23,left,ReMM SLERP L2 13B,Koala (13B)
+322,5,99,14,left,ReMM SLERP L2 13B,Open-Assistant Pythia SFT-4 (12B)
+323,5,1,23,left,RedPajama-INCITE Chat (3B),Koala (13B)
+324,5,14,1,right,Open-Assistant Pythia SFT-4 (12B),RedPajama-INCITE Chat (3B)
+325,5,3,23,left,RedPajama-INCITE Chat (7B),Koala (13B)
+326,5,3,14,left,RedPajama-INCITE Chat (7B),Open-Assistant Pythia SFT-4 (12B)
+327,5,23,75,left,Koala (13B),command
+328,5,14,75,right,Open-Assistant Pythia SFT-4 (12B),command
+329,5,98,75,left,Weaver 12k,command
+330,5,76,23,left,command-light,Koala (13B)
+331,5,76,94,right,command-light,PaLM 2 Bison
+332,5,76,98,right,command-light,Weaver 12k
+333,5,79,23,left,command-nightly,Koala (13B)
+334,5,79,14,left,command-nightly,Open-Assistant Pythia SFT-4 (12B)
+335,5,79,98,right,command-nightly,Weaver 12k
+714,13,98,97,right,Weaver 12k,Airoboros L2 70B
+715,13,29,98,left,Alpaca (7B),Weaver 12k
+716,13,98,5,right,Weaver 12k,Chronos Hermes (13B)
+717,13,98,83,right,Weaver 12k,Claude Instant v1
+718,13,98,101,right,Weaver 12k,Claude v1
+719,13,100,98,left,Claude v1.2,Weaver 12k
+720,13,98,84,right,Weaver 12k,Claude v2
+721,13,19,98,right,Code Llama Instruct (13B),Weaver 12k
+722,13,20,98,left,Code Llama Instruct (34B),Weaver 12k
+723,13,18,98,left,Code Llama Instruct (7B),Weaver 12k
+724,13,9,98,left,Dolly v2 (12B),Weaver 12k
+725,13,98,7,right,Weaver 12k,Dolly v2 (3B)
+726,13,8,98,left,Dolly v2 (7B),Weaver 12k
+727,13,31,98,left,Falcon Instruct (40B),Weaver 12k
+728,13,30,98,tie,Falcon Instruct (7B),Weaver 12k
+729,13,81,98,left,GPT 3.5 Turbo,Weaver 12k
+730,13,82,98,left,GPT 3.5 Turbo (16k),Weaver 12k
+731,13,98,80,right,Weaver 12k,GPT 4
+732,13,4,98,left,GPT-NeoXT-Chat-Base (20B),Weaver 12k
+733,13,32,98,left,Guanaco (13B),Weaver 12k
+734,13,98,33,right,Weaver 12k,Guanaco (33B)
+735,13,98,34,right,Weaver 12k,Guanaco (65B)
+736,13,98,85,right,Weaver 12k,Jurassic 2 Light
+737,13,98,86,right,Weaver 12k,Jurassic 2 Mid
+738,13,87,98,left,Jurassic 2 Ultra,Weaver 12k
+739,13,98,23,right,Weaver 12k,Koala (13B)
+740,13,22,98,left,LLaMA 2 SFT v10 (70B),Weaver 12k
+741,13,98,16,right,Weaver 12k,LLaMA-2-Chat (13B)
+742,13,98,17,right,Weaver 12k,LLaMA-2-Chat (70B)
+743,13,98,15,right,Weaver 12k,LLaMA-2-Chat (7B)
+744,13,91,98,left,Luminous Base,Weaver 12k
+745,13,98,93,right,Weaver 12k,Luminous Base Control
+746,13,92,98,left,Luminous Extended Control,Weaver 12k
+747,13,98,88,tie,Weaver 12k,Luminous Supreme
+748,13,89,98,left,Luminous Supreme Control,Weaver 12k
+749,13,98,28,right,Weaver 12k,MPT-Chat (30B)
+750,13,27,98,left,MPT-Chat (7B),Weaver 12k
+751,13,98,96,right,Weaver 12k,Mythalion 13B
+752,13,98,11,right,Weaver 12k,MythoMax-L2 (13B)
+753,13,14,98,left,Open-Assistant Pythia SFT-4 (12B),Weaver 12k
+754,13,13,98,left,Open-Assistant StableLM SFT-7 (7B),Weaver 12k
+755,13,94,98,left,PaLM 2 Bison,Weaver 12k
+756,13,95,98,left,PaLM 2 Bison (Code Chat),Weaver 12k
+757,13,10,98,left,Platypus-2 Instruct (70B),Weaver 12k
+758,13,98,2,right,Weaver 12k,Pythia-Chat-Base (7B)
+759,13,98,6,right,Weaver 12k,Qwen-Chat (7B)
+760,13,98,99,right,Weaver 12k,ReMM SLERP L2 13B
+761,13,1,98,right,RedPajama-INCITE Chat (3B),Weaver 12k
+762,13,98,3,right,Weaver 12k,RedPajama-INCITE Chat (7B)
+763,13,98,12,right,Weaver 12k,StarCoderChat Alpha (16B)
+764,13,25,98,left,Vicuna v1.3 (13B),Weaver 12k
+765,13,98,24,right,Weaver 12k,Vicuna v1.3 (7B)
+766,13,98,26,right,Weaver 12k,Vicuna v1.5 (13B)
+767,13,21,98,left,Vicuna-FastChat-T5 (3B),Weaver 12k
+768,13,97,90,left,Airoboros L2 70B,Luminous Extended
+769,13,29,90,left,Alpaca (7B),Luminous Extended
+770,13,5,90,left,Chronos Hermes (13B),Luminous Extended
+771,13,83,90,left,Claude Instant v1,Luminous Extended
+772,13,101,90,left,Claude v1,Luminous Extended
+773,13,100,90,left,Claude v1.2,Luminous Extended
+774,13,90,84,right,Luminous Extended,Claude v2
+775,13,90,19,right,Luminous Extended,Code Llama Instruct (13B)
+776,13,20,90,left,Code Llama Instruct (34B),Luminous Extended
+777,13,90,18,right,Luminous Extended,Code Llama Instruct (7B)
+778,13,90,9,right,Luminous Extended,Dolly v2 (12B)
+779,13,7,90,left,Dolly v2 (3B),Luminous Extended
+780,13,8,90,left,Dolly v2 (7B),Luminous Extended
+781,13,31,90,left,Falcon Instruct (40B),Luminous Extended
+782,13,90,30,right,Luminous Extended,Falcon Instruct (7B)
+783,13,81,90,left,GPT 3.5 Turbo,Luminous Extended
+784,13,82,90,left,GPT 3.5 Turbo (16k),Luminous Extended
+785,13,80,90,left,GPT 4,Luminous Extended
+786,13,4,90,left,GPT-NeoXT-Chat-Base (20B),Luminous Extended
+787,13,90,32,right,Luminous Extended,Guanaco (13B)
+788,13,90,33,right,Luminous Extended,Guanaco (33B)
+789,13,90,34,right,Luminous Extended,Guanaco (65B)
+790,13,90,85,right,Luminous Extended,Jurassic 2 Light
+791,13,90,86,right,Luminous Extended,Jurassic 2 Mid
+792,13,90,87,right,Luminous Extended,Jurassic 2 Ultra
+793,13,23,90,tie,Koala (13B),Luminous Extended
+794,13,90,22,right,Luminous Extended,LLaMA 2 SFT v10 (70B)
+795,13,16,90,left,LLaMA-2-Chat (13B),Luminous Extended
+796,13,90,17,right,Luminous Extended,LLaMA-2-Chat (70B)
+797,13,15,90,left,LLaMA-2-Chat (7B),Luminous Extended
+798,13,93,90,tie,Luminous Base Control,Luminous Extended
+799,13,91,97,right,Luminous Base,Airoboros L2 70B
+800,13,91,29,right,Luminous Base,Alpaca (7B)
+801,13,91,5,right,Luminous Base,Chronos Hermes (13B)
+802,13,83,91,left,Claude Instant v1,Luminous Base
+803,13,91,101,right,Luminous Base,Claude v1
+804,13,91,100,right,Luminous Base,Claude v1.2
+805,13,84,91,left,Claude v2,Luminous Base
+806,13,19,91,right,Code Llama Instruct (13B),Luminous Base
+807,13,20,91,right,Code Llama Instruct (34B),Luminous Base
+808,13,18,91,left,Code Llama Instruct (7B),Luminous Base
+809,13,91,9,right,Luminous Base,Dolly v2 (12B)
+810,13,7,91,left,Dolly v2 (3B),Luminous Base
+811,13,91,8,right,Luminous Base,Dolly v2 (7B)
+812,13,31,91,right,Falcon Instruct (40B),Luminous Base
+813,13,30,91,right,Falcon Instruct (7B),Luminous Base
+814,13,81,91,left,GPT 3.5 Turbo,Luminous Base
+815,13,82,91,left,GPT 3.5 Turbo (16k),Luminous Base
+816,13,80,91,left,GPT 4,Luminous Base
+817,13,91,4,right,Luminous Base,GPT-NeoXT-Chat-Base (20B)
+818,13,91,32,right,Luminous Base,Guanaco (13B)
+819,13,91,33,left,Luminous Base,Guanaco (33B)
+820,13,91,34,right,Luminous Base,Guanaco (65B)
+821,13,91,85,right,Luminous Base,Jurassic 2 Light
+822,13,86,91,left,Jurassic 2 Mid,Luminous Base
+823,13,91,87,right,Luminous Base,Jurassic 2 Ultra
+824,13,91,23,right,Luminous Base,Koala (13B)
+825,13,22,91,left,LLaMA 2 SFT v10 (70B),Luminous Base
+826,13,91,16,right,Luminous Base,LLaMA-2-Chat (13B)
+827,13,17,91,left,LLaMA-2-Chat (70B),Luminous Base
+828,13,91,15,right,Luminous Base,LLaMA-2-Chat (7B)
+829,13,88,19,tie,Luminous Supreme,Code Llama Instruct (13B)
+830,13,20,88,left,Code Llama Instruct (34B),Luminous Supreme
+831,13,19,12,tie,Code Llama Instruct (13B),StarCoderChat Alpha (16B)
+832,13,12,20,right,StarCoderChat Alpha (16B),Code Llama Instruct (34B)
+833,13,14,12,left,Open-Assistant Pythia SFT-4 (12B),StarCoderChat Alpha (16B)
+834,13,93,91,right,Luminous Base Control,Luminous Base
+835,13,91,92,right,Luminous Base,Luminous Extended Control
+836,13,92,90,tie,Luminous Extended Control,Luminous Extended
+837,13,89,91,left,Luminous Supreme Control,Luminous Base
+838,13,89,90,left,Luminous Supreme Control,Luminous Extended
+839,13,91,28,right,Luminous Base,MPT-Chat (30B)
+840,13,90,28,right,Luminous Extended,MPT-Chat (30B)
+841,13,27,91,left,MPT-Chat (7B),Luminous Base
+842,13,90,27,right,Luminous Extended,MPT-Chat (7B)
+843,13,91,96,right,Luminous Base,Mythalion 13B
+844,13,90,96,right,Luminous Extended,Mythalion 13B
+845,13,11,91,right,MythoMax-L2 (13B),Luminous Base
+846,13,11,90,left,MythoMax-L2 (13B),Luminous Extended
+847,13,13,91,right,Open-Assistant StableLM SFT-7 (7B),Luminous Base
+848,13,90,13,right,Luminous Extended,Open-Assistant StableLM SFT-7 (7B)
+849,13,91,94,right,Luminous Base,PaLM 2 Bison
+850,13,94,90,left,PaLM 2 Bison,Luminous Extended
+851,13,95,91,left,PaLM 2 Bison (Code Chat),Luminous Base
+852,13,90,95,right,Luminous Extended,PaLM 2 Bison (Code Chat)
+853,13,10,91,left,Platypus-2 Instruct (70B),Luminous Base
+854,13,10,90,left,Platypus-2 Instruct (70B),Luminous Extended
+855,13,2,91,left,Pythia-Chat-Base (7B),Luminous Base
+856,13,2,90,left,Pythia-Chat-Base (7B),Luminous Extended
+857,13,6,91,left,Qwen-Chat (7B),Luminous Base
+858,13,90,6,right,Luminous Extended,Qwen-Chat (7B)
+859,13,99,91,left,ReMM SLERP L2 13B,Luminous Base
+860,13,99,90,left,ReMM SLERP L2 13B,Luminous Extended
+861,13,1,91,right,RedPajama-INCITE Chat (3B),Luminous Base
+862,13,1,90,tie,RedPajama-INCITE Chat (3B),Luminous Extended
+863,13,91,3,right,Luminous Base,RedPajama-INCITE Chat (7B)
+864,13,90,3,right,Luminous Extended,RedPajama-INCITE Chat (7B)
+865,13,25,91,left,Vicuna v1.3 (13B),Luminous Base
+866,13,90,25,right,Luminous Extended,Vicuna v1.3 (13B)
+867,13,24,91,right,Vicuna v1.3 (7B),Luminous Base
+868,13,24,90,tie,Vicuna v1.3 (7B),Luminous Extended
+869,13,91,26,right,Luminous Base,Vicuna v1.5 (13B)
+870,13,90,26,right,Luminous Extended,Vicuna v1.5 (13B)
+871,13,91,21,right,Luminous Base,Vicuna-FastChat-T5 (3B)
+872,13,90,21,right,Luminous Extended,Vicuna-FastChat-T5 (3B)
+873,13,75,91,left,command,Luminous Base
+874,13,75,90,left,command,Luminous Extended
+875,13,75,98,left,command,Weaver 12k
+876,13,91,79,right,Luminous Base,command-nightly
+877,13,90,79,right,Luminous Extended,command-nightly
+878,13,98,79,right,Weaver 12k,command-nightly
+879,13,14,90,left,Open-Assistant Pythia SFT-4 (12B),Luminous Extended
+880,13,90,76,right,Luminous Extended,command-light
+881,13,76,12,left,command-light,StarCoderChat Alpha (16B)
+882,13,98,76,right,Weaver 12k,command-light
+1035,20,97,98,left,Airoboros L2 70B,Weaver 12k
+1036,20,29,98,right,Alpaca (7B),Weaver 12k
+1037,20,5,98,right,Chronos Hermes (13B),Weaver 12k
+1038,20,83,98,left,Claude Instant v1,Weaver 12k
+1039,20,98,101,right,Weaver 12k,Claude v1
+1040,20,100,98,left,Claude v1.2,Weaver 12k
+1041,20,84,98,left,Claude v2,Weaver 12k
+1042,20,19,98,right,Code Llama Instruct (13B),Weaver 12k
+1043,20,20,98,right,Code Llama Instruct (34B),Weaver 12k
+1044,20,18,98,left,Code Llama Instruct (7B),Weaver 12k
+1045,20,98,7,left,Weaver 12k,Dolly v2 (3B)
+1046,20,8,98,right,Dolly v2 (7B),Weaver 12k
+1047,20,98,31,right,Weaver 12k,Falcon Instruct (40B)
+1048,20,98,30,left,Weaver 12k,Falcon Instruct (7B)
+1049,20,98,81,right,Weaver 12k,GPT 3.5 Turbo
+1050,20,82,98,left,GPT 3.5 Turbo (16k),Weaver 12k
+1051,20,80,98,left,GPT 4,Weaver 12k
+1052,20,4,98,right,GPT-NeoXT-Chat-Base (20B),Weaver 12k
+1053,20,98,34,right,Weaver 12k,Guanaco (65B)
+1054,20,85,98,right,Jurassic 2 Light,Weaver 12k
+1055,20,98,86,right,Weaver 12k,Jurassic 2 Mid
+1056,20,98,87,right,Weaver 12k,Jurassic 2 Ultra
+1057,20,23,98,right,Koala (13B),Weaver 12k
+1058,20,98,22,right,Weaver 12k,LLaMA 2 SFT v10 (70B)
+1059,20,98,16,left,Weaver 12k,LLaMA-2-Chat (13B)
+1060,20,17,98,left,LLaMA-2-Chat (70B),Weaver 12k
+1061,20,15,98,tie,LLaMA-2-Chat (7B),Weaver 12k
+1062,20,98,28,right,Weaver 12k,MPT-Chat (30B)
+1063,20,98,27,left,Weaver 12k,MPT-Chat (7B)
+1064,20,98,96,left,Weaver 12k,Mythalion 13B
+1065,20,11,98,right,MythoMax-L2 (13B),Weaver 12k
+1066,20,98,14,left,Weaver 12k,Open-Assistant Pythia SFT-4 (12B)
+1067,20,94,98,left,PaLM 2 Bison,Weaver 12k
+1068,20,98,95,right,Weaver 12k,PaLM 2 Bison (Code Chat)
+1069,20,10,98,left,Platypus-2 Instruct (70B),Weaver 12k
+1070,20,98,2,left,Weaver 12k,Pythia-Chat-Base (7B)
+1071,20,99,98,right,ReMM SLERP L2 13B,Weaver 12k
+1072,20,98,12,left,Weaver 12k,StarCoderChat Alpha (16B)
+1073,20,98,25,right,Weaver 12k,Vicuna v1.3 (13B)
+1074,20,98,24,left,Weaver 12k,Vicuna v1.3 (7B)
+1075,20,26,98,left,Vicuna v1.5 (13B),Weaver 12k
+1076,20,98,21,left,Weaver 12k,Vicuna-FastChat-T5 (3B)
+1077,20,97,76,left,Airoboros L2 70B,command-light
+1078,20,29,76,tie,Alpaca (7B),command-light
+1079,20,5,76,left,Chronos Hermes (13B),command-light
+1080,20,83,76,left,Claude Instant v1,command-light
+1081,20,101,76,left,Claude v1,command-light
+1082,20,100,76,left,Claude v1.2,command-light
+1083,20,84,76,left,Claude v2,command-light
+1084,20,76,19,tie,command-light,Code Llama Instruct (13B)
+1085,20,20,76,left,Code Llama Instruct (34B),command-light
+1086,20,76,18,right,command-light,Code Llama Instruct (7B)
+1087,20,7,76,right,Dolly v2 (3B),command-light
+1088,20,76,8,right,command-light,Dolly v2 (7B)
+1089,20,31,76,left,Falcon Instruct (40B),command-light
+1090,20,76,30,right,command-light,Falcon Instruct (7B)
+1091,20,81,76,left,GPT 3.5 Turbo,command-light
+1092,20,82,76,left,GPT 3.5 Turbo (16k),command-light
+1093,20,80,76,left,GPT 4,command-light
+1094,20,4,76,right,GPT-NeoXT-Chat-Base (20B),command-light
+1095,20,76,34,right,command-light,Guanaco (65B)
+1096,20,85,76,left,Jurassic 2 Light,command-light
+1097,20,86,76,left,Jurassic 2 Mid,command-light
+1098,20,76,87,right,command-light,Jurassic 2 Ultra
+1099,20,23,76,tie,Koala (13B),command-light
+1100,20,22,76,left,LLaMA 2 SFT v10 (70B),command-light
+1101,20,76,16,tie,command-light,LLaMA-2-Chat (13B)
+1102,20,17,76,left,LLaMA-2-Chat (70B),command-light
+1103,20,15,76,tie,LLaMA-2-Chat (7B),command-light
+1104,20,76,28,left,command-light,MPT-Chat (30B)
+1105,20,76,27,tie,command-light,MPT-Chat (7B)
+1106,20,76,96,right,command-light,Mythalion 13B
+1107,20,11,76,left,MythoMax-L2 (13B),command-light
+1108,20,14,76,left,Open-Assistant Pythia SFT-4 (12B),command-light
+1109,20,76,94,right,command-light,PaLM 2 Bison
+1110,20,76,95,right,command-light,PaLM 2 Bison (Code Chat)
+1111,20,76,10,right,command-light,Platypus-2 Instruct (70B)
+1112,20,76,2,right,command-light,Pythia-Chat-Base (7B)
+1113,20,99,76,left,ReMM SLERP L2 13B,command-light
+1114,20,76,12,tie,command-light,StarCoderChat Alpha (16B)
+1115,20,25,76,left,Vicuna v1.3 (13B),command-light
+1116,20,76,24,tie,command-light,Vicuna v1.3 (7B)
+1117,20,26,76,left,Vicuna v1.5 (13B),command-light
+1118,20,21,76,right,Vicuna-FastChat-T5 (3B),command-light
+1119,20,76,75,right,command-light,command
+1120,20,97,1,left,Airoboros L2 70B,RedPajama-INCITE Chat (3B)
+1121,20,83,1,left,Claude Instant v1,RedPajama-INCITE Chat (3B)
+1122,20,1,101,right,RedPajama-INCITE Chat (3B),Claude v1
+1123,20,1,100,right,RedPajama-INCITE Chat (3B),Claude v1.2
+1124,20,84,1,left,Claude v2,RedPajama-INCITE Chat (3B)
+1125,20,19,1,left,Code Llama Instruct (13B),RedPajama-INCITE Chat (3B)
+1126,20,1,20,right,RedPajama-INCITE Chat (3B),Code Llama Instruct (34B)
+1127,20,1,18,right,RedPajama-INCITE Chat (3B),Code Llama Instruct (7B)
+1128,20,1,7,right,RedPajama-INCITE Chat (3B),Dolly v2 (3B)
+1129,20,1,8,right,RedPajama-INCITE Chat (3B),Dolly v2 (7B)
+1130,20,4,1,left,GPT-NeoXT-Chat-Base (20B),RedPajama-INCITE Chat (3B)
+1131,20,1,87,right,RedPajama-INCITE Chat (3B),Jurassic 2 Ultra
+1132,20,1,23,right,RedPajama-INCITE Chat (3B),Koala (13B)
+1133,20,17,1,left,LLaMA-2-Chat (70B),RedPajama-INCITE Chat (3B)
+1134,20,1,27,right,RedPajama-INCITE Chat (3B),MPT-Chat (7B)
+1135,20,11,1,left,MythoMax-L2 (13B),RedPajama-INCITE Chat (3B)
+1136,20,9,29,right,Dolly v2 (12B),Alpaca (7B)
+1137,20,9,18,right,Dolly v2 (12B),Code Llama Instruct (7B)
+1138,20,88,5,right,Luminous Supreme,Chronos Hermes (13B)
+1139,20,18,88,left,Code Llama Instruct (7B),Luminous Supreme
+1140,20,88,8,right,Luminous Supreme,Dolly v2 (7B)
+1141,20,31,88,left,Falcon Instruct (40B),Luminous Supreme
+1142,20,30,88,left,Falcon Instruct (7B),Luminous Supreme
+1143,20,22,88,left,LLaMA 2 SFT v10 (70B),Luminous Supreme
+1144,20,16,88,left,LLaMA-2-Chat (13B),Luminous Supreme
+1145,20,18,81,right,Code Llama Instruct (7B),GPT 3.5 Turbo
+1146,20,82,18,left,GPT 3.5 Turbo (16k),Code Llama Instruct (7B)
+1147,20,18,32,left,Code Llama Instruct (7B),Guanaco (13B)
+1148,20,32,8,right,Guanaco (13B),Dolly v2 (7B)
+1149,20,33,18,left,Guanaco (33B),Code Llama Instruct (7B)
+1150,20,33,8,left,Guanaco (33B),Dolly v2 (7B)
+1151,20,15,18,tie,LLaMA-2-Chat (7B),Code Llama Instruct (7B)
+1152,20,18,13,left,Code Llama Instruct (7B),Open-Assistant StableLM SFT-7 (7B)
+1153,20,13,8,tie,Open-Assistant StableLM SFT-7 (7B),Dolly v2 (7B)
+1154,20,13,80,right,Open-Assistant StableLM SFT-7 (7B),GPT 4
+1155,20,85,13,tie,Jurassic 2 Light,Open-Assistant StableLM SFT-7 (7B)
+1156,20,13,86,right,Open-Assistant StableLM SFT-7 (7B),Jurassic 2 Mid
+1157,20,28,13,left,MPT-Chat (30B),Open-Assistant StableLM SFT-7 (7B)
+1158,20,6,18,right,Qwen-Chat (7B),Code Llama Instruct (7B)
+1159,20,8,6,right,Dolly v2 (7B),Qwen-Chat (7B)
+1160,20,3,18,tie,RedPajama-INCITE Chat (7B),Code Llama Instruct (7B)
+1161,20,8,3,left,Dolly v2 (7B),RedPajama-INCITE Chat (7B)
+1162,20,8,9,left,Dolly v2 (7B),Dolly v2 (12B)
+1163,20,21,9,right,Vicuna-FastChat-T5 (3B),Dolly v2 (12B)
+1164,20,32,21,right,Guanaco (13B),Vicuna-FastChat-T5 (3B)
+1165,20,21,33,right,Vicuna-FastChat-T5 (3B),Guanaco (33B)
+1166,20,21,88,right,Vicuna-FastChat-T5 (3B),Luminous Supreme
+1167,20,21,13,tie,Vicuna-FastChat-T5 (3B),Open-Assistant StableLM SFT-7 (7B)
+1168,20,6,21,left,Qwen-Chat (7B),Vicuna-FastChat-T5 (3B)
+1169,20,1,21,right,RedPajama-INCITE Chat (3B),Vicuna-FastChat-T5 (3B)
+1170,20,3,21,right,RedPajama-INCITE Chat (7B),Vicuna-FastChat-T5 (3B)
+1171,20,9,34,right,Dolly v2 (12B),Guanaco (65B)
+1172,20,9,10,right,Dolly v2 (12B),Platypus-2 Instruct (70B)
+1173,20,88,96,right,Luminous Supreme,Mythalion 13B
+1174,20,14,88,left,Open-Assistant Pythia SFT-4 (12B),Luminous Supreme
+1175,20,94,88,left,PaLM 2 Bison,Luminous Supreme
+1176,20,88,95,right,Luminous Supreme,PaLM 2 Bison (Code Chat)
+1177,20,2,88,right,Pythia-Chat-Base (7B),Luminous Supreme
+1178,20,99,88,left,ReMM SLERP L2 13B,Luminous Supreme
+1179,20,26,88,left,Vicuna v1.5 (13B),Luminous Supreme
+1180,20,12,13,tie,StarCoderChat Alpha (16B),Open-Assistant StableLM SFT-7 (7B)
+1181,20,13,75,right,Open-Assistant StableLM SFT-7 (7B),command
+1182,20,75,98,right,command,Weaver 12k
+1183,20,25,1,left,Vicuna v1.3 (13B),RedPajama-INCITE Chat (3B)
+1184,20,1,24,right,RedPajama-INCITE Chat (3B),Vicuna v1.3 (7B)
+1185,20,79,1,left,command-nightly,RedPajama-INCITE Chat (3B)
+1186,20,98,79,right,Weaver 12k,command-nightly
+1187,20,76,79,right,command-light,command-nightly
+1188,11,98,97,right,Weaver 12k,Airoboros L2 70B
+1189,11,98,29,left,Weaver 12k,Alpaca (7B)
+1190,11,5,98,left,Chronos Hermes (13B),Weaver 12k
+1191,11,98,83,right,Weaver 12k,Claude Instant v1
+1192,11,101,98,left,Claude v1,Weaver 12k
+1193,11,98,100,right,Weaver 12k,Claude v1.2
+1194,11,84,98,left,Claude v2,Weaver 12k
+1195,11,19,98,left,Code Llama Instruct (13B),Weaver 12k
+1196,11,20,98,left,Code Llama Instruct (34B),Weaver 12k
+1197,11,18,98,left,Code Llama Instruct (7B),Weaver 12k
+1198,11,9,98,right,Dolly v2 (12B),Weaver 12k
+1199,11,7,98,right,Dolly v2 (3B),Weaver 12k
+1200,11,98,8,right,Weaver 12k,Dolly v2 (7B)
+1201,11,98,31,right,Weaver 12k,Falcon Instruct (40B)
+1202,11,30,98,left,Falcon Instruct (7B),Weaver 12k
+1203,11,81,98,left,GPT 3.5 Turbo,Weaver 12k
+1204,11,98,82,right,Weaver 12k,GPT 3.5 Turbo (16k)
+1205,11,80,98,left,GPT 4,Weaver 12k
+1206,11,98,4,right,Weaver 12k,GPT-NeoXT-Chat-Base (20B)
+1207,11,32,98,left,Guanaco (13B),Weaver 12k
+1208,11,98,33,right,Weaver 12k,Guanaco (33B)
+1209,11,98,34,right,Weaver 12k,Guanaco (65B)
+1210,11,98,85,right,Weaver 12k,Jurassic 2 Light
+1211,11,86,98,left,Jurassic 2 Mid,Weaver 12k
+1212,11,98,87,right,Weaver 12k,Jurassic 2 Ultra
+1213,11,98,23,right,Weaver 12k,Koala (13B)
+1214,11,22,98,left,LLaMA 2 SFT v10 (70B),Weaver 12k
+1215,11,98,16,right,Weaver 12k,LLaMA-2-Chat (13B)
+1216,11,17,98,left,LLaMA-2-Chat (70B),Weaver 12k
+1217,11,15,98,left,LLaMA-2-Chat (7B),Weaver 12k
+1218,11,91,98,right,Luminous Base,Weaver 12k
+1219,11,93,98,left,Luminous Base Control,Weaver 12k
+1220,11,98,90,left,Weaver 12k,Luminous Extended
+1221,11,98,92,right,Weaver 12k,Luminous Extended Control
+1222,11,88,98,right,Luminous Supreme,Weaver 12k
+1223,11,89,98,left,Luminous Supreme Control,Weaver 12k
+1224,11,98,28,right,Weaver 12k,MPT-Chat (30B)
+1225,11,98,27,right,Weaver 12k,MPT-Chat (7B)
+1226,11,98,96,right,Weaver 12k,Mythalion 13B
+1227,11,11,98,left,MythoMax-L2 (13B),Weaver 12k
+1228,11,14,98,right,Open-Assistant Pythia SFT-4 (12B),Weaver 12k
+1229,11,98,13,left,Weaver 12k,Open-Assistant StableLM SFT-7 (7B)
+1230,11,94,98,left,PaLM 2 Bison,Weaver 12k
+1231,11,98,95,right,Weaver 12k,PaLM 2 Bison (Code Chat)
+1232,11,98,10,right,Weaver 12k,Platypus-2 Instruct (70B)
+1233,11,2,98,left,Pythia-Chat-Base (7B),Weaver 12k
+1234,11,98,6,right,Weaver 12k,Qwen-Chat (7B)
+1235,11,98,99,right,Weaver 12k,ReMM SLERP L2 13B
+1236,11,1,98,left,RedPajama-INCITE Chat (3B),Weaver 12k
+1237,11,3,98,left,RedPajama-INCITE Chat (7B),Weaver 12k
+1238,11,98,12,right,Weaver 12k,StarCoderChat Alpha (16B)
+1239,11,98,25,right,Weaver 12k,Vicuna v1.3 (13B)
+1240,11,98,24,right,Weaver 12k,Vicuna v1.3 (7B)
+1241,11,98,26,right,Weaver 12k,Vicuna v1.5 (13B)
+1242,11,98,21,right,Weaver 12k,Vicuna-FastChat-T5 (3B)
+1243,11,12,97,right,StarCoderChat Alpha (16B),Airoboros L2 70B
+1244,11,29,12,right,Alpaca (7B),StarCoderChat Alpha (16B)
+1245,11,12,5,right,StarCoderChat Alpha (16B),Chronos Hermes (13B)
+1246,11,83,12,left,Claude Instant v1,StarCoderChat Alpha (16B)
+1247,11,101,12,left,Claude v1,StarCoderChat Alpha (16B)
+1248,11,12,100,right,StarCoderChat Alpha (16B),Claude v1.2
+1249,11,12,84,right,StarCoderChat Alpha (16B),Claude v2
+1250,11,12,19,right,StarCoderChat Alpha (16B),Code Llama Instruct (13B)
+1251,11,20,12,left,Code Llama Instruct (34B),StarCoderChat Alpha (16B)
+1252,11,18,12,left,Code Llama Instruct (7B),StarCoderChat Alpha (16B)
+1253,11,12,8,right,StarCoderChat Alpha (16B),Dolly v2 (7B)
+1254,11,12,31,right,StarCoderChat Alpha (16B),Falcon Instruct (40B)
+1255,11,30,12,left,Falcon Instruct (7B),StarCoderChat Alpha (16B)
+1256,11,12,81,right,StarCoderChat Alpha (16B),GPT 3.5 Turbo
+1257,11,12,82,right,StarCoderChat Alpha (16B),GPT 3.5 Turbo (16k)
+1258,11,80,12,left,GPT 4,StarCoderChat Alpha (16B)
+1259,11,4,12,left,GPT-NeoXT-Chat-Base (20B),StarCoderChat Alpha (16B)
+1260,11,32,12,left,Guanaco (13B),StarCoderChat Alpha (16B)
+1261,11,12,34,right,StarCoderChat Alpha (16B),Guanaco (65B)
+1262,11,85,12,left,Jurassic 2 Light,StarCoderChat Alpha (16B)
+1263,11,12,86,right,StarCoderChat Alpha (16B),Jurassic 2 Mid
+1264,11,12,87,right,StarCoderChat Alpha (16B),Jurassic 2 Ultra
+1265,11,12,23,right,StarCoderChat Alpha (16B),Koala (13B)
+1266,11,16,12,left,LLaMA-2-Chat (13B),StarCoderChat Alpha (16B)
+1267,11,12,17,right,StarCoderChat Alpha (16B),LLaMA-2-Chat (70B)
+1268,11,12,15,right,StarCoderChat Alpha (16B),LLaMA-2-Chat (7B)
+1269,11,12,91,left,StarCoderChat Alpha (16B),Luminous Base
+1270,11,12,93,right,StarCoderChat Alpha (16B),Luminous Base Control
+1271,11,90,12,right,Luminous Extended,StarCoderChat Alpha (16B)
+1272,11,12,92,right,StarCoderChat Alpha (16B),Luminous Extended Control
+1273,11,12,89,right,StarCoderChat Alpha (16B),Luminous Supreme Control
+1274,11,12,28,right,StarCoderChat Alpha (16B),MPT-Chat (30B)
+1275,11,12,96,right,StarCoderChat Alpha (16B),Mythalion 13B
+1276,11,12,13,left,StarCoderChat Alpha (16B),Open-Assistant StableLM SFT-7 (7B)
+1277,11,12,94,right,StarCoderChat Alpha (16B),PaLM 2 Bison
+1278,11,95,12,left,PaLM 2 Bison (Code Chat),StarCoderChat Alpha (16B)
+1279,11,12,10,right,StarCoderChat Alpha (16B),Platypus-2 Instruct (70B)
+1280,11,2,12,left,Pythia-Chat-Base (7B),StarCoderChat Alpha (16B)
+1281,11,6,12,left,Qwen-Chat (7B),StarCoderChat Alpha (16B)
+1282,11,99,12,left,ReMM SLERP L2 13B,StarCoderChat Alpha (16B)
+1283,11,12,1,right,StarCoderChat Alpha (16B),RedPajama-INCITE Chat (3B)
+1284,11,12,3,right,StarCoderChat Alpha (16B),RedPajama-INCITE Chat (7B)
+1285,11,97,9,left,Airoboros L2 70B,Dolly v2 (12B)
+1286,11,9,5,right,Dolly v2 (12B),Chronos Hermes (13B)
+1287,11,83,9,left,Claude Instant v1,Dolly v2 (12B)
+1288,11,9,101,right,Dolly v2 (12B),Claude v1
+1289,11,9,100,right,Dolly v2 (12B),Claude v1.2
+1290,11,84,9,left,Claude v2,Dolly v2 (12B)
+1291,11,19,9,left,Code Llama Instruct (13B),Dolly v2 (12B)
+1292,11,9,20,right,Dolly v2 (12B),Code Llama Instruct (34B)
+1293,11,18,9,left,Code Llama Instruct (7B),Dolly v2 (12B)
+1294,11,29,14,tie,Alpaca (7B),Open-Assistant Pythia SFT-4 (12B)
+1295,11,14,19,right,Open-Assistant Pythia SFT-4 (12B),Code Llama Instruct (13B)
+1296,11,20,14,left,Code Llama Instruct (34B),Open-Assistant Pythia SFT-4 (12B)
+1297,11,19,7,right,Code Llama Instruct (13B),Dolly v2 (3B)
+1298,11,7,20,right,Dolly v2 (3B),Code Llama Instruct (34B)
+1299,11,19,33,right,Code Llama Instruct (13B),Guanaco (33B)
+1300,11,33,20,right,Guanaco (33B),Code Llama Instruct (34B)
+1301,11,19,22,right,Code Llama Instruct (13B),LLaMA 2 SFT v10 (70B)
+1302,11,20,22,right,Code Llama Instruct (34B),LLaMA 2 SFT v10 (70B)
+1303,11,88,19,right,Luminous Supreme,Code Llama Instruct (13B)
+1304,11,20,88,right,Code Llama Instruct (34B),Luminous Supreme
+1305,11,19,27,right,Code Llama Instruct (13B),MPT-Chat (7B)
+1306,11,20,27,right,Code Llama Instruct (34B),MPT-Chat (7B)
+1307,11,11,19,left,MythoMax-L2 (13B),Code Llama Instruct (13B)
+1308,11,20,11,left,Code Llama Instruct (34B),MythoMax-L2 (13B)
+1309,11,8,9,left,Dolly v2 (7B),Dolly v2 (12B)
+1310,11,9,31,right,Dolly v2 (12B),Falcon Instruct (40B)
+1311,11,30,9,left,Falcon Instruct (7B),Dolly v2 (12B)
+1312,11,9,81,right,Dolly v2 (12B),GPT 3.5 Turbo
+1313,11,9,82,right,Dolly v2 (12B),GPT 3.5 Turbo (16k)
+1314,11,80,9,left,GPT 4,Dolly v2 (12B)
+1315,11,4,9,left,GPT-NeoXT-Chat-Base (20B),Dolly v2 (12B)
+1316,11,32,9,left,Guanaco (13B),Dolly v2 (12B)
+1317,11,9,34,right,Dolly v2 (12B),Guanaco (65B)
+1318,11,85,9,left,Jurassic 2 Light,Dolly v2 (12B)
+1319,11,9,86,right,Dolly v2 (12B),Jurassic 2 Mid
+1320,11,9,87,right,Dolly v2 (12B),Jurassic 2 Ultra
+1321,11,9,23,right,Dolly v2 (12B),Koala (13B)
+1322,11,16,9,left,LLaMA-2-Chat (13B),Dolly v2 (12B)
+1323,11,9,17,tie,Dolly v2 (12B),LLaMA-2-Chat (70B)
+1324,11,9,15,right,Dolly v2 (12B),LLaMA-2-Chat (7B)
+1325,11,91,9,tie,Luminous Base,Dolly v2 (12B)
+1326,11,93,9,left,Luminous Base Control,Dolly v2 (12B)
+1327,11,9,90,tie,Dolly v2 (12B),Luminous Extended
+1328,11,9,92,right,Dolly v2 (12B),Luminous Extended Control
+1329,11,9,89,right,Dolly v2 (12B),Luminous Supreme Control
+1330,11,28,9,left,MPT-Chat (30B),Dolly v2 (12B)
+1331,11,9,96,right,Dolly v2 (12B),Mythalion 13B
+1332,11,13,9,tie,Open-Assistant StableLM SFT-7 (7B),Dolly v2 (12B)
+1333,11,9,94,right,Dolly v2 (12B),PaLM 2 Bison
+1334,11,9,95,right,Dolly v2 (12B),PaLM 2 Bison (Code Chat)
+1335,11,10,9,left,Platypus-2 Instruct (70B),Dolly v2 (12B)
+1336,11,9,2,right,Dolly v2 (12B),Pythia-Chat-Base (7B)
+1337,11,9,6,right,Dolly v2 (12B),Qwen-Chat (7B)
+1338,11,99,9,left,ReMM SLERP L2 13B,Dolly v2 (12B)
+1339,11,1,9,left,RedPajama-INCITE Chat (3B),Dolly v2 (12B)
+1340,11,9,3,right,Dolly v2 (12B),RedPajama-INCITE Chat (7B)
+1341,11,25,9,left,Vicuna v1.3 (13B),Dolly v2 (12B)
+1342,11,12,25,right,StarCoderChat Alpha (16B),Vicuna v1.3 (13B)
+1343,11,9,24,tie,Dolly v2 (12B),Vicuna v1.3 (7B)
+1344,11,12,24,right,StarCoderChat Alpha (16B),Vicuna v1.3 (7B)
+1345,11,26,9,right,Vicuna v1.5 (13B),Dolly v2 (12B)
+1346,11,12,26,right,StarCoderChat Alpha (16B),Vicuna v1.5 (13B)
+1347,11,9,21,tie,Dolly v2 (12B),Vicuna-FastChat-T5 (3B)
+1348,11,21,12,right,Vicuna-FastChat-T5 (3B),StarCoderChat Alpha (16B)
+1349,11,9,75,right,Dolly v2 (12B),command
+1350,11,12,75,right,StarCoderChat Alpha (16B),command
+1351,11,98,75,right,Weaver 12k,command
+1352,11,76,9,left,command-light,Dolly v2 (12B)
+1353,11,12,76,right,StarCoderChat Alpha (16B),command-light
+1354,11,76,98,left,command-light,Weaver 12k
+1355,11,79,9,left,command-nightly,Dolly v2 (12B)
+1356,11,79,12,left,command-nightly,StarCoderChat Alpha (16B)
+1357,11,98,79,right,Weaver 12k,command-nightly
+1358,9,98,97,right,Weaver 12k,Airoboros L2 70B
+1359,9,98,29,right,Weaver 12k,Alpaca (7B)
+1360,9,5,98,left,Chronos Hermes (13B),Weaver 12k
+1361,9,83,98,left,Claude Instant v1,Weaver 12k
+1362,9,101,98,left,Claude v1,Weaver 12k
+1363,9,98,100,right,Weaver 12k,Claude v1.2
+1364,9,98,84,right,Weaver 12k,Claude v2
+1365,9,19,98,left,Code Llama Instruct (13B),Weaver 12k
+1366,9,98,20,right,Weaver 12k,Code Llama Instruct (34B)
+1367,9,98,18,right,Weaver 12k,Code Llama Instruct (7B)
+1368,9,98,9,right,Weaver 12k,Dolly v2 (12B)
+1369,9,98,7,right,Weaver 12k,Dolly v2 (3B)
+1370,9,98,8,right,Weaver 12k,Dolly v2 (7B)
+1371,9,98,31,right,Weaver 12k,Falcon Instruct (40B)
+1372,9,98,30,right,Weaver 12k,Falcon Instruct (7B)
+1373,9,98,81,right,Weaver 12k,GPT 3.5 Turbo
+1374,9,82,98,left,GPT 3.5 Turbo (16k),Weaver 12k
+1375,9,80,98,left,GPT 4,Weaver 12k
+1376,9,4,98,left,GPT-NeoXT-Chat-Base (20B),Weaver 12k
+1377,9,32,98,right,Guanaco (13B),Weaver 12k
+1378,9,98,33,right,Weaver 12k,Guanaco (33B)
+1379,9,34,98,left,Guanaco (65B),Weaver 12k
+1380,9,85,98,left,Jurassic 2 Light,Weaver 12k
+1381,9,98,86,right,Weaver 12k,Jurassic 2 Mid
+1382,9,87,98,left,Jurassic 2 Ultra,Weaver 12k
+1383,9,23,98,right,Koala (13B),Weaver 12k
+1384,9,98,22,right,Weaver 12k,LLaMA 2 SFT v10 (70B)
+1385,9,16,98,right,LLaMA-2-Chat (13B),Weaver 12k
+1386,9,17,98,left,LLaMA-2-Chat (70B),Weaver 12k
+1387,9,98,15,right,Weaver 12k,LLaMA-2-Chat (7B)
+1388,9,91,98,right,Luminous Base,Weaver 12k
+1389,9,93,98,left,Luminous Base Control,Weaver 12k
+1390,9,90,98,right,Luminous Extended,Weaver 12k
+1391,9,92,98,left,Luminous Extended Control,Weaver 12k
+1392,9,88,98,right,Luminous Supreme,Weaver 12k
+1393,9,89,98,left,Luminous Supreme Control,Weaver 12k
+1394,9,28,98,left,MPT-Chat (30B),Weaver 12k
+1395,9,98,27,right,Weaver 12k,MPT-Chat (7B)
+1396,9,98,96,right,Weaver 12k,Mythalion 13B
+1397,9,98,11,right,Weaver 12k,MythoMax-L2 (13B)
+1398,9,98,14,left,Weaver 12k,Open-Assistant Pythia SFT-4 (12B)
+1399,9,98,13,right,Weaver 12k,Open-Assistant StableLM SFT-7 (7B)
+1400,9,98,94,right,Weaver 12k,PaLM 2 Bison
+1401,9,98,95,right,Weaver 12k,PaLM 2 Bison (Code Chat)
+1402,9,10,98,left,Platypus-2 Instruct (70B),Weaver 12k
+1403,9,98,2,right,Weaver 12k,Pythia-Chat-Base (7B)
+1404,9,6,98,left,Qwen-Chat (7B),Weaver 12k
+1405,9,98,99,right,Weaver 12k,ReMM SLERP L2 13B
+1406,9,98,1,right,Weaver 12k,RedPajama-INCITE Chat (3B)
+1407,9,98,3,left,Weaver 12k,RedPajama-INCITE Chat (7B)
+1408,9,98,12,right,Weaver 12k,StarCoderChat Alpha (16B)
+1409,9,25,98,left,Vicuna v1.3 (13B),Weaver 12k
+1410,9,24,98,right,Vicuna v1.3 (7B),Weaver 12k
+1411,9,26,98,right,Vicuna v1.5 (13B),Weaver 12k
+1412,9,98,21,right,Weaver 12k,Vicuna-FastChat-T5 (3B)
+1413,9,97,14,left,Airoboros L2 70B,Open-Assistant Pythia SFT-4 (12B)
+1414,9,29,14,left,Alpaca (7B),Open-Assistant Pythia SFT-4 (12B)
+1415,9,5,14,left,Chronos Hermes (13B),Open-Assistant Pythia SFT-4 (12B)
+1416,9,83,14,left,Claude Instant v1,Open-Assistant Pythia SFT-4 (12B)
+1417,9,14,101,right,Open-Assistant Pythia SFT-4 (12B),Claude v1
+1418,9,14,84,right,Open-Assistant Pythia SFT-4 (12B),Claude v2
+1419,9,14,19,right,Open-Assistant Pythia SFT-4 (12B),Code Llama Instruct (13B)
+1420,9,14,20,right,Open-Assistant Pythia SFT-4 (12B),Code Llama Instruct (34B)
+1421,9,14,18,right,Open-Assistant Pythia SFT-4 (12B),Code Llama Instruct (7B)
+1422,9,14,7,right,Open-Assistant Pythia SFT-4 (12B),Dolly v2 (3B)
+1423,9,8,14,left,Dolly v2 (7B),Open-Assistant Pythia SFT-4 (12B)
+1424,9,14,31,right,Open-Assistant Pythia SFT-4 (12B),Falcon Instruct (40B)
+1425,9,30,14,left,Falcon Instruct (7B),Open-Assistant Pythia SFT-4 (12B)
+1426,9,81,14,left,GPT 3.5 Turbo,Open-Assistant Pythia SFT-4 (12B)
+1427,9,82,14,left,GPT 3.5 Turbo (16k),Open-Assistant Pythia SFT-4 (12B)
+1428,9,14,80,right,Open-Assistant Pythia SFT-4 (12B),GPT 4
+1429,9,14,4,right,Open-Assistant Pythia SFT-4 (12B),GPT-NeoXT-Chat-Base (20B)
+1430,9,32,14,left,Guanaco (13B),Open-Assistant Pythia SFT-4 (12B)
+1431,9,14,33,right,Open-Assistant Pythia SFT-4 (12B),Guanaco (33B)
+1432,9,34,14,left,Guanaco (65B),Open-Assistant Pythia SFT-4 (12B)
+1433,9,14,85,right,Open-Assistant Pythia SFT-4 (12B),Jurassic 2 Light
+1434,9,86,14,left,Jurassic 2 Mid,Open-Assistant Pythia SFT-4 (12B)
+1435,9,14,87,right,Open-Assistant Pythia SFT-4 (12B),Jurassic 2 Ultra
+1436,9,23,14,right,Koala (13B),Open-Assistant Pythia SFT-4 (12B)
+1437,9,22,14,left,LLaMA 2 SFT v10 (70B),Open-Assistant Pythia SFT-4 (12B)
+1438,9,14,16,right,Open-Assistant Pythia SFT-4 (12B),LLaMA-2-Chat (13B)
+1439,9,17,14,left,LLaMA-2-Chat (70B),Open-Assistant Pythia SFT-4 (12B)
+1440,9,14,15,right,Open-Assistant Pythia SFT-4 (12B),LLaMA-2-Chat (7B)
+1441,9,93,14,left,Luminous Base Control,Open-Assistant Pythia SFT-4 (12B)
+1442,9,14,92,right,Open-Assistant Pythia SFT-4 (12B),Luminous Extended Control
+1443,9,89,14,left,Luminous Supreme Control,Open-Assistant Pythia SFT-4 (12B)
+1444,9,28,14,left,MPT-Chat (30B),Open-Assistant Pythia SFT-4 (12B)
+1445,9,27,14,left,MPT-Chat (7B),Open-Assistant Pythia SFT-4 (12B)
+1446,9,96,14,left,Mythalion 13B,Open-Assistant Pythia SFT-4 (12B)
+1447,9,11,14,left,MythoMax-L2 (13B),Open-Assistant Pythia SFT-4 (12B)
+1448,9,90,97,right,Luminous Extended,Airoboros L2 70B
+1449,9,90,29,right,Luminous Extended,Alpaca (7B)
+1450,9,5,90,left,Chronos Hermes (13B),Luminous Extended
+1451,9,90,83,right,Luminous Extended,Claude Instant v1
+1452,9,101,90,left,Claude v1,Luminous Extended
+1453,9,90,84,right,Luminous Extended,Claude v2
+1454,9,19,90,left,Code Llama Instruct (13B),Luminous Extended
+1455,9,90,20,right,Luminous Extended,Code Llama Instruct (34B)
+1456,9,90,18,right,Luminous Extended,Code Llama Instruct (7B)
+1457,9,7,90,left,Dolly v2 (3B),Luminous Extended
+1458,9,8,90,left,Dolly v2 (7B),Luminous Extended
+1459,9,31,90,left,Falcon Instruct (40B),Luminous Extended
+1460,9,90,30,right,Luminous Extended,Falcon Instruct (7B)
+1461,9,81,90,left,GPT 3.5 Turbo,Luminous Extended
+1462,9,82,90,left,GPT 3.5 Turbo (16k),Luminous Extended
+1463,9,90,80,right,Luminous Extended,GPT 4
+1464,9,90,4,right,Luminous Extended,GPT-NeoXT-Chat-Base (20B)
+1465,9,32,90,left,Guanaco (13B),Luminous Extended
+1466,9,90,33,right,Luminous Extended,Guanaco (33B)
+1467,9,34,90,left,Guanaco (65B),Luminous Extended
+1468,9,90,85,right,Luminous Extended,Jurassic 2 Light
+1469,9,90,86,right,Luminous Extended,Jurassic 2 Mid
+1470,9,90,87,right,Luminous Extended,Jurassic 2 Ultra
+1471,9,90,23,right,Luminous Extended,Koala (13B)
+1472,9,90,22,right,Luminous Extended,LLaMA 2 SFT v10 (70B)
+1473,9,90,16,right,Luminous Extended,LLaMA-2-Chat (13B)
+1474,9,90,17,right,Luminous Extended,LLaMA-2-Chat (70B)
+1475,9,15,90,left,LLaMA-2-Chat (7B),Luminous Extended
+1476,9,93,90,left,Luminous Base Control,Luminous Extended
+1477,9,20,100,right,Code Llama Instruct (34B),Claude v1.2
+1478,9,100,21,left,Claude v1.2,Vicuna-FastChat-T5 (3B)
+1479,9,9,21,right,Dolly v2 (12B),Vicuna-FastChat-T5 (3B)
+1480,9,91,21,right,Luminous Base,Vicuna-FastChat-T5 (3B)
+1481,9,21,90,left,Vicuna-FastChat-T5 (3B),Luminous Extended
+1482,9,21,88,left,Vicuna-FastChat-T5 (3B),Luminous Supreme
+1483,9,21,14,left,Vicuna-FastChat-T5 (3B),Open-Assistant Pythia SFT-4 (12B)
+1484,9,9,20,right,Dolly v2 (12B),Code Llama Instruct (34B)
+1485,9,20,91,right,Code Llama Instruct (34B),Luminous Base
+1486,9,20,88,left,Code Llama Instruct (34B),Luminous Supreme
+1487,9,20,12,right,Code Llama Instruct (34B),StarCoderChat Alpha (16B)
+1488,9,12,14,left,StarCoderChat Alpha (16B),Open-Assistant Pythia SFT-4 (12B)
+1489,9,92,9,left,Luminous Extended Control,Dolly v2 (12B)
+1490,9,90,89,right,Luminous Extended,Luminous Supreme Control
+1491,9,90,28,right,Luminous Extended,MPT-Chat (30B)
+1492,9,90,27,right,Luminous Extended,MPT-Chat (7B)
+1493,9,96,90,left,Mythalion 13B,Luminous Extended
+1494,9,11,90,left,MythoMax-L2 (13B),Luminous Extended
+1495,9,90,13,right,Luminous Extended,Open-Assistant StableLM SFT-7 (7B)
+1496,9,14,13,right,Open-Assistant Pythia SFT-4 (12B),Open-Assistant StableLM SFT-7 (7B)
+1497,9,94,90,left,PaLM 2 Bison,Luminous Extended
+1498,9,14,94,right,Open-Assistant Pythia SFT-4 (12B),PaLM 2 Bison
+1499,9,90,95,right,Luminous Extended,PaLM 2 Bison (Code Chat)
+1500,9,95,14,left,PaLM 2 Bison (Code Chat),Open-Assistant Pythia SFT-4 (12B)
+1501,9,10,90,left,Platypus-2 Instruct (70B),Luminous Extended
+1502,9,14,10,right,Open-Assistant Pythia SFT-4 (12B),Platypus-2 Instruct (70B)
+1503,9,2,90,left,Pythia-Chat-Base (7B),Luminous Extended
+1504,9,14,2,right,Open-Assistant Pythia SFT-4 (12B),Pythia-Chat-Base (7B)
+1505,9,90,6,right,Luminous Extended,Qwen-Chat (7B)
+1506,9,14,6,right,Open-Assistant Pythia SFT-4 (12B),Qwen-Chat (7B)
+1507,9,90,99,right,Luminous Extended,ReMM SLERP L2 13B
+1508,9,99,14,left,ReMM SLERP L2 13B,Open-Assistant Pythia SFT-4 (12B)
+1509,9,1,90,left,RedPajama-INCITE Chat (3B),Luminous Extended
+1510,9,14,1,right,Open-Assistant Pythia SFT-4 (12B),RedPajama-INCITE Chat (3B)
+1511,9,90,3,left,Luminous Extended,RedPajama-INCITE Chat (7B)
+1512,9,14,3,right,Open-Assistant Pythia SFT-4 (12B),RedPajama-INCITE Chat (7B)
+1513,9,25,90,left,Vicuna v1.3 (13B),Luminous Extended
+1514,9,14,25,right,Open-Assistant Pythia SFT-4 (12B),Vicuna v1.3 (13B)
+1515,9,90,24,right,Luminous Extended,Vicuna v1.3 (7B)
+1516,9,14,24,right,Open-Assistant Pythia SFT-4 (12B),Vicuna v1.3 (7B)
+1517,9,90,26,right,Luminous Extended,Vicuna v1.5 (13B)
+1518,9,14,26,right,Open-Assistant Pythia SFT-4 (12B),Vicuna v1.5 (13B)
+1519,9,90,75,right,Luminous Extended,command
+1520,9,14,75,right,Open-Assistant Pythia SFT-4 (12B),command
+1521,9,75,98,left,command,Weaver 12k
+1522,9,90,76,right,Luminous Extended,command-light
+1523,9,14,76,right,Open-Assistant Pythia SFT-4 (12B),command-light
+1524,9,76,98,left,command-light,Weaver 12k
+1525,9,90,79,right,Luminous Extended,command-nightly
+1526,9,79,14,left,command-nightly,Open-Assistant Pythia SFT-4 (12B)
+1527,9,98,79,right,Weaver 12k,command-nightly
+1528,16,98,97,right,Weaver 12k,Airoboros L2 70B
+1529,16,98,29,left,Weaver 12k,Alpaca (7B)
+1530,16,5,98,left,Chronos Hermes (13B),Weaver 12k
+1531,16,83,98,left,Claude Instant v1,Weaver 12k
+1532,16,98,101,right,Weaver 12k,Claude v1
+1533,16,98,100,right,Weaver 12k,Claude v1.2
+1534,16,84,98,left,Claude v2,Weaver 12k
+1535,16,19,98,right,Code Llama Instruct (13B),Weaver 12k
+1536,16,20,98,right,Code Llama Instruct (34B),Weaver 12k
+1537,16,18,98,right,Code Llama Instruct (7B),Weaver 12k
+1538,16,98,9,left,Weaver 12k,Dolly v2 (12B)
+1539,16,7,98,right,Dolly v2 (3B),Weaver 12k
+1540,16,8,98,right,Dolly v2 (7B),Weaver 12k
+1541,16,31,98,left,Falcon Instruct (40B),Weaver 12k
+1542,16,98,30,left,Weaver 12k,Falcon Instruct (7B)
+1543,16,81,98,left,GPT 3.5 Turbo,Weaver 12k
+1544,16,98,82,right,Weaver 12k,GPT 3.5 Turbo (16k)
+1545,16,98,80,right,Weaver 12k,GPT 4
+1546,16,4,98,left,GPT-NeoXT-Chat-Base (20B),Weaver 12k
+1547,16,32,98,left,Guanaco (13B),Weaver 12k
+1548,16,33,98,left,Guanaco (33B),Weaver 12k
+1549,16,98,85,left,Weaver 12k,Jurassic 2 Light
+1550,16,86,98,left,Jurassic 2 Mid,Weaver 12k
+1551,16,98,87,right,Weaver 12k,Jurassic 2 Ultra
+1552,16,98,23,left,Weaver 12k,Koala (13B)
+1553,16,22,98,left,LLaMA 2 SFT v10 (70B),Weaver 12k
+1554,16,98,16,right,Weaver 12k,LLaMA-2-Chat (13B)
+1555,16,88,98,right,Luminous Supreme,Weaver 12k
+1556,16,98,89,left,Weaver 12k,Luminous Supreme Control
+1557,16,28,98,right,MPT-Chat (30B),Weaver 12k
+1558,16,98,27,left,Weaver 12k,MPT-Chat (7B)
+1559,16,98,96,right,Weaver 12k,Mythalion 13B
+1560,16,98,11,right,Weaver 12k,MythoMax-L2 (13B)
+1561,16,14,98,right,Open-Assistant Pythia SFT-4 (12B),Weaver 12k
+1562,16,98,13,left,Weaver 12k,Open-Assistant StableLM SFT-7 (7B)
+1563,16,98,94,left,Weaver 12k,PaLM 2 Bison
+1564,16,98,95,right,Weaver 12k,PaLM 2 Bison (Code Chat)
+1565,16,98,10,right,Weaver 12k,Platypus-2 Instruct (70B)
+1566,16,2,98,right,Pythia-Chat-Base (7B),Weaver 12k
+1567,16,98,6,right,Weaver 12k,Qwen-Chat (7B)
+1568,16,98,99,right,Weaver 12k,ReMM SLERP L2 13B
+1569,16,98,1,right,Weaver 12k,RedPajama-INCITE Chat (3B)
+1570,16,98,3,left,Weaver 12k,RedPajama-INCITE Chat (7B)
+1571,16,98,12,left,Weaver 12k,StarCoderChat Alpha (16B)
+1572,16,25,98,right,Vicuna v1.3 (13B),Weaver 12k
+1573,16,98,24,left,Weaver 12k,Vicuna v1.3 (7B)
+1574,16,98,26,left,Weaver 12k,Vicuna v1.5 (13B)
+1575,16,21,98,right,Vicuna-FastChat-T5 (3B),Weaver 12k
+1576,16,75,97,left,command,Airoboros L2 70B
+1577,16,75,29,left,command,Alpaca (7B)
+1578,16,75,5,left,command,Chronos Hermes (13B)
+1579,16,75,83,left,command,Claude Instant v1
+1580,16,101,75,left,Claude v1,command
+1581,16,100,75,left,Claude v1.2,command
+1582,16,84,75,right,Claude v2,command
+1583,16,75,19,left,command,Code Llama Instruct (13B)
+1584,16,20,75,right,Code Llama Instruct (34B),command
+1585,16,75,18,left,command,Code Llama Instruct (7B)
+1586,16,9,75,right,Dolly v2 (12B),command
+1587,16,75,7,right,command,Dolly v2 (3B)
+1588,16,8,75,right,Dolly v2 (7B),command
+1589,16,75,31,left,command,Falcon Instruct (40B)
+1590,16,30,75,right,Falcon Instruct (7B),command
+1591,16,81,75,left,GPT 3.5 Turbo,command
+1592,16,82,75,left,GPT 3.5 Turbo (16k),command
+1593,16,80,75,left,GPT 4,command
+1594,16,75,4,left,command,GPT-NeoXT-Chat-Base (20B)
+1595,16,75,33,left,command,Guanaco (33B)
+1596,16,85,75,right,Jurassic 2 Light,command
+1597,16,75,86,left,command,Jurassic 2 Mid
+1598,16,75,87,left,command,Jurassic 2 Ultra
+1599,16,23,75,right,Koala (13B),command
+1600,16,75,89,right,command,Luminous Supreme Control
+1601,16,75,27,left,command,MPT-Chat (7B)
+1602,16,75,96,left,command,Mythalion 13B
+1603,16,11,75,left,MythoMax-L2 (13B),command
+1604,16,75,14,left,command,Open-Assistant Pythia SFT-4 (12B)
+1605,16,13,75,right,Open-Assistant StableLM SFT-7 (7B),command
+1606,16,75,94,left,command,PaLM 2 Bison
+1607,16,95,75,right,PaLM 2 Bison (Code Chat),command
+1608,16,75,10,left,command,Platypus-2 Instruct (70B)
+1609,16,75,2,left,command,Pythia-Chat-Base (7B)
+1610,16,6,75,right,Qwen-Chat (7B),command
+1611,16,75,99,left,command,ReMM SLERP L2 13B
+1612,16,1,75,right,RedPajama-INCITE Chat (3B),command
+1613,16,3,75,right,RedPajama-INCITE Chat (7B),command
+1614,16,75,25,left,command,Vicuna v1.3 (13B)
+1615,16,24,75,right,Vicuna v1.3 (7B),command
+1616,16,26,75,right,Vicuna v1.5 (13B),command
+1617,16,75,21,left,command,Vicuna-FastChat-T5 (3B)
+1618,16,97,15,right,Airoboros L2 70B,LLaMA-2-Chat (7B)
+1619,16,29,15,right,Alpaca (7B),LLaMA-2-Chat (7B)
+1620,16,5,15,right,Chronos Hermes (13B),LLaMA-2-Chat (7B)
+1621,16,15,83,left,LLaMA-2-Chat (7B),Claude Instant v1
+1622,16,101,15,right,Claude v1,LLaMA-2-Chat (7B)
+1623,16,15,100,left,LLaMA-2-Chat (7B),Claude v1.2
+1624,16,84,15,right,Claude v2,LLaMA-2-Chat (7B)
+1625,16,15,19,left,LLaMA-2-Chat (7B),Code Llama Instruct (13B)
+1626,16,20,15,right,Code Llama Instruct (34B),LLaMA-2-Chat (7B)
+1627,16,18,15,right,Code Llama Instruct (7B),LLaMA-2-Chat (7B)
+1628,16,9,15,right,Dolly v2 (12B),LLaMA-2-Chat (7B)
+1629,16,15,7,left,LLaMA-2-Chat (7B),Dolly v2 (3B)
+1630,16,8,15,right,Dolly v2 (7B),LLaMA-2-Chat (7B)
+1631,16,15,31,left,LLaMA-2-Chat (7B),Falcon Instruct (40B)
+1632,16,30,15,right,Falcon Instruct (7B),LLaMA-2-Chat (7B)
+1633,16,81,15,right,GPT 3.5 Turbo,LLaMA-2-Chat (7B)
+1634,16,15,82,left,LLaMA-2-Chat (7B),GPT 3.5 Turbo (16k)
+1635,16,80,15,right,GPT 4,LLaMA-2-Chat (7B)
+1636,16,15,4,left,LLaMA-2-Chat (7B),GPT-NeoXT-Chat-Base (20B)
+1637,16,85,15,right,Jurassic 2 Light,LLaMA-2-Chat (7B)
+1638,16,86,15,right,Jurassic 2 Mid,LLaMA-2-Chat (7B)
+1639,16,87,15,right,Jurassic 2 Ultra,LLaMA-2-Chat (7B)
+1640,16,15,23,left,LLaMA-2-Chat (7B),Koala (13B)
+1641,16,32,18,left,Guanaco (13B),Code Llama Instruct (7B)
+1642,16,7,32,right,Dolly v2 (3B),Guanaco (13B)
+1643,16,18,33,right,Code Llama Instruct (7B),Guanaco (33B)
+1644,16,18,34,right,Code Llama Instruct (7B),Guanaco (65B)
+1645,16,7,34,right,Dolly v2 (3B),Guanaco (65B)
+1646,16,34,8,left,Guanaco (65B),Dolly v2 (7B)
+1647,16,22,18,left,LLaMA 2 SFT v10 (70B),Code Llama Instruct (7B)
+1648,16,22,7,left,LLaMA 2 SFT v10 (70B),Dolly v2 (3B)
+1649,16,18,16,right,Code Llama Instruct (7B),LLaMA-2-Chat (13B)
+1650,16,16,7,left,LLaMA-2-Chat (13B),Dolly v2 (3B)
+1651,16,17,18,left,LLaMA-2-Chat (70B),Code Llama Instruct (7B)
+1652,16,17,7,left,LLaMA-2-Chat (70B),Dolly v2 (3B)
+1653,16,8,17,right,Dolly v2 (7B),LLaMA-2-Chat (70B)
+1654,16,88,18,right,Luminous Supreme,Code Llama Instruct (7B)
+1655,16,7,88,right,Dolly v2 (3B),Luminous Supreme
+1656,16,28,18,right,MPT-Chat (30B),Code Llama Instruct (7B)
+1657,16,7,28,right,Dolly v2 (3B),MPT-Chat (30B)
+1658,16,18,12,right,Code Llama Instruct (7B),StarCoderChat Alpha (16B)
+1659,16,12,7,right,StarCoderChat Alpha (16B),Dolly v2 (3B)
+1660,16,18,79,right,Code Llama Instruct (7B),command-nightly
+1661,16,7,79,right,Dolly v2 (3B),command-nightly
+1662,16,79,98,left,command-nightly,Weaver 12k
+1663,16,89,15,right,Luminous Supreme Control,LLaMA-2-Chat (7B)
+1664,16,15,27,left,LLaMA-2-Chat (7B),MPT-Chat (7B)
+1665,16,96,15,right,Mythalion 13B,LLaMA-2-Chat (7B)
+1666,16,15,11,left,LLaMA-2-Chat (7B),MythoMax-L2 (13B)
+1667,16,14,15,right,Open-Assistant Pythia SFT-4 (12B),LLaMA-2-Chat (7B)
+1668,16,15,13,left,LLaMA-2-Chat (7B),Open-Assistant StableLM SFT-7 (7B)
+1669,16,94,15,right,PaLM 2 Bison,LLaMA-2-Chat (7B)
+1670,16,15,95,left,LLaMA-2-Chat (7B),PaLM 2 Bison (Code Chat)
+1671,16,10,15,right,Platypus-2 Instruct (70B),LLaMA-2-Chat (7B)
+1672,16,15,2,left,LLaMA-2-Chat (7B),Pythia-Chat-Base (7B)
+1673,16,6,15,right,Qwen-Chat (7B),LLaMA-2-Chat (7B)
+1674,16,15,99,left,LLaMA-2-Chat (7B),ReMM SLERP L2 13B
+1675,16,1,15,right,RedPajama-INCITE Chat (3B),LLaMA-2-Chat (7B)
+1676,16,3,15,right,RedPajama-INCITE Chat (7B),LLaMA-2-Chat (7B)
+1677,16,15,25,left,LLaMA-2-Chat (7B),Vicuna v1.3 (13B)
+1678,16,15,24,left,LLaMA-2-Chat (7B),Vicuna v1.3 (7B)
+1679,16,26,15,right,Vicuna v1.5 (13B),LLaMA-2-Chat (7B)
+1680,16,21,15,right,Vicuna-FastChat-T5 (3B),LLaMA-2-Chat (7B)
+1681,16,76,15,right,command-light,LLaMA-2-Chat (7B)
+1682,16,76,98,left,command-light,Weaver 12k
+1683,16,76,75,right,command-light,command
+1684,2,98,97,right,Weaver 12k,Airoboros L2 70B
+1685,2,29,98,left,Alpaca (7B),Weaver 12k
+1686,2,98,5,right,Weaver 12k,Chronos Hermes (13B)
+1687,2,98,83,right,Weaver 12k,Claude Instant v1
+1688,2,101,98,left,Claude v1,Weaver 12k
+1689,2,100,98,left,Claude v1.2,Weaver 12k
+1690,2,84,98,left,Claude v2,Weaver 12k
+1691,2,19,98,left,Code Llama Instruct (13B),Weaver 12k
+1692,2,98,20,right,Weaver 12k,Code Llama Instruct (34B)
+1693,2,98,18,right,Weaver 12k,Code Llama Instruct (7B)
+1694,2,7,98,left,Dolly v2 (3B),Weaver 12k
+1695,2,8,98,left,Dolly v2 (7B),Weaver 12k
+1696,2,31,98,right,Falcon Instruct (40B),Weaver 12k
+1697,2,30,98,left,Falcon Instruct (7B),Weaver 12k
+1698,2,81,98,left,GPT 3.5 Turbo,Weaver 12k
+1699,2,82,98,left,GPT 3.5 Turbo (16k),Weaver 12k
+1700,2,80,98,left,GPT 4,Weaver 12k
+1701,2,98,4,right,Weaver 12k,GPT-NeoXT-Chat-Base (20B)
+1702,2,98,32,right,Weaver 12k,Guanaco (13B)
+1703,2,98,33,right,Weaver 12k,Guanaco (33B)
+1704,2,98,34,right,Weaver 12k,Guanaco (65B)
+1705,2,98,85,right,Weaver 12k,Jurassic 2 Light
+1706,2,86,98,left,Jurassic 2 Mid,Weaver 12k
+1707,2,87,98,left,Jurassic 2 Ultra,Weaver 12k
+1708,2,98,23,right,Weaver 12k,Koala (13B)
+1709,2,22,98,left,LLaMA 2 SFT v10 (70B),Weaver 12k
+1710,2,98,16,right,Weaver 12k,LLaMA-2-Chat (13B)
+1711,2,98,17,right,Weaver 12k,LLaMA-2-Chat (70B)
+1712,2,15,98,left,LLaMA-2-Chat (7B),Weaver 12k
+1713,2,98,93,right,Weaver 12k,Luminous Base Control
+1714,2,98,90,right,Weaver 12k,Luminous Extended
+1715,2,92,98,left,Luminous Extended Control,Weaver 12k
+1716,2,88,98,right,Luminous Supreme,Weaver 12k
+1717,2,98,89,right,Weaver 12k,Luminous Supreme Control
+1718,2,98,28,right,Weaver 12k,MPT-Chat (30B)
+1719,2,98,27,right,Weaver 12k,MPT-Chat (7B)
+1720,2,96,98,left,Mythalion 13B,Weaver 12k
+1721,2,11,98,left,MythoMax-L2 (13B),Weaver 12k
+1722,2,14,98,left,Open-Assistant Pythia SFT-4 (12B),Weaver 12k
+1723,2,98,13,right,Weaver 12k,Open-Assistant StableLM SFT-7 (7B)
+1724,2,98,94,right,Weaver 12k,PaLM 2 Bison
+1725,2,95,98,left,PaLM 2 Bison (Code Chat),Weaver 12k
+1726,2,98,10,right,Weaver 12k,Platypus-2 Instruct (70B)
+1727,2,98,2,right,Weaver 12k,Pythia-Chat-Base (7B)
+1728,2,6,98,left,Qwen-Chat (7B),Weaver 12k
+1729,2,99,98,left,ReMM SLERP L2 13B,Weaver 12k
+1730,2,1,98,left,RedPajama-INCITE Chat (3B),Weaver 12k
+1731,2,98,3,right,Weaver 12k,RedPajama-INCITE Chat (7B)
+1732,2,98,12,right,Weaver 12k,StarCoderChat Alpha (16B)
+1733,2,98,25,right,Weaver 12k,Vicuna v1.3 (13B)
+1734,2,98,24,right,Weaver 12k,Vicuna v1.3 (7B)
+1735,2,26,98,left,Vicuna v1.5 (13B),Weaver 12k
+1736,2,98,21,right,Weaver 12k,Vicuna-FastChat-T5 (3B)
+1737,2,97,9,left,Airoboros L2 70B,Dolly v2 (12B)
+1738,2,29,9,left,Alpaca (7B),Dolly v2 (12B)
+1739,2,9,5,right,Dolly v2 (12B),Chronos Hermes (13B)
+1740,2,83,9,left,Claude Instant v1,Dolly v2 (12B)
+1741,2,101,9,left,Claude v1,Dolly v2 (12B)
+1742,2,9,100,right,Dolly v2 (12B),Claude v1.2
+1743,2,84,9,left,Claude v2,Dolly v2 (12B)
+1744,2,19,9,left,Code Llama Instruct (13B),Dolly v2 (12B)
+1745,2,20,9,left,Code Llama Instruct (34B),Dolly v2 (12B)
+1746,2,9,18,right,Dolly v2 (12B),Code Llama Instruct (7B)
+1747,2,97,91,left,Airoboros L2 70B,Luminous Base
+1748,2,91,29,right,Luminous Base,Alpaca (7B)
+1749,2,91,5,right,Luminous Base,Chronos Hermes (13B)
+1750,2,91,83,right,Luminous Base,Claude Instant v1
+1751,2,101,91,left,Claude v1,Luminous Base
+1752,2,100,91,left,Claude v1.2,Luminous Base
+1753,2,91,84,right,Luminous Base,Claude v2
+1754,2,19,91,left,Code Llama Instruct (13B),Luminous Base
+1755,2,20,91,left,Code Llama Instruct (34B),Luminous Base
+1756,2,18,91,left,Code Llama Instruct (7B),Luminous Base
+1757,2,7,91,left,Dolly v2 (3B),Luminous Base
+1758,2,91,8,right,Luminous Base,Dolly v2 (7B)
+1759,2,91,31,right,Luminous Base,Falcon Instruct (40B)
+1760,2,30,91,left,Falcon Instruct (7B),Luminous Base
+1761,2,91,81,right,Luminous Base,GPT 3.5 Turbo
+1762,2,91,82,right,Luminous Base,GPT 3.5 Turbo (16k)
+1763,2,91,80,right,Luminous Base,GPT 4
+1764,2,91,4,right,Luminous Base,GPT-NeoXT-Chat-Base (20B)
+1765,2,32,91,right,Guanaco (13B),Luminous Base
+1766,2,91,33,right,Luminous Base,Guanaco (33B)
+1767,2,91,34,right,Luminous Base,Guanaco (65B)
+1768,2,85,91,right,Jurassic 2 Light,Luminous Base
+1769,2,86,91,left,Jurassic 2 Mid,Luminous Base
+1770,2,87,91,left,Jurassic 2 Ultra,Luminous Base
+1771,2,91,23,right,Luminous Base,Koala (13B)
+1772,2,22,91,left,LLaMA 2 SFT v10 (70B),Luminous Base
+1773,2,16,91,left,LLaMA-2-Chat (13B),Luminous Base
+1774,2,17,91,left,LLaMA-2-Chat (70B),Luminous Base
+1775,2,91,15,right,Luminous Base,LLaMA-2-Chat (7B)
+1776,2,90,19,right,Luminous Extended,Code Llama Instruct (13B)
+1777,2,20,90,right,Code Llama Instruct (34B),Luminous Extended
+1778,2,12,19,right,StarCoderChat Alpha (16B),Code Llama Instruct (13B)
+1779,2,12,20,right,StarCoderChat Alpha (16B),Code Llama Instruct (34B)
+1780,2,9,8,right,Dolly v2 (12B),Dolly v2 (7B)
+1781,2,3,9,left,RedPajama-INCITE Chat (7B),Dolly v2 (12B)
+1782,2,91,3,right,Luminous Base,RedPajama-INCITE Chat (7B)
+1783,2,9,26,right,Dolly v2 (12B),Vicuna v1.5 (13B)
+1784,2,26,91,left,Vicuna v1.5 (13B),Luminous Base
+1785,2,9,7,right,Dolly v2 (12B),Dolly v2 (3B)
+1786,2,31,9,right,Falcon Instruct (40B),Dolly v2 (12B)
+1787,2,9,30,right,Dolly v2 (12B),Falcon Instruct (7B)
+1788,2,81,9,left,GPT 3.5 Turbo,Dolly v2 (12B)
+1789,2,9,82,right,Dolly v2 (12B),GPT 3.5 Turbo (16k)
+1790,2,80,9,left,GPT 4,Dolly v2 (12B)
+1791,2,4,9,left,GPT-NeoXT-Chat-Base (20B),Dolly v2 (12B)
+1792,2,32,9,left,Guanaco (13B),Dolly v2 (12B)
+1793,2,9,33,right,Dolly v2 (12B),Guanaco (33B)
+1794,2,34,9,right,Guanaco (65B),Dolly v2 (12B)
+1795,2,85,9,right,Jurassic 2 Light,Dolly v2 (12B)
+1796,2,9,86,right,Dolly v2 (12B),Jurassic 2 Mid
+1797,2,87,9,right,Jurassic 2 Ultra,Dolly v2 (12B)
+1798,2,23,9,left,Koala (13B),Dolly v2 (12B)
+1799,2,22,9,left,LLaMA 2 SFT v10 (70B),Dolly v2 (12B)
+1800,2,16,9,left,LLaMA-2-Chat (13B),Dolly v2 (12B)
+1801,2,9,17,right,Dolly v2 (12B),LLaMA-2-Chat (70B)
+1802,2,15,9,right,LLaMA-2-Chat (7B),Dolly v2 (12B)
+1803,2,9,93,right,Dolly v2 (12B),Luminous Base Control
+1804,2,91,93,right,Luminous Base,Luminous Base Control
+1805,2,92,9,right,Luminous Extended Control,Dolly v2 (12B)
+1806,2,91,92,right,Luminous Base,Luminous Extended Control
+1807,2,9,88,left,Dolly v2 (12B),Luminous Supreme
+1808,2,88,91,tie,Luminous Supreme,Luminous Base
+1809,2,89,9,right,Luminous Supreme Control,Dolly v2 (12B)
+1810,2,91,89,right,Luminous Base,Luminous Supreme Control
+1811,2,9,28,right,Dolly v2 (12B),MPT-Chat (30B)
+1812,2,28,91,left,MPT-Chat (30B),Luminous Base
+1813,2,9,27,right,Dolly v2 (12B),MPT-Chat (7B)
+1814,2,27,91,left,MPT-Chat (7B),Luminous Base
+1815,2,96,9,left,Mythalion 13B,Dolly v2 (12B)
+1816,2,91,96,right,Luminous Base,Mythalion 13B
+1817,2,9,11,right,Dolly v2 (12B),MythoMax-L2 (13B)
+1818,2,91,11,right,Luminous Base,MythoMax-L2 (13B)
+1819,2,14,9,left,Open-Assistant Pythia SFT-4 (12B),Dolly v2 (12B)
+1820,2,14,91,left,Open-Assistant Pythia SFT-4 (12B),Luminous Base
+1821,2,13,9,left,Open-Assistant StableLM SFT-7 (7B),Dolly v2 (12B)
+1822,2,91,13,right,Luminous Base,Open-Assistant StableLM SFT-7 (7B)
+1823,2,94,9,right,PaLM 2 Bison,Dolly v2 (12B)
+1824,2,94,91,left,PaLM 2 Bison,Luminous Base
+1825,2,9,95,right,Dolly v2 (12B),PaLM 2 Bison (Code Chat)
+1826,2,95,91,left,PaLM 2 Bison (Code Chat),Luminous Base
+1827,2,9,10,right,Dolly v2 (12B),Platypus-2 Instruct (70B)
+1828,2,91,10,right,Luminous Base,Platypus-2 Instruct (70B)
+1829,2,2,9,right,Pythia-Chat-Base (7B),Dolly v2 (12B)
+1830,2,91,2,right,Luminous Base,Pythia-Chat-Base (7B)
+1831,2,9,6,right,Dolly v2 (12B),Qwen-Chat (7B)
+1832,2,6,91,right,Qwen-Chat (7B),Luminous Base
+1833,2,99,9,left,ReMM SLERP L2 13B,Dolly v2 (12B)
+1834,2,91,99,right,Luminous Base,ReMM SLERP L2 13B
+1835,2,9,1,right,Dolly v2 (12B),RedPajama-INCITE Chat (3B)
+1836,2,1,91,left,RedPajama-INCITE Chat (3B),Luminous Base
+1837,2,9,25,right,Dolly v2 (12B),Vicuna v1.3 (13B)
+1838,2,25,91,left,Vicuna v1.3 (13B),Luminous Base
+1839,2,9,24,right,Dolly v2 (12B),Vicuna v1.3 (7B)
+1840,2,91,24,right,Luminous Base,Vicuna v1.3 (7B)
+1841,2,21,9,left,Vicuna-FastChat-T5 (3B),Dolly v2 (12B)
+1842,2,21,91,left,Vicuna-FastChat-T5 (3B),Luminous Base
+1843,2,75,9,left,command,Dolly v2 (12B)
+1844,2,91,75,right,Luminous Base,command
+1845,2,75,98,left,command,Weaver 12k
+1846,2,9,76,right,Dolly v2 (12B),command-light
+1847,2,91,76,right,Luminous Base,command-light
+1848,2,98,76,right,Weaver 12k,command-light
+1849,2,79,9,left,command-nightly,Dolly v2 (12B)
+1850,2,79,91,left,command-nightly,Luminous Base
+1851,2,79,98,left,command-nightly,Weaver 12k
+2017,4,97,98,left,Airoboros L2 70B,Weaver 12k
+2018,4,98,29,right,Weaver 12k,Alpaca (7B)
+2019,4,5,98,left,Chronos Hermes (13B),Weaver 12k
+2020,4,98,83,right,Weaver 12k,Claude Instant v1
+2021,4,101,98,left,Claude v1,Weaver 12k
+2022,4,98,100,right,Weaver 12k,Claude v1.2
+2023,4,98,84,right,Weaver 12k,Claude v2
+2024,4,19,98,right,Code Llama Instruct (13B),Weaver 12k
+2025,4,98,20,right,Weaver 12k,Code Llama Instruct (34B)
+2026,4,18,98,right,Code Llama Instruct (7B),Weaver 12k
+2027,4,98,7,right,Weaver 12k,Dolly v2 (3B)
+2028,4,98,8,right,Weaver 12k,Dolly v2 (7B)
+2029,4,98,31,right,Weaver 12k,Falcon Instruct (40B)
+2030,4,30,98,left,Falcon Instruct (7B),Weaver 12k
+2031,4,98,81,right,Weaver 12k,GPT 3.5 Turbo
+2032,4,98,82,right,Weaver 12k,GPT 3.5 Turbo (16k)
+2033,4,98,80,right,Weaver 12k,GPT 4
+2034,4,4,98,left,GPT-NeoXT-Chat-Base (20B),Weaver 12k
+2035,4,32,98,right,Guanaco (13B),Weaver 12k
+2036,4,34,98,right,Guanaco (65B),Weaver 12k
+2037,4,98,85,right,Weaver 12k,Jurassic 2 Light
+2038,4,98,86,right,Weaver 12k,Jurassic 2 Mid
+2039,4,87,98,left,Jurassic 2 Ultra,Weaver 12k
+2040,4,98,23,left,Weaver 12k,Koala (13B)
+2041,4,22,98,left,LLaMA 2 SFT v10 (70B),Weaver 12k
+2042,4,16,98,left,LLaMA-2-Chat (13B),Weaver 12k
+2043,4,17,98,right,LLaMA-2-Chat (70B),Weaver 12k
+2044,4,15,98,left,LLaMA-2-Chat (7B),Weaver 12k
+2045,4,91,98,right,Luminous Base,Weaver 12k
+2046,4,93,98,left,Luminous Base Control,Weaver 12k
+2047,4,98,92,right,Weaver 12k,Luminous Extended Control
+2048,4,88,98,right,Luminous Supreme,Weaver 12k
+2049,4,98,89,left,Weaver 12k,Luminous Supreme Control
+2050,4,98,28,right,Weaver 12k,MPT-Chat (30B)
+2051,4,27,98,left,MPT-Chat (7B),Weaver 12k
+2052,4,96,98,left,Mythalion 13B,Weaver 12k
+2053,4,11,98,left,MythoMax-L2 (13B),Weaver 12k
+2054,4,14,98,left,Open-Assistant Pythia SFT-4 (12B),Weaver 12k
+2055,4,98,13,right,Weaver 12k,Open-Assistant StableLM SFT-7 (7B)
+2056,4,94,98,left,PaLM 2 Bison,Weaver 12k
+2057,4,98,95,right,Weaver 12k,PaLM 2 Bison (Code Chat)
+2058,4,98,10,right,Weaver 12k,Platypus-2 Instruct (70B)
+2059,4,98,2,right,Weaver 12k,Pythia-Chat-Base (7B)
+2060,4,98,6,right,Weaver 12k,Qwen-Chat (7B)
+2061,4,99,98,left,ReMM SLERP L2 13B,Weaver 12k
+2062,4,1,98,right,RedPajama-INCITE Chat (3B),Weaver 12k
+2063,4,98,3,right,Weaver 12k,RedPajama-INCITE Chat (7B)
+2064,4,12,98,right,StarCoderChat Alpha (16B),Weaver 12k
+2065,4,25,98,right,Vicuna v1.3 (13B),Weaver 12k
+2066,4,24,98,left,Vicuna v1.3 (7B),Weaver 12k
+2067,4,98,26,right,Weaver 12k,Vicuna v1.5 (13B)
+2068,4,21,98,right,Vicuna-FastChat-T5 (3B),Weaver 12k
+2069,4,9,97,right,Dolly v2 (12B),Airoboros L2 70B
+2070,4,9,29,right,Dolly v2 (12B),Alpaca (7B)
+2071,4,9,5,right,Dolly v2 (12B),Chronos Hermes (13B)
+2072,4,9,83,right,Dolly v2 (12B),Claude Instant v1
+2073,4,9,101,right,Dolly v2 (12B),Claude v1
+2074,4,9,100,right,Dolly v2 (12B),Claude v1.2
+2075,4,84,9,left,Claude v2,Dolly v2 (12B)
+2076,4,19,9,left,Code Llama Instruct (13B),Dolly v2 (12B)
+2077,4,20,9,left,Code Llama Instruct (34B),Dolly v2 (12B)
+2078,4,9,18,right,Dolly v2 (12B),Code Llama Instruct (7B)
+2079,4,97,33,left,Airoboros L2 70B,Guanaco (33B)
+2080,4,33,29,right,Guanaco (33B),Alpaca (7B)
+2081,4,33,5,right,Guanaco (33B),Chronos Hermes (13B)
+2082,4,83,33,left,Claude Instant v1,Guanaco (33B)
+2083,4,33,101,right,Guanaco (33B),Claude v1
+2084,4,33,100,right,Guanaco (33B),Claude v1.2
+2085,4,33,84,right,Guanaco (33B),Claude v2
+2086,4,19,33,left,Code Llama Instruct (13B),Guanaco (33B)
+2087,4,33,20,right,Guanaco (33B),Code Llama Instruct (34B)
+2088,4,33,18,right,Guanaco (33B),Code Llama Instruct (7B)
+2089,4,7,33,left,Dolly v2 (3B),Guanaco (33B)
+2090,4,33,8,right,Guanaco (33B),Dolly v2 (7B)
+2091,4,31,33,left,Falcon Instruct (40B),Guanaco (33B)
+2092,4,30,33,left,Falcon Instruct (7B),Guanaco (33B)
+2093,4,81,33,left,GPT 3.5 Turbo,Guanaco (33B)
+2094,4,33,82,right,Guanaco (33B),GPT 3.5 Turbo (16k)
+2095,4,80,33,left,GPT 4,Guanaco (33B)
+2096,4,33,4,right,Guanaco (33B),GPT-NeoXT-Chat-Base (20B)
+2097,4,33,32,right,Guanaco (33B),Guanaco (13B)
+2098,4,34,18,right,Guanaco (65B),Code Llama Instruct (7B)
+2099,4,34,9,left,Guanaco (65B),Dolly v2 (12B)
+2100,4,86,18,left,Jurassic 2 Mid,Code Llama Instruct (7B)
+2101,4,9,86,right,Dolly v2 (12B),Jurassic 2 Mid
+2102,4,18,91,left,Code Llama Instruct (7B),Luminous Base
+2103,4,9,91,left,Dolly v2 (12B),Luminous Base
+2104,4,18,90,left,Code Llama Instruct (7B),Luminous Extended
+2105,4,90,7,right,Luminous Extended,Dolly v2 (3B)
+2106,4,8,90,left,Dolly v2 (7B),Luminous Extended
+2107,4,88,18,right,Luminous Supreme,Code Llama Instruct (7B)
+2108,4,88,7,right,Luminous Supreme,Dolly v2 (3B)
+2109,4,1,18,right,RedPajama-INCITE Chat (3B),Code Llama Instruct (7B)
+2110,4,1,7,right,RedPajama-INCITE Chat (3B),Dolly v2 (3B)
+2111,4,18,12,right,Code Llama Instruct (7B),StarCoderChat Alpha (16B)
+2112,4,12,7,right,StarCoderChat Alpha (16B),Dolly v2 (3B)
+2113,4,7,9,left,Dolly v2 (3B),Dolly v2 (12B)
+2114,4,8,9,left,Dolly v2 (7B),Dolly v2 (12B)
+2115,4,31,9,left,Falcon Instruct (40B),Dolly v2 (12B)
+2116,4,9,30,right,Dolly v2 (12B),Falcon Instruct (7B)
+2117,4,81,9,left,GPT 3.5 Turbo,Dolly v2 (12B)
+2118,4,9,82,right,Dolly v2 (12B),GPT 3.5 Turbo (16k)
+2119,4,80,9,left,GPT 4,Dolly v2 (12B)
+2120,4,9,4,right,Dolly v2 (12B),GPT-NeoXT-Chat-Base (20B)
+2121,4,32,9,left,Guanaco (13B),Dolly v2 (12B)
+2122,4,85,9,left,Jurassic 2 Light,Dolly v2 (12B)
+2123,4,33,85,right,Guanaco (33B),Jurassic 2 Light
+2124,4,87,9,left,Jurassic 2 Ultra,Dolly v2 (12B)
+2125,4,33,87,right,Guanaco (33B),Jurassic 2 Ultra
+2126,4,9,23,left,Dolly v2 (12B),Koala (13B)
+2127,4,33,23,left,Guanaco (33B),Koala (13B)
+2128,4,9,22,right,Dolly v2 (12B),LLaMA 2 SFT v10 (70B)
+2129,4,33,22,right,Guanaco (33B),LLaMA 2 SFT v10 (70B)
+2130,4,16,9,left,LLaMA-2-Chat (13B),Dolly v2 (12B)
+2131,4,16,33,left,LLaMA-2-Chat (13B),Guanaco (33B)
+2132,4,9,17,right,Dolly v2 (12B),LLaMA-2-Chat (70B)
+2133,4,33,17,right,Guanaco (33B),LLaMA-2-Chat (70B)
+2134,4,9,15,right,Dolly v2 (12B),LLaMA-2-Chat (7B)
+2135,4,33,15,right,Guanaco (33B),LLaMA-2-Chat (7B)
+2136,4,9,93,right,Dolly v2 (12B),Luminous Base Control
+2137,4,33,93,right,Guanaco (33B),Luminous Base Control
+2138,4,92,9,left,Luminous Extended Control,Dolly v2 (12B)
+2139,4,92,33,left,Luminous Extended Control,Guanaco (33B)
+2140,4,89,9,left,Luminous Supreme Control,Dolly v2 (12B)
+2141,4,33,89,right,Guanaco (33B),Luminous Supreme Control
+2142,4,9,28,right,Dolly v2 (12B),MPT-Chat (30B)
+2143,4,28,33,left,MPT-Chat (30B),Guanaco (33B)
+2144,4,27,9,left,MPT-Chat (7B),Dolly v2 (12B)
+2145,4,27,33,left,MPT-Chat (7B),Guanaco (33B)
+2146,4,96,9,left,Mythalion 13B,Dolly v2 (12B)
+2147,4,96,33,left,Mythalion 13B,Guanaco (33B)
+2148,4,9,11,right,Dolly v2 (12B),MythoMax-L2 (13B)
+2149,4,11,33,left,MythoMax-L2 (13B),Guanaco (33B)
+2150,4,14,9,left,Open-Assistant Pythia SFT-4 (12B),Dolly v2 (12B)
+2151,4,33,14,right,Guanaco (33B),Open-Assistant Pythia SFT-4 (12B)
+2152,4,9,13,right,Dolly v2 (12B),Open-Assistant StableLM SFT-7 (7B)
+2153,4,33,13,right,Guanaco (33B),Open-Assistant StableLM SFT-7 (7B)
+2154,4,9,94,right,Dolly v2 (12B),PaLM 2 Bison
+2155,4,33,94,right,Guanaco (33B),PaLM 2 Bison
+2156,4,9,95,right,Dolly v2 (12B),PaLM 2 Bison (Code Chat)
+2157,4,33,95,right,Guanaco (33B),PaLM 2 Bison (Code Chat)
+2158,4,9,10,right,Dolly v2 (12B),Platypus-2 Instruct (70B)
+2159,4,10,33,left,Platypus-2 Instruct (70B),Guanaco (33B)
+2160,4,2,9,left,Pythia-Chat-Base (7B),Dolly v2 (12B)
+2161,4,33,2,right,Guanaco (33B),Pythia-Chat-Base (7B)
+2162,4,9,6,right,Dolly v2 (12B),Qwen-Chat (7B)
+2163,4,33,6,right,Guanaco (33B),Qwen-Chat (7B)
+2164,4,99,9,left,ReMM SLERP L2 13B,Dolly v2 (12B)
+2165,4,99,33,left,ReMM SLERP L2 13B,Guanaco (33B)
+2166,4,3,9,left,RedPajama-INCITE Chat (7B),Dolly v2 (12B)
+2167,4,33,3,right,Guanaco (33B),RedPajama-INCITE Chat (7B)
+2168,4,25,9,left,Vicuna v1.3 (13B),Dolly v2 (12B)
+2169,4,33,25,right,Guanaco (33B),Vicuna v1.3 (13B)
+2170,4,9,24,right,Dolly v2 (12B),Vicuna v1.3 (7B)
+2171,4,24,33,left,Vicuna v1.3 (7B),Guanaco (33B)
+2172,4,26,9,left,Vicuna v1.5 (13B),Dolly v2 (12B)
+2173,4,26,33,left,Vicuna v1.5 (13B),Guanaco (33B)
+2174,4,21,9,left,Vicuna-FastChat-T5 (3B),Dolly v2 (12B)
+2175,4,33,21,right,Guanaco (33B),Vicuna-FastChat-T5 (3B)
+2176,4,75,9,left,command,Dolly v2 (12B)
+2177,4,33,75,right,Guanaco (33B),command
+2178,4,75,98,right,command,Weaver 12k
+2179,4,9,76,right,Dolly v2 (12B),command-light
+2180,4,33,76,tie,Guanaco (33B),command-light
+2181,4,98,76,left,Weaver 12k,command-light
+2182,4,9,79,right,Dolly v2 (12B),command-nightly
+2183,4,33,79,right,Guanaco (33B),command-nightly
+2184,4,79,98,left,command-nightly,Weaver 12k
+2185,6,98,97,left,Weaver 12k,Airoboros L2 70B
+2186,6,29,98,right,Alpaca (7B),Weaver 12k
+2187,6,5,98,right,Chronos Hermes (13B),Weaver 12k
+2188,6,98,83,right,Weaver 12k,Claude Instant v1
+2189,6,98,101,right,Weaver 12k,Claude v1
+2190,6,100,98,left,Claude v1.2,Weaver 12k
+2191,6,98,84,left,Weaver 12k,Claude v2
+2192,6,19,98,right,Code Llama Instruct (13B),Weaver 12k
+2193,6,20,98,right,Code Llama Instruct (34B),Weaver 12k
+2194,6,18,98,right,Code Llama Instruct (7B),Weaver 12k
+2195,6,98,7,left,Weaver 12k,Dolly v2 (3B)
+2196,6,98,8,right,Weaver 12k,Dolly v2 (7B)
+2197,6,31,98,left,Falcon Instruct (40B),Weaver 12k
+2198,6,98,30,right,Weaver 12k,Falcon Instruct (7B)
+2199,6,81,98,left,GPT 3.5 Turbo,Weaver 12k
+2200,6,82,98,left,GPT 3.5 Turbo (16k),Weaver 12k
+2201,6,80,98,left,GPT 4,Weaver 12k
+2202,6,4,98,right,GPT-NeoXT-Chat-Base (20B),Weaver 12k
+2203,6,98,32,right,Weaver 12k,Guanaco (13B)
+2204,6,33,98,right,Guanaco (33B),Weaver 12k
+2205,6,34,98,right,Guanaco (65B),Weaver 12k
+2206,6,98,85,left,Weaver 12k,Jurassic 2 Light
+2207,6,86,98,left,Jurassic 2 Mid,Weaver 12k
+2208,6,87,98,left,Jurassic 2 Ultra,Weaver 12k
+2209,6,23,98,right,Koala (13B),Weaver 12k
+2210,6,98,22,right,Weaver 12k,LLaMA 2 SFT v10 (70B)
+2211,6,98,16,left,Weaver 12k,LLaMA-2-Chat (13B)
+2212,6,17,98,left,LLaMA-2-Chat (70B),Weaver 12k
+2213,6,98,15,left,Weaver 12k,LLaMA-2-Chat (7B)
+2214,6,91,98,right,Luminous Base,Weaver 12k
+2215,6,93,98,right,Luminous Base Control,Weaver 12k
+2216,6,98,92,right,Weaver 12k,Luminous Extended Control
+2217,6,88,98,right,Luminous Supreme,Weaver 12k
+2218,6,98,89,left,Weaver 12k,Luminous Supreme Control
+2219,6,28,98,right,MPT-Chat (30B),Weaver 12k
+2220,6,98,27,left,Weaver 12k,MPT-Chat (7B)
+2221,6,98,96,right,Weaver 12k,Mythalion 13B
+2222,6,11,98,left,MythoMax-L2 (13B),Weaver 12k
+2223,6,98,14,left,Weaver 12k,Open-Assistant Pythia SFT-4 (12B)
+2224,6,98,13,left,Weaver 12k,Open-Assistant StableLM SFT-7 (7B)
+2225,6,94,98,left,PaLM 2 Bison,Weaver 12k
+2226,6,95,98,left,PaLM 2 Bison (Code Chat),Weaver 12k
+2227,6,98,10,right,Weaver 12k,Platypus-2 Instruct (70B)
+2228,6,98,2,left,Weaver 12k,Pythia-Chat-Base (7B)
+2229,6,6,98,right,Qwen-Chat (7B),Weaver 12k
+2230,6,98,99,right,Weaver 12k,ReMM SLERP L2 13B
+2231,6,98,1,left,Weaver 12k,RedPajama-INCITE Chat (3B)
+2232,6,3,98,right,RedPajama-INCITE Chat (7B),Weaver 12k
+2233,6,98,12,left,Weaver 12k,StarCoderChat Alpha (16B)
+2234,6,25,98,right,Vicuna v1.3 (13B),Weaver 12k
+2235,6,24,98,right,Vicuna v1.3 (7B),Weaver 12k
+2236,6,26,98,left,Vicuna v1.5 (13B),Weaver 12k
+2237,6,98,21,right,Weaver 12k,Vicuna-FastChat-T5 (3B)
+2238,6,97,90,left,Airoboros L2 70B,Luminous Extended
+2239,6,29,90,left,Alpaca (7B),Luminous Extended
+2240,6,5,90,left,Chronos Hermes (13B),Luminous Extended
+2241,6,90,83,right,Luminous Extended,Claude Instant v1
+2242,6,90,101,right,Luminous Extended,Claude v1
+2243,6,90,100,right,Luminous Extended,Claude v1.2
+2244,6,90,84,right,Luminous Extended,Claude v2
+2245,6,90,19,right,Luminous Extended,Code Llama Instruct (13B)
+2246,6,20,90,left,Code Llama Instruct (34B),Luminous Extended
+2247,6,90,18,right,Luminous Extended,Code Llama Instruct (7B)
+2248,6,7,90,left,Dolly v2 (3B),Luminous Extended
+2249,6,8,90,left,Dolly v2 (7B),Luminous Extended
+2250,6,31,90,left,Falcon Instruct (40B),Luminous Extended
+2251,6,30,90,left,Falcon Instruct (7B),Luminous Extended
+2252,6,81,90,left,GPT 3.5 Turbo,Luminous Extended
+2253,6,82,90,left,GPT 3.5 Turbo (16k),Luminous Extended
+2254,6,90,80,right,Luminous Extended,GPT 4
+2255,6,90,4,right,Luminous Extended,GPT-NeoXT-Chat-Base (20B)
+2256,6,90,32,right,Luminous Extended,Guanaco (13B)
+2257,6,33,90,tie,Guanaco (33B),Luminous Extended
+2258,6,90,34,right,Luminous Extended,Guanaco (65B)
+2259,6,85,90,left,Jurassic 2 Light,Luminous Extended
+2260,6,86,90,left,Jurassic 2 Mid,Luminous Extended
+2261,6,87,90,left,Jurassic 2 Ultra,Luminous Extended
+2262,6,23,90,left,Koala (13B),Luminous Extended
+2263,6,22,90,left,LLaMA 2 SFT v10 (70B),Luminous Extended
+2264,6,16,90,left,LLaMA-2-Chat (13B),Luminous Extended
+2265,6,90,15,right,Luminous Extended,LLaMA-2-Chat (7B)
+2266,6,90,93,right,Luminous Extended,Luminous Base Control
+2267,6,9,97,right,Dolly v2 (12B),Airoboros L2 70B
+2268,6,9,29,right,Dolly v2 (12B),Alpaca (7B)
+2269,6,9,5,tie,Dolly v2 (12B),Chronos Hermes (13B)
+2270,6,83,9,left,Claude Instant v1,Dolly v2 (12B)
+2271,6,9,101,right,Dolly v2 (12B),Claude v1
+2272,6,9,100,right,Dolly v2 (12B),Claude v1.2
+2273,6,9,84,right,Dolly v2 (12B),Claude v2
+2274,6,9,19,left,Dolly v2 (12B),Code Llama Instruct (13B)
+2275,6,9,20,left,Dolly v2 (12B),Code Llama Instruct (34B)
+2276,6,18,9,left,Code Llama Instruct (7B),Dolly v2 (12B)
+2277,6,34,19,left,Guanaco (65B),Code Llama Instruct (13B)
+2278,6,19,23,right,Code Llama Instruct (13B),Koala (13B)
+2279,6,17,19,left,LLaMA-2-Chat (70B),Code Llama Instruct (13B)
+2280,6,17,20,left,LLaMA-2-Chat (70B),Code Llama Instruct (34B)
+2281,6,19,91,tie,Code Llama Instruct (13B),Luminous Base
+2282,6,20,91,tie,Code Llama Instruct (34B),Luminous Base
+2283,6,88,19,tie,Luminous Supreme,Code Llama Instruct (13B)
+2284,6,88,20,tie,Luminous Supreme,Code Llama Instruct (34B)
+2285,6,14,19,tie,Open-Assistant Pythia SFT-4 (12B),Code Llama Instruct (13B)
+2286,6,14,20,left,Open-Assistant Pythia SFT-4 (12B),Code Llama Instruct (34B)
+2287,6,3,19,right,RedPajama-INCITE Chat (7B),Code Llama Instruct (13B)
+2288,6,3,20,right,RedPajama-INCITE Chat (7B),Code Llama Instruct (34B)
+2289,6,19,12,tie,Code Llama Instruct (13B),StarCoderChat Alpha (16B)
+2290,6,90,12,right,Luminous Extended,StarCoderChat Alpha (16B)
+2291,6,9,7,left,Dolly v2 (12B),Dolly v2 (3B)
+2292,6,8,9,left,Dolly v2 (7B),Dolly v2 (12B)
+2293,6,9,31,right,Dolly v2 (12B),Falcon Instruct (40B)
+2294,6,30,9,left,Falcon Instruct (7B),Dolly v2 (12B)
+2295,6,81,9,left,GPT 3.5 Turbo,Dolly v2 (12B)
+2296,6,82,9,left,GPT 3.5 Turbo (16k),Dolly v2 (12B)
+2297,6,9,80,right,Dolly v2 (12B),GPT 4
+2298,6,4,9,left,GPT-NeoXT-Chat-Base (20B),Dolly v2 (12B)
+2299,6,32,9,left,Guanaco (13B),Dolly v2 (12B)
+2300,6,33,9,right,Guanaco (33B),Dolly v2 (12B)
+2301,6,9,85,right,Dolly v2 (12B),Jurassic 2 Light
+2302,6,9,86,right,Dolly v2 (12B),Jurassic 2 Mid
+2303,6,87,9,left,Jurassic 2 Ultra,Dolly v2 (12B)
+2304,6,9,22,right,Dolly v2 (12B),LLaMA 2 SFT v10 (70B)
+2305,6,16,9,left,LLaMA-2-Chat (13B),Dolly v2 (12B)
+2306,6,9,15,right,Dolly v2 (12B),LLaMA-2-Chat (7B)
+2307,6,93,9,left,Luminous Base Control,Dolly v2 (12B)
+2308,6,92,9,left,Luminous Extended Control,Dolly v2 (12B)
+2309,6,92,90,left,Luminous Extended Control,Luminous Extended
+2310,6,89,9,right,Luminous Supreme Control,Dolly v2 (12B)
+2311,6,89,90,tie,Luminous Supreme Control,Luminous Extended
+2312,6,9,28,right,Dolly v2 (12B),MPT-Chat (30B)
+2313,6,28,90,left,MPT-Chat (30B),Luminous Extended
+2314,6,27,9,left,MPT-Chat (7B),Dolly v2 (12B)
+2315,6,90,27,right,Luminous Extended,MPT-Chat (7B)
+2316,6,96,9,left,Mythalion 13B,Dolly v2 (12B)
+2317,6,90,96,right,Luminous Extended,Mythalion 13B
+2318,6,11,9,left,MythoMax-L2 (13B),Dolly v2 (12B)
+2319,6,11,90,left,MythoMax-L2 (13B),Luminous Extended
+2320,6,9,13,right,Dolly v2 (12B),Open-Assistant StableLM SFT-7 (7B)
+2321,6,90,13,right,Luminous Extended,Open-Assistant StableLM SFT-7 (7B)
+2322,6,9,94,right,Dolly v2 (12B),PaLM 2 Bison
+2323,6,94,90,left,PaLM 2 Bison,Luminous Extended
+2324,6,9,95,right,Dolly v2 (12B),PaLM 2 Bison (Code Chat)
+2325,6,95,90,left,PaLM 2 Bison (Code Chat),Luminous Extended
+2326,6,10,9,left,Platypus-2 Instruct (70B),Dolly v2 (12B)
+2327,6,90,10,right,Luminous Extended,Platypus-2 Instruct (70B)
+2328,6,9,2,right,Dolly v2 (12B),Pythia-Chat-Base (7B)
+2329,6,90,2,right,Luminous Extended,Pythia-Chat-Base (7B)
+2330,6,9,6,right,Dolly v2 (12B),Qwen-Chat (7B)
+2331,6,90,6,right,Luminous Extended,Qwen-Chat (7B)
+2332,6,99,9,left,ReMM SLERP L2 13B,Dolly v2 (12B)
+2333,6,90,99,right,Luminous Extended,ReMM SLERP L2 13B
+2334,6,9,1,right,Dolly v2 (12B),RedPajama-INCITE Chat (3B)
+2335,6,1,90,left,RedPajama-INCITE Chat (3B),Luminous Extended
+2336,6,25,9,right,Vicuna v1.3 (13B),Dolly v2 (12B)
+2337,6,90,25,right,Luminous Extended,Vicuna v1.3 (13B)
+2338,6,24,9,left,Vicuna v1.3 (7B),Dolly v2 (12B)
+2339,6,24,90,left,Vicuna v1.3 (7B),Luminous Extended
+2340,6,26,9,left,Vicuna v1.5 (13B),Dolly v2 (12B)
+2341,6,90,26,right,Luminous Extended,Vicuna v1.5 (13B)
+2342,6,21,9,left,Vicuna-FastChat-T5 (3B),Dolly v2 (12B)
+2343,6,90,21,right,Luminous Extended,Vicuna-FastChat-T5 (3B)
+2344,6,9,75,right,Dolly v2 (12B),command
+2345,6,75,90,left,command,Luminous Extended
+2346,6,75,98,right,command,Weaver 12k
+2347,6,76,9,left,command-light,Dolly v2 (12B)
+2348,6,90,76,right,Luminous Extended,command-light
+2349,6,98,76,left,Weaver 12k,command-light
+2350,6,9,79,right,Dolly v2 (12B),command-nightly
+2351,6,90,79,right,Luminous Extended,command-nightly
+2352,6,79,98,right,command-nightly,Weaver 12k
+2353,10,97,98,left,Airoboros L2 70B,Weaver 12k
+2354,10,29,98,left,Alpaca (7B),Weaver 12k
+2355,10,5,98,left,Chronos Hermes (13B),Weaver 12k
+2356,10,98,83,right,Weaver 12k,Claude Instant v1
+2357,10,98,101,right,Weaver 12k,Claude v1
+2358,10,98,100,right,Weaver 12k,Claude v1.2
+2359,10,84,98,left,Claude v2,Weaver 12k
+2360,10,19,98,left,Code Llama Instruct (13B),Weaver 12k
+2361,10,20,98,left,Code Llama Instruct (34B),Weaver 12k
+2362,10,98,18,right,Weaver 12k,Code Llama Instruct (7B)
+2363,10,9,98,left,Dolly v2 (12B),Weaver 12k
+2364,10,98,7,right,Weaver 12k,Dolly v2 (3B)
+2365,10,8,98,left,Dolly v2 (7B),Weaver 12k
+2366,10,98,31,right,Weaver 12k,Falcon Instruct (40B)
+2367,10,98,30,right,Weaver 12k,Falcon Instruct (7B)
+2368,10,81,98,left,GPT 3.5 Turbo,Weaver 12k
+2369,10,98,82,right,Weaver 12k,GPT 3.5 Turbo (16k)
+2370,10,80,98,left,GPT 4,Weaver 12k
+2371,10,98,4,right,Weaver 12k,GPT-NeoXT-Chat-Base (20B)
+2372,10,98,32,right,Weaver 12k,Guanaco (13B)
+2373,10,98,33,right,Weaver 12k,Guanaco (33B)
+2374,10,98,34,right,Weaver 12k,Guanaco (65B)
+2375,10,98,86,right,Weaver 12k,Jurassic 2 Mid
+2376,10,98,87,right,Weaver 12k,Jurassic 2 Ultra
+2377,10,23,98,left,Koala (13B),Weaver 12k
+2378,10,22,98,left,LLaMA 2 SFT v10 (70B),Weaver 12k
+2379,10,98,16,right,Weaver 12k,LLaMA-2-Chat (13B)
+2380,10,98,17,right,Weaver 12k,LLaMA-2-Chat (70B)
+2381,10,98,15,right,Weaver 12k,LLaMA-2-Chat (7B)
+2382,10,98,28,right,Weaver 12k,MPT-Chat (30B)
+2383,10,27,98,left,MPT-Chat (7B),Weaver 12k
+2384,10,98,96,right,Weaver 12k,Mythalion 13B
+2385,10,98,11,right,Weaver 12k,MythoMax-L2 (13B)
+2386,10,98,14,right,Weaver 12k,Open-Assistant Pythia SFT-4 (12B)
+2387,10,98,13,tie,Weaver 12k,Open-Assistant StableLM SFT-7 (7B)
+2388,10,98,94,right,Weaver 12k,PaLM 2 Bison
+2389,10,95,98,left,PaLM 2 Bison (Code Chat),Weaver 12k
+2390,10,10,98,left,Platypus-2 Instruct (70B),Weaver 12k
+2391,10,2,98,left,Pythia-Chat-Base (7B),Weaver 12k
+2392,10,6,98,left,Qwen-Chat (7B),Weaver 12k
+2393,10,98,99,right,Weaver 12k,ReMM SLERP L2 13B
+2394,10,1,98,right,RedPajama-INCITE Chat (3B),Weaver 12k
+2395,10,3,98,left,RedPajama-INCITE Chat (7B),Weaver 12k
+2396,10,98,25,right,Weaver 12k,Vicuna v1.3 (13B)
+2397,10,98,24,right,Weaver 12k,Vicuna v1.3 (7B)
+2398,10,98,26,right,Weaver 12k,Vicuna v1.5 (13B)
+2399,10,21,98,left,Vicuna-FastChat-T5 (3B),Weaver 12k
+2400,10,12,97,left,StarCoderChat Alpha (16B),Airoboros L2 70B
+2401,10,12,29,left,StarCoderChat Alpha (16B),Alpaca (7B)
+2402,10,12,5,left,StarCoderChat Alpha (16B),Chronos Hermes (13B)
+2403,10,12,83,left,StarCoderChat Alpha (16B),Claude Instant v1
+2404,10,12,101,left,StarCoderChat Alpha (16B),Claude v1
+2405,10,100,12,right,Claude v1.2,StarCoderChat Alpha (16B)
+2406,10,84,12,right,Claude v2,StarCoderChat Alpha (16B)
+2407,10,12,19,right,StarCoderChat Alpha (16B),Code Llama Instruct (13B)
+2408,10,18,12,left,Code Llama Instruct (7B),StarCoderChat Alpha (16B)
+2409,10,9,12,right,Dolly v2 (12B),StarCoderChat Alpha (16B)
+2410,10,7,12,right,Dolly v2 (3B),StarCoderChat Alpha (16B)
+2411,10,8,12,right,Dolly v2 (7B),StarCoderChat Alpha (16B)
+2412,10,31,12,right,Falcon Instruct (40B),StarCoderChat Alpha (16B)
+2413,10,12,30,left,StarCoderChat Alpha (16B),Falcon Instruct (7B)
+2414,10,12,81,left,StarCoderChat Alpha (16B),GPT 3.5 Turbo
+2415,10,82,12,right,GPT 3.5 Turbo (16k),StarCoderChat Alpha (16B)
+2416,10,80,12,right,GPT 4,StarCoderChat Alpha (16B)
+2417,10,12,4,left,StarCoderChat Alpha (16B),GPT-NeoXT-Chat-Base (20B)
+2418,10,12,32,right,StarCoderChat Alpha (16B),Guanaco (13B)
+2419,10,12,33,left,StarCoderChat Alpha (16B),Guanaco (33B)
+2420,10,34,12,left,Guanaco (65B),StarCoderChat Alpha (16B)
+2421,10,12,86,left,StarCoderChat Alpha (16B),Jurassic 2 Mid
+2422,10,12,87,left,StarCoderChat Alpha (16B),Jurassic 2 Ultra
+2423,10,22,12,left,LLaMA 2 SFT v10 (70B),StarCoderChat Alpha (16B)
+2424,10,16,12,right,LLaMA-2-Chat (13B),StarCoderChat Alpha (16B)
+2425,10,12,15,left,StarCoderChat Alpha (16B),LLaMA-2-Chat (7B)
+2426,10,28,12,tie,MPT-Chat (30B),StarCoderChat Alpha (16B)
+2427,10,12,27,right,StarCoderChat Alpha (16B),MPT-Chat (7B)
+2428,10,12,96,right,StarCoderChat Alpha (16B),Mythalion 13B
+2429,10,11,12,left,MythoMax-L2 (13B),StarCoderChat Alpha (16B)
+2430,10,13,12,right,Open-Assistant StableLM SFT-7 (7B),StarCoderChat Alpha (16B)
+2431,10,12,94,right,StarCoderChat Alpha (16B),PaLM 2 Bison
+2432,10,95,12,right,PaLM 2 Bison (Code Chat),StarCoderChat Alpha (16B)
+2433,10,12,10,left,StarCoderChat Alpha (16B),Platypus-2 Instruct (70B)
+2434,10,12,2,left,StarCoderChat Alpha (16B),Pythia-Chat-Base (7B)
+2435,10,6,12,right,Qwen-Chat (7B),StarCoderChat Alpha (16B)
+2436,10,99,12,right,ReMM SLERP L2 13B,StarCoderChat Alpha (16B)
+2437,10,1,12,right,RedPajama-INCITE Chat (3B),StarCoderChat Alpha (16B)
+2438,10,97,13,left,Airoboros L2 70B,Open-Assistant StableLM SFT-7 (7B)
+2439,10,13,29,right,Open-Assistant StableLM SFT-7 (7B),Alpaca (7B)
+2440,10,13,83,right,Open-Assistant StableLM SFT-7 (7B),Claude Instant v1
+2441,10,101,13,left,Claude v1,Open-Assistant StableLM SFT-7 (7B)
+2442,10,13,100,right,Open-Assistant StableLM SFT-7 (7B),Claude v1.2
+2443,10,84,13,left,Claude v2,Open-Assistant StableLM SFT-7 (7B)
+2444,10,13,19,right,Open-Assistant StableLM SFT-7 (7B),Code Llama Instruct (13B)
+2445,10,13,20,right,Open-Assistant StableLM SFT-7 (7B),Code Llama Instruct (34B)
+2446,10,18,13,left,Code Llama Instruct (7B),Open-Assistant StableLM SFT-7 (7B)
+2447,10,9,13,left,Dolly v2 (12B),Open-Assistant StableLM SFT-7 (7B)
+2448,10,13,7,tie,Open-Assistant StableLM SFT-7 (7B),Dolly v2 (3B)
+2449,10,13,8,tie,Open-Assistant StableLM SFT-7 (7B),Dolly v2 (7B)
+2450,10,31,13,left,Falcon Instruct (40B),Open-Assistant StableLM SFT-7 (7B)
+2451,10,30,13,left,Falcon Instruct (7B),Open-Assistant StableLM SFT-7 (7B)
+2452,10,13,81,right,Open-Assistant StableLM SFT-7 (7B),GPT 3.5 Turbo
+2453,10,13,82,right,Open-Assistant StableLM SFT-7 (7B),GPT 3.5 Turbo (16k)
+2454,10,13,80,right,Open-Assistant StableLM SFT-7 (7B),GPT 4
+2455,10,13,4,right,Open-Assistant StableLM SFT-7 (7B),GPT-NeoXT-Chat-Base (20B)
+2456,10,32,13,left,Guanaco (13B),Open-Assistant StableLM SFT-7 (7B)
+2457,10,34,13,left,Guanaco (65B),Open-Assistant StableLM SFT-7 (7B)
+2458,10,13,86,right,Open-Assistant StableLM SFT-7 (7B),Jurassic 2 Mid
+2459,10,13,87,right,Open-Assistant StableLM SFT-7 (7B),Jurassic 2 Ultra
+2460,10,23,13,left,Koala (13B),Open-Assistant StableLM SFT-7 (7B)
+2461,10,22,13,left,LLaMA 2 SFT v10 (70B),Open-Assistant StableLM SFT-7 (7B)
+2462,10,13,17,right,Open-Assistant StableLM SFT-7 (7B),LLaMA-2-Chat (70B)
+2463,10,28,13,left,MPT-Chat (30B),Open-Assistant StableLM SFT-7 (7B)
+2464,10,13,27,right,Open-Assistant StableLM SFT-7 (7B),MPT-Chat (7B)
+2465,10,13,96,right,Open-Assistant StableLM SFT-7 (7B),Mythalion 13B
+2466,10,11,13,left,MythoMax-L2 (13B),Open-Assistant StableLM SFT-7 (7B)
+2467,10,21,5,right,Vicuna-FastChat-T5 (3B),Chronos Hermes (13B)
+2468,10,21,20,right,Vicuna-FastChat-T5 (3B),Code Llama Instruct (34B)
+2469,10,21,33,right,Vicuna-FastChat-T5 (3B),Guanaco (33B)
+2470,10,21,23,right,Vicuna-FastChat-T5 (3B),Koala (13B)
+2471,10,16,21,left,LLaMA-2-Chat (13B),Vicuna-FastChat-T5 (3B)
+2472,10,17,21,left,LLaMA-2-Chat (70B),Vicuna-FastChat-T5 (3B)
+2473,10,15,21,left,LLaMA-2-Chat (7B),Vicuna-FastChat-T5 (3B)
+2474,10,14,21,left,Open-Assistant Pythia SFT-4 (12B),Vicuna-FastChat-T5 (3B)
+2475,10,21,13,tie,Vicuna-FastChat-T5 (3B),Open-Assistant StableLM SFT-7 (7B)
+2476,10,21,3,right,Vicuna-FastChat-T5 (3B),RedPajama-INCITE Chat (7B)
+2477,10,21,12,right,Vicuna-FastChat-T5 (3B),StarCoderChat Alpha (16B)
+2478,10,14,8,left,Open-Assistant Pythia SFT-4 (12B),Dolly v2 (7B)
+2479,10,8,3,right,Dolly v2 (7B),RedPajama-INCITE Chat (7B)
+2480,10,94,13,left,PaLM 2 Bison,Open-Assistant StableLM SFT-7 (7B)
+2481,10,95,13,left,PaLM 2 Bison (Code Chat),Open-Assistant StableLM SFT-7 (7B)
+2482,10,10,13,left,Platypus-2 Instruct (70B),Open-Assistant StableLM SFT-7 (7B)
+2483,10,2,13,left,Pythia-Chat-Base (7B),Open-Assistant StableLM SFT-7 (7B)
+2484,10,6,13,tie,Qwen-Chat (7B),Open-Assistant StableLM SFT-7 (7B)
+2485,10,99,13,left,ReMM SLERP L2 13B,Open-Assistant StableLM SFT-7 (7B)
+2486,10,1,13,tie,RedPajama-INCITE Chat (3B),Open-Assistant StableLM SFT-7 (7B)
+2487,10,25,13,left,Vicuna v1.3 (13B),Open-Assistant StableLM SFT-7 (7B)
+2488,10,25,12,right,Vicuna v1.3 (13B),StarCoderChat Alpha (16B)
+2489,10,13,24,right,Open-Assistant StableLM SFT-7 (7B),Vicuna v1.3 (7B)
+2490,10,24,12,right,Vicuna v1.3 (7B),StarCoderChat Alpha (16B)
+2491,10,13,26,right,Open-Assistant StableLM SFT-7 (7B),Vicuna v1.5 (13B)
+2492,10,12,26,left,StarCoderChat Alpha (16B),Vicuna v1.5 (13B)
+2493,10,13,75,right,Open-Assistant StableLM SFT-7 (7B),command
+2494,10,21,75,right,Vicuna-FastChat-T5 (3B),command
+2495,10,75,98,left,command,Weaver 12k
+2496,10,76,13,left,command-light,Open-Assistant StableLM SFT-7 (7B)
+2497,10,76,12,right,command-light,StarCoderChat Alpha (16B)
+2498,10,98,76,right,Weaver 12k,command-light
+2499,10,79,13,left,command-nightly,Open-Assistant StableLM SFT-7 (7B)
+2500,10,12,79,left,StarCoderChat Alpha (16B),command-nightly
+2501,10,98,79,right,Weaver 12k,command-nightly
+2502,7,97,98,left,Airoboros L2 70B,Weaver 12k
+2503,7,29,98,right,Alpaca (7B),Weaver 12k
+2504,7,5,98,left,Chronos Hermes (13B),Weaver 12k
+2505,7,98,83,right,Weaver 12k,Claude Instant v1
+2506,7,101,98,left,Claude v1,Weaver 12k
+2507,7,98,100,right,Weaver 12k,Claude v1.2
+2508,7,98,84,right,Weaver 12k,Claude v2
+2509,7,98,19,right,Weaver 12k,Code Llama Instruct (13B)
+2510,7,98,20,right,Weaver 12k,Code Llama Instruct (34B)
+2511,7,98,18,right,Weaver 12k,Code Llama Instruct (7B)
+2512,7,98,9,right,Weaver 12k,Dolly v2 (12B)
+2513,7,7,98,left,Dolly v2 (3B),Weaver 12k
+2514,7,8,98,right,Dolly v2 (7B),Weaver 12k
+2515,7,98,31,right,Weaver 12k,Falcon Instruct (40B)
+2516,7,30,98,right,Falcon Instruct (7B),Weaver 12k
+2517,7,81,98,left,GPT 3.5 Turbo,Weaver 12k
+2518,7,98,82,right,Weaver 12k,GPT 3.5 Turbo (16k)
+2519,7,80,98,left,GPT 4,Weaver 12k
+2520,7,4,98,right,GPT-NeoXT-Chat-Base (20B),Weaver 12k
+2521,7,98,32,left,Weaver 12k,Guanaco (13B)
+2522,7,33,98,left,Guanaco (33B),Weaver 12k
+2523,7,98,85,left,Weaver 12k,Jurassic 2 Light
+2524,7,86,98,left,Jurassic 2 Mid,Weaver 12k
+2525,7,87,98,right,Jurassic 2 Ultra,Weaver 12k
+2526,7,98,23,right,Weaver 12k,Koala (13B)
+2527,7,22,98,left,LLaMA 2 SFT v10 (70B),Weaver 12k
+2528,7,16,98,left,LLaMA-2-Chat (13B),Weaver 12k
+2529,7,98,17,right,Weaver 12k,LLaMA-2-Chat (70B)
+2530,7,15,98,left,LLaMA-2-Chat (7B),Weaver 12k
+2531,7,98,93,right,Weaver 12k,Luminous Base Control
+2532,7,90,98,right,Luminous Extended,Weaver 12k
+2533,7,98,92,right,Weaver 12k,Luminous Extended Control
+2534,7,89,98,left,Luminous Supreme Control,Weaver 12k
+2535,7,28,98,right,MPT-Chat (30B),Weaver 12k
+2536,7,98,27,left,Weaver 12k,MPT-Chat (7B)
+2537,7,96,98,right,Mythalion 13B,Weaver 12k
+2538,7,11,98,left,MythoMax-L2 (13B),Weaver 12k
+2539,7,14,98,right,Open-Assistant Pythia SFT-4 (12B),Weaver 12k
+2540,7,98,13,right,Weaver 12k,Open-Assistant StableLM SFT-7 (7B)
+2541,7,98,94,right,Weaver 12k,PaLM 2 Bison
+2542,7,98,95,right,Weaver 12k,PaLM 2 Bison (Code Chat)
+2543,7,10,98,left,Platypus-2 Instruct (70B),Weaver 12k
+2544,7,98,2,right,Weaver 12k,Pythia-Chat-Base (7B)
+2545,7,6,98,right,Qwen-Chat (7B),Weaver 12k
+2546,7,99,98,left,ReMM SLERP L2 13B,Weaver 12k
+2547,7,98,1,right,Weaver 12k,RedPajama-INCITE Chat (3B)
+2548,7,3,98,right,RedPajama-INCITE Chat (7B),Weaver 12k
+2549,7,12,98,right,StarCoderChat Alpha (16B),Weaver 12k
+2550,7,25,98,left,Vicuna v1.3 (13B),Weaver 12k
+2551,7,24,98,right,Vicuna v1.3 (7B),Weaver 12k
+2552,7,98,26,right,Weaver 12k,Vicuna v1.5 (13B)
+2553,7,21,98,right,Vicuna-FastChat-T5 (3B),Weaver 12k
+2554,7,97,7,left,Airoboros L2 70B,Dolly v2 (3B)
+2555,7,23,97,right,Koala (13B),Airoboros L2 70B
+2556,7,23,34,right,Koala (13B),Guanaco (65B)
+2557,7,76,29,right,command-light,Alpaca (7B)
+2558,7,5,76,left,Chronos Hermes (13B),command-light
+2559,7,83,76,left,Claude Instant v1,command-light
+2560,7,76,101,right,command-light,Claude v1
+2561,7,76,100,right,command-light,Claude v1.2
+2562,7,84,76,left,Claude v2,command-light
+2563,7,19,76,left,Code Llama Instruct (13B),command-light
+2564,7,20,76,left,Code Llama Instruct (34B),command-light
+2565,7,76,18,right,command-light,Code Llama Instruct (7B)
+2566,7,9,76,left,Dolly v2 (12B),command-light
+2567,7,7,76,right,Dolly v2 (3B),command-light
+2568,7,76,8,right,command-light,Dolly v2 (7B)
+2569,7,76,31,right,command-light,Falcon Instruct (40B)
+2570,7,76,30,right,command-light,Falcon Instruct (7B)
+2571,7,81,76,left,GPT 3.5 Turbo,command-light
+2572,7,82,76,left,GPT 3.5 Turbo (16k),command-light
+2573,7,80,76,left,GPT 4,command-light
+2574,7,76,4,right,command-light,GPT-NeoXT-Chat-Base (20B)
+2575,7,32,76,left,Guanaco (13B),command-light
+2576,7,33,76,left,Guanaco (33B),command-light
+2577,7,85,76,right,Jurassic 2 Light,command-light
+2578,7,86,76,left,Jurassic 2 Mid,command-light
+2579,7,87,76,right,Jurassic 2 Ultra,command-light
+2580,7,76,23,right,command-light,Koala (13B)
+2581,7,76,22,right,command-light,LLaMA 2 SFT v10 (70B)
+2582,7,16,76,left,LLaMA-2-Chat (13B),command-light
+2583,7,76,17,right,command-light,LLaMA-2-Chat (70B)
+2584,7,76,15,right,command-light,LLaMA-2-Chat (7B)
+2585,7,76,93,right,command-light,Luminous Base Control
+2586,7,92,76,left,Luminous Extended Control,command-light
+2587,7,89,76,left,Luminous Supreme Control,command-light
+2588,7,76,28,right,command-light,MPT-Chat (30B)
+2589,7,27,76,left,MPT-Chat (7B),command-light
+2590,7,76,96,right,command-light,Mythalion 13B
+2591,7,11,76,left,MythoMax-L2 (13B),command-light
+2592,7,76,14,left,command-light,Open-Assistant Pythia SFT-4 (12B)
+2593,7,13,76,left,Open-Assistant StableLM SFT-7 (7B),command-light
+2594,7,76,94,right,command-light,PaLM 2 Bison
+2595,7,95,76,left,PaLM 2 Bison (Code Chat),command-light
+2596,7,10,76,left,Platypus-2 Instruct (70B),command-light
+2597,7,76,2,left,command-light,Pythia-Chat-Base (7B)
+2598,7,6,76,left,Qwen-Chat (7B),command-light
+2599,7,76,99,right,command-light,ReMM SLERP L2 13B
+2600,7,76,1,tie,command-light,RedPajama-INCITE Chat (3B)
+2601,7,76,3,right,command-light,RedPajama-INCITE Chat (7B)
+2602,7,76,12,right,command-light,StarCoderChat Alpha (16B)
+2603,7,25,76,left,Vicuna v1.3 (13B),command-light
+2604,7,24,76,left,Vicuna v1.3 (7B),command-light
+2605,7,26,76,left,Vicuna v1.5 (13B),command-light
+2606,7,76,21,right,command-light,Vicuna-FastChat-T5 (3B)
+2607,7,76,75,right,command-light,command
+2608,7,29,88,left,Alpaca (7B),Luminous Supreme
+2609,7,5,88,left,Chronos Hermes (13B),Luminous Supreme
+2610,7,101,88,left,Claude v1,Luminous Supreme
+2611,7,88,100,right,Luminous Supreme,Claude v1.2
+2612,7,84,88,left,Claude v2,Luminous Supreme
+2613,7,19,88,left,Code Llama Instruct (13B),Luminous Supreme
+2614,7,88,20,right,Luminous Supreme,Code Llama Instruct (34B)
+2615,7,88,18,right,Luminous Supreme,Code Llama Instruct (7B)
+2616,7,88,9,right,Luminous Supreme,Dolly v2 (12B)
+2617,7,88,7,tie,Luminous Supreme,Dolly v2 (3B)
+2618,7,31,88,left,Falcon Instruct (40B),Luminous Supreme
+2619,7,88,30,right,Luminous Supreme,Falcon Instruct (7B)
+2620,7,81,88,left,GPT 3.5 Turbo,Luminous Supreme
+2621,7,88,82,right,Luminous Supreme,GPT 3.5 Turbo (16k)
+2622,7,80,88,left,GPT 4,Luminous Supreme
+2623,7,88,4,right,Luminous Supreme,GPT-NeoXT-Chat-Base (20B)
+2624,7,88,33,right,Luminous Supreme,Guanaco (33B)
+2625,7,86,88,left,Jurassic 2 Mid,Luminous Supreme
+2626,7,88,87,right,Luminous Supreme,Jurassic 2 Ultra
+2627,7,88,23,tie,Luminous Supreme,Koala (13B)
+2628,7,88,22,right,Luminous Supreme,LLaMA 2 SFT v10 (70B)
+2629,7,88,16,right,Luminous Supreme,LLaMA-2-Chat (13B)
+2630,7,17,88,left,LLaMA-2-Chat (70B),Luminous Supreme
+2631,7,88,93,tie,Luminous Supreme,Luminous Base Control
+2632,7,88,92,right,Luminous Supreme,Luminous Extended Control
+2633,7,83,34,right,Claude Instant v1,Guanaco (65B)
+2634,7,7,34,right,Dolly v2 (3B),Guanaco (65B)
+2635,7,34,8,left,Guanaco (65B),Dolly v2 (7B)
+2636,7,7,91,left,Dolly v2 (3B),Luminous Base
+2637,7,91,32,right,Luminous Base,Guanaco (13B)
+2638,7,23,91,left,Koala (13B),Luminous Base
+2639,7,91,15,right,Luminous Base,LLaMA-2-Chat (7B)
+2640,7,90,7,left,Luminous Extended,Dolly v2 (3B)
+2641,7,90,23,tie,Luminous Extended,Koala (13B)
+2642,7,7,89,right,Dolly v2 (3B),Luminous Supreme Control
+2643,7,85,34,right,Jurassic 2 Light,Guanaco (65B)
+2644,7,34,1,left,Guanaco (65B),RedPajama-INCITE Chat (3B)
+2645,7,13,91,left,Open-Assistant StableLM SFT-7 (7B),Luminous Base
+2646,7,88,13,right,Luminous Supreme,Open-Assistant StableLM SFT-7 (7B)
+2647,7,91,27,tie,Luminous Base,MPT-Chat (7B)
+2648,7,10,91,left,Platypus-2 Instruct (70B),Luminous Base
+2649,7,91,75,left,Luminous Base,command
+2650,7,98,75,left,Weaver 12k,command
+2651,7,28,88,tie,MPT-Chat (30B),Luminous Supreme
+2652,7,88,96,right,Luminous Supreme,Mythalion 13B
+2653,7,11,88,left,MythoMax-L2 (13B),Luminous Supreme
+2654,7,88,14,right,Luminous Supreme,Open-Assistant Pythia SFT-4 (12B)
+2655,7,94,88,left,PaLM 2 Bison,Luminous Supreme
+2656,7,88,95,right,Luminous Supreme,PaLM 2 Bison (Code Chat)
+2657,7,88,2,right,Luminous Supreme,Pythia-Chat-Base (7B)
+2658,7,88,6,right,Luminous Supreme,Qwen-Chat (7B)
+2659,7,88,99,right,Luminous Supreme,ReMM SLERP L2 13B
+2660,7,88,3,right,Luminous Supreme,RedPajama-INCITE Chat (7B)
+2661,7,88,12,right,Luminous Supreme,StarCoderChat Alpha (16B)
+2662,7,88,25,right,Luminous Supreme,Vicuna v1.3 (13B)
+2663,7,88,24,right,Luminous Supreme,Vicuna v1.3 (7B)
+2664,7,26,88,left,Vicuna v1.5 (13B),Luminous Supreme
+2665,7,21,88,tie,Vicuna-FastChat-T5 (3B),Luminous Supreme
+2666,7,79,88,left,command-nightly,Luminous Supreme
+2667,7,98,79,right,Weaver 12k,command-nightly
+2668,7,76,79,right,command-light,command-nightly
+3071,12,81,97,left,GPT 3.5 Turbo,Airoboros L2 70B
+3072,12,29,81,right,Alpaca (7B),GPT 3.5 Turbo
+3073,12,81,5,left,GPT 3.5 Turbo,Chronos Hermes (13B)
+3074,12,81,83,left,GPT 3.5 Turbo,Claude Instant v1
+3075,12,101,81,right,Claude v1,GPT 3.5 Turbo
+3076,12,84,81,right,Claude v2,GPT 3.5 Turbo
+3077,12,81,19,left,GPT 3.5 Turbo,Code Llama Instruct (13B)
+3078,12,81,20,left,GPT 3.5 Turbo,Code Llama Instruct (34B)
+3079,12,18,81,right,Code Llama Instruct (7B),GPT 3.5 Turbo
+3080,12,81,9,left,GPT 3.5 Turbo,Dolly v2 (12B)
+3081,12,7,81,right,Dolly v2 (3B),GPT 3.5 Turbo
+3082,12,8,81,right,Dolly v2 (7B),GPT 3.5 Turbo
+3083,12,81,31,left,GPT 3.5 Turbo,Falcon Instruct (40B)
+3084,12,81,30,left,GPT 3.5 Turbo,Falcon Instruct (7B)
+3085,12,97,82,right,Airoboros L2 70B,GPT 3.5 Turbo (16k)
+3086,12,29,82,right,Alpaca (7B),GPT 3.5 Turbo (16k)
+3087,12,5,82,right,Chronos Hermes (13B),GPT 3.5 Turbo (16k)
+3088,12,83,82,right,Claude Instant v1,GPT 3.5 Turbo (16k)
+3089,12,101,82,right,Claude v1,GPT 3.5 Turbo (16k)
+3090,12,82,84,left,GPT 3.5 Turbo (16k),Claude v2
+3091,12,82,19,left,GPT 3.5 Turbo (16k),Code Llama Instruct (13B)
+3092,12,20,82,right,Code Llama Instruct (34B),GPT 3.5 Turbo (16k)
+3093,12,82,18,left,GPT 3.5 Turbo (16k),Code Llama Instruct (7B)
+3094,12,82,9,left,GPT 3.5 Turbo (16k),Dolly v2 (12B)
+3095,12,82,7,left,GPT 3.5 Turbo (16k),Dolly v2 (3B)
+3096,12,8,82,right,Dolly v2 (7B),GPT 3.5 Turbo (16k)
+3097,12,82,31,left,GPT 3.5 Turbo (16k),Falcon Instruct (40B)
+3098,12,82,30,left,GPT 3.5 Turbo (16k),Falcon Instruct (7B)
+3099,12,97,19,left,Airoboros L2 70B,Code Llama Instruct (13B)
+3100,12,19,83,right,Code Llama Instruct (13B),Claude Instant v1
+3101,12,19,100,right,Code Llama Instruct (13B),Claude v1.2
+3102,12,29,100,right,Alpaca (7B),Claude v1.2
+3103,12,100,101,left,Claude v1.2,Claude v1
+3104,12,5,98,left,Chronos Hermes (13B),Weaver 12k
+3105,12,84,98,left,Claude v2,Weaver 12k
+3106,12,19,98,right,Code Llama Instruct (13B),Weaver 12k
+3107,12,98,18,left,Weaver 12k,Code Llama Instruct (7B)
+3108,12,98,8,left,Weaver 12k,Dolly v2 (7B)
+3109,12,98,32,right,Weaver 12k,Guanaco (13B)
+3110,12,98,33,right,Weaver 12k,Guanaco (33B)
+3111,12,98,34,right,Weaver 12k,Guanaco (65B)
+3112,12,98,16,right,Weaver 12k,LLaMA-2-Chat (13B)
+3113,12,15,98,left,LLaMA-2-Chat (7B),Weaver 12k
+3114,12,98,14,left,Weaver 12k,Open-Assistant Pythia SFT-4 (12B)
+3115,12,13,98,left,Open-Assistant StableLM SFT-7 (7B),Weaver 12k
+3116,12,98,3,right,Weaver 12k,RedPajama-INCITE Chat (7B)
+3117,12,18,100,right,Code Llama Instruct (7B),Claude v1.2
+3118,12,8,100,right,Dolly v2 (7B),Claude v1.2
+3119,12,100,20,left,Claude v1.2,Code Llama Instruct (34B)
+3120,12,100,9,left,Claude v1.2,Dolly v2 (12B)
+3121,12,7,100,right,Dolly v2 (3B),Claude v1.2
+3122,12,100,31,left,Claude v1.2,Falcon Instruct (40B)
+3123,12,100,30,left,Claude v1.2,Falcon Instruct (7B)
+3124,12,100,85,left,Claude v1.2,Jurassic 2 Light
+3125,12,85,81,right,Jurassic 2 Light,GPT 3.5 Turbo
+3126,12,82,85,left,GPT 3.5 Turbo (16k),Jurassic 2 Light
+3127,12,100,86,left,Claude v1.2,Jurassic 2 Mid
+3128,12,86,81,right,Jurassic 2 Mid,GPT 3.5 Turbo
+3129,12,86,82,right,Jurassic 2 Mid,GPT 3.5 Turbo (16k)
+3130,12,87,100,right,Jurassic 2 Ultra,Claude v1.2
+3131,12,87,81,right,Jurassic 2 Ultra,GPT 3.5 Turbo
+3132,12,82,87,left,GPT 3.5 Turbo (16k),Jurassic 2 Ultra
+3133,12,100,23,left,Claude v1.2,Koala (13B)
+3134,12,23,81,right,Koala (13B),GPT 3.5 Turbo
+3135,12,82,23,left,GPT 3.5 Turbo (16k),Koala (13B)
+3136,12,100,22,left,Claude v1.2,LLaMA 2 SFT v10 (70B)
+3137,12,81,22,left,GPT 3.5 Turbo,LLaMA 2 SFT v10 (70B)
+3138,12,82,22,left,GPT 3.5 Turbo (16k),LLaMA 2 SFT v10 (70B)
+3139,12,17,100,right,LLaMA-2-Chat (70B),Claude v1.2
+3140,12,17,81,right,LLaMA-2-Chat (70B),GPT 3.5 Turbo
+3141,12,82,17,left,GPT 3.5 Turbo (16k),LLaMA-2-Chat (70B)
+3142,12,93,100,right,Luminous Base Control,Claude v1.2
+3143,12,81,93,left,GPT 3.5 Turbo,Luminous Base Control
+3144,12,93,82,right,Luminous Base Control,GPT 3.5 Turbo (16k)
+3145,12,90,100,right,Luminous Extended,Claude v1.2
+3146,12,90,81,right,Luminous Extended,GPT 3.5 Turbo
+3147,12,90,82,right,Luminous Extended,GPT 3.5 Turbo (16k)
+3148,12,100,92,left,Claude v1.2,Luminous Extended Control
+3149,12,81,92,left,GPT 3.5 Turbo,Luminous Extended Control
+3150,12,92,82,right,Luminous Extended Control,GPT 3.5 Turbo (16k)
+3151,12,100,89,left,Claude v1.2,Luminous Supreme Control
+3152,12,89,81,right,Luminous Supreme Control,GPT 3.5 Turbo
+3153,12,89,82,right,Luminous Supreme Control,GPT 3.5 Turbo (16k)
+3154,12,100,28,left,Claude v1.2,MPT-Chat (30B)
+3155,12,28,81,right,MPT-Chat (30B),GPT 3.5 Turbo
+3156,12,28,82,right,MPT-Chat (30B),GPT 3.5 Turbo (16k)
+3157,12,27,100,right,MPT-Chat (7B),Claude v1.2
+3158,12,81,27,left,GPT 3.5 Turbo,MPT-Chat (7B)
+3159,12,82,27,left,GPT 3.5 Turbo (16k),MPT-Chat (7B)
+3160,12,100,94,left,Claude v1.2,PaLM 2 Bison
+3161,12,81,94,left,GPT 3.5 Turbo,PaLM 2 Bison
+3162,12,82,94,left,GPT 3.5 Turbo (16k),PaLM 2 Bison
+3163,12,100,10,left,Claude v1.2,Platypus-2 Instruct (70B)
+3164,12,10,81,right,Platypus-2 Instruct (70B),GPT 3.5 Turbo
+3165,12,10,82,right,Platypus-2 Instruct (70B),GPT 3.5 Turbo (16k)
+3166,12,100,2,left,Claude v1.2,Pythia-Chat-Base (7B)
+3167,12,2,81,right,Pythia-Chat-Base (7B),GPT 3.5 Turbo
+3168,12,2,82,right,Pythia-Chat-Base (7B),GPT 3.5 Turbo (16k)
+3169,12,100,1,left,Claude v1.2,RedPajama-INCITE Chat (3B)
+3170,12,81,1,left,GPT 3.5 Turbo,RedPajama-INCITE Chat (3B)
+3171,12,1,82,right,RedPajama-INCITE Chat (3B),GPT 3.5 Turbo (16k)
+3172,12,12,100,right,StarCoderChat Alpha (16B),Claude v1.2
+3173,12,12,81,right,StarCoderChat Alpha (16B),GPT 3.5 Turbo
+3174,12,82,12,left,GPT 3.5 Turbo (16k),StarCoderChat Alpha (16B)
+3175,12,100,25,left,Claude v1.2,Vicuna v1.3 (13B)
+3176,12,81,25,left,GPT 3.5 Turbo,Vicuna v1.3 (13B)
+3177,12,82,25,left,GPT 3.5 Turbo (16k),Vicuna v1.3 (13B)
+3178,12,100,24,left,Claude v1.2,Vicuna v1.3 (7B)
+3179,12,24,81,right,Vicuna v1.3 (7B),GPT 3.5 Turbo
+3180,12,82,24,left,GPT 3.5 Turbo (16k),Vicuna v1.3 (7B)
+3181,12,100,21,left,Claude v1.2,Vicuna-FastChat-T5 (3B)
+3182,12,21,81,right,Vicuna-FastChat-T5 (3B),GPT 3.5 Turbo
+3183,12,21,82,right,Vicuna-FastChat-T5 (3B),GPT 3.5 Turbo (16k)
+3184,12,19,80,right,Code Llama Instruct (13B),GPT 4
+3185,12,80,18,left,GPT 4,Code Llama Instruct (7B)
+3186,12,80,81,right,GPT 4,GPT 3.5 Turbo
+3187,12,4,19,right,GPT-NeoXT-Chat-Base (20B),Code Llama Instruct (13B)
+3188,12,4,81,right,GPT-NeoXT-Chat-Base (20B),GPT 3.5 Turbo
+3189,12,4,82,right,GPT-NeoXT-Chat-Base (20B),GPT 3.5 Turbo (16k)
+3190,12,91,19,right,Luminous Base,Code Llama Instruct (13B)
+3191,12,91,81,right,Luminous Base,GPT 3.5 Turbo
+3192,12,82,91,left,GPT 3.5 Turbo (16k),Luminous Base
+3193,12,19,88,tie,Code Llama Instruct (13B),Luminous Supreme
+3194,12,88,81,right,Luminous Supreme,GPT 3.5 Turbo
+3195,12,88,82,right,Luminous Supreme,GPT 3.5 Turbo (16k)
+3196,12,11,19,left,MythoMax-L2 (13B),Code Llama Instruct (13B)
+3197,12,11,81,right,MythoMax-L2 (13B),GPT 3.5 Turbo
+3198,12,11,82,right,MythoMax-L2 (13B),GPT 3.5 Turbo (16k)
+3199,12,19,95,right,Code Llama Instruct (13B),PaLM 2 Bison (Code Chat)
+3200,12,81,95,left,GPT 3.5 Turbo,PaLM 2 Bison (Code Chat)
+3201,12,82,95,left,GPT 3.5 Turbo (16k),PaLM 2 Bison (Code Chat)
+3202,12,19,6,right,Code Llama Instruct (13B),Qwen-Chat (7B)
+3203,12,6,81,right,Qwen-Chat (7B),GPT 3.5 Turbo
+3204,12,82,6,left,GPT 3.5 Turbo (16k),Qwen-Chat (7B)
+3205,12,99,19,left,ReMM SLERP L2 13B,Code Llama Instruct (13B)
+3206,12,99,81,right,ReMM SLERP L2 13B,GPT 3.5 Turbo
+3207,12,99,82,right,ReMM SLERP L2 13B,GPT 3.5 Turbo (16k)
+3208,12,19,26,right,Code Llama Instruct (13B),Vicuna v1.5 (13B)
+3209,12,26,81,right,Vicuna v1.5 (13B),GPT 3.5 Turbo
+3210,12,82,26,left,GPT 3.5 Turbo (16k),Vicuna v1.5 (13B)
+3211,12,75,19,left,command,Code Llama Instruct (13B)
+3212,12,75,81,right,command,GPT 3.5 Turbo
+3213,12,75,82,right,command,GPT 3.5 Turbo (16k)
+3214,12,32,81,right,Guanaco (13B),GPT 3.5 Turbo
+3215,12,82,32,left,GPT 3.5 Turbo (16k),Guanaco (13B)
+3216,12,81,33,left,GPT 3.5 Turbo,Guanaco (33B)
+3217,12,82,33,left,GPT 3.5 Turbo (16k),Guanaco (33B)
+3218,12,81,34,left,GPT 3.5 Turbo,Guanaco (65B)
+3219,12,82,34,left,GPT 3.5 Turbo (16k),Guanaco (65B)
+3220,12,81,16,left,GPT 3.5 Turbo,LLaMA-2-Chat (13B)
+3221,12,82,16,left,GPT 3.5 Turbo (16k),LLaMA-2-Chat (13B)
+3222,12,81,15,left,GPT 3.5 Turbo,LLaMA-2-Chat (7B)
+3223,12,82,15,left,GPT 3.5 Turbo (16k),LLaMA-2-Chat (7B)
+3224,12,81,14,left,GPT 3.5 Turbo,Open-Assistant Pythia SFT-4 (12B)
+3225,12,82,14,left,GPT 3.5 Turbo (16k),Open-Assistant Pythia SFT-4 (12B)
+3226,12,81,13,left,GPT 3.5 Turbo,Open-Assistant StableLM SFT-7 (7B)
+3227,12,82,13,left,GPT 3.5 Turbo (16k),Open-Assistant StableLM SFT-7 (7B)
+3228,12,81,3,left,GPT 3.5 Turbo,RedPajama-INCITE Chat (7B)
+3229,12,82,3,left,GPT 3.5 Turbo (16k),RedPajama-INCITE Chat (7B)
+3230,12,81,76,left,GPT 3.5 Turbo,command-light
+3231,12,76,82,right,command-light,GPT 3.5 Turbo (16k)
+3232,12,76,98,left,command-light,Weaver 12k
+3233,12,81,79,left,GPT 3.5 Turbo,command-nightly
+3234,12,82,79,left,GPT 3.5 Turbo (16k),command-nightly
+3235,12,98,79,right,Weaver 12k,command-nightly
