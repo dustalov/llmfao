@@ -48,6 +48,7 @@ After obtaining the responses from GPT models, it is possible to transform them 
 ./transform.py gpt4-comparisons \
     --pairs pairs-crowd.jsonl \
     --output gpt4-crowd-comparisons.csv  # generates gpt4-crowd-comparisons.csv (makes no API requests)
+./transform.py aggregated  # generates aggregated-crowd-comparisons.csv
 ```
 
 [CC&nbsp;BY 4.0]: LICENSE.CC-BY

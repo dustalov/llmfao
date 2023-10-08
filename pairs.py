@@ -4,11 +4,11 @@ __author__ = 'Dmitry Ustalov'
 __license__ = 'GPL-3.0-or-later'
 
 import argparse
-import random
 import typing
 from collections import defaultdict, Counter
 from functools import partial
 from operator import itemgetter
+from random import Random
 
 import networkx as nx
 import pandas as pd
@@ -86,7 +86,7 @@ def main() -> None:
     del df_pairs['lmodel'], df_pairs['rmodel']
     del df_pairs['prompt_x'], df_pairs['prompt_y']
 
-    rng = random.Random(args.seed)
+    rng = Random(args.seed)
 
     df_pairs['swap'] = [rng.choice([True, False]) for _ in range(len(df_pairs))]
 
