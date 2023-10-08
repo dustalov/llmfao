@@ -10,8 +10,6 @@ from typing import Dict, List
 import pandas as pd
 
 
-# https://github.com/openai/openai-cookbook/blob/main/examples/api_request_parallel_processor.py
-
 def build_metadata(row: pd.Series) -> Dict[str, int]:
     return {
         'id': row['id'],
