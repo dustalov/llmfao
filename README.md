@@ -12,8 +12,8 @@ All the code is released under the [GPLv3+] license, but if you use only the dat
 
 ```shell
 ./pairs.py  # generates pairs.jsonl and pairs-crowd.jsonl
-./requests.py gpt3-requests  # generates gpt3.jsonl (makes no API requests)
-./requests.py gpt4-requests  # generates gpt4.jsonl (makes no API requests)
+./transform.py gpt3-requests  # generates gpt3.jsonl (makes no API requests)
+./transform.py gpt4-requests  # generates gpt4.jsonl (makes no API requests)
 ```
 
 The generated `gpt3.jsonl` and `gpt4.jsonl` files can be used to make requests to the OpenAI API via [api_request_parallel_processor.py](https://github.com/openai/openai-cookbook/blob/main/examples/api_request_parallel_processor.py) (not included here).
@@ -40,8 +40,8 @@ python3 api_request_parallel_processor.py \
 After obtaining the responses from GPT models, it is possible to transform them into comparisons.
 
 ```shell
-./requests.py gpt3-comparisons  # transforms GPT-3 responses into a CSV with comparisons (makes no API requests)
-./requests.py gpt4-comparisons  # transforms GPT-4 responses into a CSV with comparisons (makes no API requests)
+./transform.py gpt3-comparisons  # transforms GPT-3 responses into a CSV with comparisons (makes no API requests)
+./transform.py gpt4-comparisons  # transforms GPT-4 responses into a CSV with comparisons (makes no API requests)
 ```
 
 [CC&nbsp;BY 4.0]: LICENSE.CC-BY
