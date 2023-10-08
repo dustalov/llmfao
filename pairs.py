@@ -46,7 +46,7 @@ def main() -> None:
     parser.add_argument('--models', type=argparse.FileType('rb'), default='models.jsonl')
     parser.add_argument('--results', type=argparse.FileType('rb'), default='results.jsonl')
     parser.add_argument('--pairs', type=argparse.FileType('wb'), default='pairs.jsonl')
-    parser.add_argument('--pairs-basic', type=argparse.FileType('wb'), default='pairs-basic.jsonl')
+    parser.add_argument('--pairs-crowd', type=argparse.FileType('wb'), default='pairs-crowd.jsonl')
     parser.add_argument('-n', '--neighbors', type=int, default=3)
     parser.add_argument('--seed', type=int, default=0)
 
@@ -106,7 +106,7 @@ def main() -> None:
     df_pairs.to_json(args.pairs, orient='records', lines=True)
 
     df_pairs = df_pairs[(df_pairs['type'] != 'code') & ~(df_pairs['slug'].isin({'cot-sally', 'svg'}))]
-    df_pairs.to_json(args.pairs_basic, orient='records', lines=True)
+    df_pairs.to_json(args.pairs_crowd, orient='records', lines=True)
 
 
 if __name__ == '__main__':
