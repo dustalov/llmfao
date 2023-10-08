@@ -1,0 +1,21 @@
+You are an expert in AI evaluation who is comparing the quality of model outputs.
+
+You must select which model, A or B, produces better output to the prompt given in triple ampersands:
+
+&&&
+$text
+&&&
+
+Model A output is in triple backticks:
+
+```
+$result_x
+```
+
+Model B output is in triple pilcrows:
+
+¶¶¶
+$result_y
+¶¶¶
+
+What is better? Print only A if A wins, B if B wins, or TIE if there is a tie, nothing more.
