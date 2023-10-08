@@ -40,8 +40,14 @@ python3 api_request_parallel_processor.py \
 After obtaining the responses from GPT models, it is possible to transform them into comparisons.
 
 ```shell
-./transform.py gpt3-comparisons  # transforms GPT-3 responses into a CSV with comparisons (makes no API requests)
-./transform.py gpt4-comparisons  # transforms GPT-4 responses into a CSV with comparisons (makes no API requests)
+./transform.py gpt3-comparisons  # generates gpt3-comparisons.csv (makes no API requests)
+./transform.py gpt4-comparisons  # generates gpt4-comparisons.csv (makes no API requests)
+./transform.py gpt3-comparisons \
+    --pairs pairs-crowd.jsonl \
+    --output gpt3-crowd-comparisons.csv  # generates gpt3-crowd-comparisons.csv (makes no API requests)
+./transform.py gpt4-comparisons \
+    --pairs pairs-crowd.jsonl \
+    --output gpt4-crowd-comparisons.csv  # generates gpt4-crowd-comparisons.csv (makes no API requests)
 ```
 
 [CC&nbsp;BY 4.0]: LICENSE.CC-BY
