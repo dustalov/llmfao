@@ -4,16 +4,16 @@
 
 The original [Crowdsourced LLM Benchmark](https://benchmarks.llmonitor.com/) dataset in files `prompts.jsonl`, `models.jsonl`, and `results.jsonl` was kindly provided by the team at [llmonitor.com](https://llmonitor.com/) under a [CC&nbsp;BY 4.0] license.
 
-The derivative files `pairs.jsonl` and `pairs-basic.jsonl` are released under the same [CC&nbsp;BY 4.0] license, as well as `gpt-instruction.txt`, `crowd-instruction.md`, and all other data files in this repository.
+The derivative files `pairs.jsonl` and `pairs-crowd.jsonl` are released under the same [CC&nbsp;BY 4.0] license, as well as `gpt-instruction.txt`, `crowd-instruction.md`, and all other data files in this repository.
 
 ## Code
 
 All the code is released under the [GPLv3+] license, but if you use only the data and not the code, it does not apply to you.
 
 ```shell
-./pairs.py  # generates pairs.jsonl and pairs-basic.jsonl
-./requests.py gpt3  # generates gpt3.jsonl (makes no requests to the API, don't worry)
-./requests.py gpt4  # generates gpt4.jsonl (makes no requests to the API, don't worry)
+./pairs.py  # generates pairs.jsonl and pairs-crowd.jsonl
+./requests.py gpt3-requests  # generates gpt3.jsonl (makes no API requests)
+./requests.py gpt4-requests  # generates gpt4.jsonl (makes no API requests)
 ```
 
 The generated `gpt3.jsonl` and `gpt4.jsonl` files can be used to make requests to the OpenAI API via [api_request_parallel_processor.py](https://github.com/openai/openai-cookbook/blob/main/examples/api_request_parallel_processor.py) (not included here).
@@ -35,6 +35,13 @@ python3 api_request_parallel_processor.py \
     --request_url 'https://api.openai.com/v1/chat/completions' \
     --max_requests_per_minute 150 \
     --max_tokens_per_minute 9000
+```
+
+After obtaining the responses from GPT models, it is possible to transform them into comparisons.
+
+```shell
+./requests.py gpt3-comparisons  # transforms GPT-3 responses into a CSV with comparisons (makes no API requests)
+./requests.py gpt4-comparisons  # transforms GPT-4 responses into a CSV with comparisons (makes no API requests)
 ```
 
 [CC&nbsp;BY 4.0]: LICENSE.CC-BY
