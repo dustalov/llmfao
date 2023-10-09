@@ -175,7 +175,9 @@ def aggregated(args: argparse.Namespace) -> None:
 
         dfs.append(df_aggregated)
 
-    df = pd.concat(dfs)
+    df = pd.concat(dfs).groupby(['id', 'prompt', 'model_x', 'model_y', 'left', 'right']).apply(
+        partial(aggregate, rng=rng)
+    ).reset_index(name='winner')
 
     df.to_csv(args.output, sep=args.delimiter, index=False)
 
@@ -216,11 +218,8 @@ def main() -> None:
 
     with nullcontext(subparsers.add_parser('aggregated')) as subparser:
         subparser.add_argument('inputs', type=argparse.FileType('rb'), nargs='?',
-                               default=[
-                                   'crowd-comparisons.csv',
-                                   'gpt3-crowd-comparisons.csv',
-                                   'gpt4-crowd-comparisons.csv'
-                               ])
+                               default=['crowd-comparisons.csv',
+                                        'gpt4-crowd-comparisons.csv'])
         subparser.add_argument('-d', '--delimiter', type=str, default=',')
         subparser.add_argument('--seed', type=int, default=0)
         subparser.add_argument('--output', type=argparse.FileType('wb'), default='aggregated-crowd-comparisons.csv')
