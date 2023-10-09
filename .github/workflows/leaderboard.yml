@@ -23,7 +23,14 @@ jobs:
     - name: Run Jupyter
       run: |
         mkdir jupyter
-        jupyter nbconvert --to html --output jupyter/index.html --execute example.ipynb
+        jupyter nbconvert --to html --output jupyter/index.html --execute leaderboard.ipynb
+    - name: Upload artifact
+      uses: actions/upload-artifact@v3
+      with:
+        name: leaderboard
+        path: |
+          jupyter/index.html
+        retention-days: 5
     - name: Upload Pages
       uses: peaceiris/actions-gh-pages@v3.9.3
       with:
