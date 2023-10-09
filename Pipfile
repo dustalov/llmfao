@@ -11,6 +11,7 @@ tqdm = "*"
 
 [dev-packages]
 mypy = "*"
+jupyter = "*"
 
 [requires]
 python_version = "3.11"
