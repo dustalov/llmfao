@@ -12,6 +12,7 @@ tqdm = "*"
 [dev-packages]
 mypy = "*"
 jupyter = "*"
+plotly = "*"
 
 [requires]
 python_version = "3.11"
