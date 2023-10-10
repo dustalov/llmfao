@@ -33,13 +33,6 @@ jobs:
       run: |
         mkdir jupyter
         jupyter nbconvert --to html --output jupyter/index.html --execute leaderboard.ipynb
-    - name: Upload artifact
-      uses: actions/upload-artifact@v3
-      with:
-        name: leaderboard
-        path: |
-          jupyter/index.html
-        retention-days: 5
     - name: Setup Pages
       uses: actions/configure-pages@v3
     - name: Upload artifact
