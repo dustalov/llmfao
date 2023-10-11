@@ -32,7 +32,7 @@ jobs:
     - name: Run Jupyter
       run: |
         mkdir jupyter
-        jupyter nbconvert --to html --output jupyter/index.html --execute leaderboard.ipynb
+        jupyter nbconvert --to html --TagRemovePreprocessor.remove_input_tags remove_input --output jupyter/index.html --execute leaderboard.ipynb
     - name: Setup Pages
       uses: actions/configure-pages@v3
     - name: Upload artifact
