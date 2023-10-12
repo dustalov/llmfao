@@ -6,10 +6,8 @@ __license__ = 'GPL-3.0-or-later'
 import argparse
 import re
 from contextlib import nullcontext
-from functools import partial
-from random import Random
 from string import Template
-from typing import Dict, List, cast
+from typing import Dict, List
 
 import pandas as pd
 
@@ -151,37 +149,6 @@ def gpt4_comparisons(args: argparse.Namespace) -> None:
     df.to_csv(args.output, sep=args.delimiter)
 
 
-def aggregated(args: argparse.Namespace) -> None:
-    def aggregate(df_slice: pd.DataFrame, rng: Random) -> str:
-        counts = df_slice['winner'].value_counts()
-
-        assert not counts.empty, 'counts is empty'
-
-        max_count = counts.max()
-        modes = counts[counts == max_count].index
-
-        return cast(str, rng.choice(modes))
-
-    dfs: List[pd.DataFrame] = []
-
-    for file in args.inputs:
-        df_input = pd.read_csv(file, sep=args.delimiter)
-
-        rng = Random(args.seed)
-
-        df_aggregated = df_input.groupby(['id', 'prompt', 'model_x', 'model_y', 'left', 'right']).apply(
-            partial(aggregate, rng=rng)
-        ).reset_index(name='winner')
-
-        dfs.append(df_aggregated)
-
-    df = pd.concat(dfs).groupby(['id', 'prompt', 'model_x', 'model_y', 'left', 'right']).apply(
-        partial(aggregate, rng=rng)
-    ).reset_index(name='winner')
-
-    df.to_csv(args.output, sep=args.delimiter, index=False)
-
-
 def main() -> None:
     parser = argparse.ArgumentParser()
     subparsers = parser.add_subparsers()
@@ -215,15 +182,6 @@ def main() -> None:
         subparser.add_argument('-d', '--delimiter', type=str, default=',')
         subparser.add_argument('--output', type=argparse.FileType('wb'), default='gpt4-comparisons.csv')
         subparser.set_defaults(func=gpt4_comparisons)
-
-    with nullcontext(subparsers.add_parser('aggregated')) as subparser:
-        subparser.add_argument('inputs', type=argparse.FileType('rb'), nargs='?',
-                               default=['crowd-comparisons.csv',
-                                        'gpt4-crowd-comparisons.csv'])
-        subparser.add_argument('-d', '--delimiter', type=str, default=',')
-        subparser.add_argument('--seed', type=int, default=0)
-        subparser.add_argument('--output', type=argparse.FileType('wb'), default='aggregated-crowd-comparisons.csv')
-        subparser.set_defaults(func=aggregated)
 
     args = parser.parse_args()
 
