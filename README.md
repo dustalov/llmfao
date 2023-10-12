@@ -9,7 +9,7 @@ This is a minimalistic [large language model](https://en.wikipedia.org/wiki/Larg
 
 The original [Crowdsourced LLM Benchmark](https://benchmarks.llmonitor.com/) dataset in files `prompts.jsonl`, `models.jsonl`, and `results.jsonl` was kindly provided by the team at [llmonitor.com](https://llmonitor.com/) under a [CC&nbsp;BY 4.0] license.
 
-Files with substring `crowd` in the name have only prompts from a smaller subset non-coding and non-redundant prompts: `k8s`, `qft`, `vendor-extract`, `munchhausen`, `basic-sentiment`, `cot-apple`, `taiwan`, `sally`, `holidays`, `bagel`, `planets-json`, `blue`, `product-description` (13 out of 19 prompts.)
+All files with substring `crowd` in the name have only prompts from a smaller subset non-coding and non-redundant prompts: `k8s`, `qft`, `vendor-extract`, `munchhausen`, `basic-sentiment`, `cot-apple`, `taiwan`, `sally`, `holidays`, `bagel`, `planets-json`, `blue`, `product-description` (13 out of 19 prompts).
 
 All other data files were released under the same [CC&nbsp;BY 4.0] license by [Dmitry Ustalov](https://github.com/dustalov):
 
