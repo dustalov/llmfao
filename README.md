@@ -20,6 +20,67 @@ All other data files were released under the same [CC&nbsp;BY 4.0] license by [D
 - `gpt*-responses.jsonl`: GPT-3 and GPT-4 API responses
 - `*-comparisons.csv`: pairwise comparisons
 
+```mermaid
+erDiagram
+    models {
+        int id
+        string api_id
+        string name
+        string api
+        string type
+        string org
+    }
+    prompts {
+        int id
+        string text
+        string type
+        string slug
+        string stop
+        string note
+    }
+    results {
+        int id
+        int model
+        string result
+        float duration
+        float rate
+        int prompt
+        string api_id
+        string name
+        string api
+        string type
+        string org
+        string slug
+    }
+    pairs {
+        int id
+        int prompt
+        string text
+        string type
+        string slug
+        string note
+        int model_x
+        string result_x
+        int model_y
+        string result_y
+    }
+    comparisons {
+        int id
+        int prompt
+        int model_x
+        int model_y
+        string left
+        string right
+        string winner
+    }
+    models ||--|{ results : has
+    models ||--|{ pairs : has
+    models ||--|{ comparisons : has
+    prompts ||--|{ results : has
+    prompts ||--|{ pairs : has
+    prompts ||--|{ comparisons : has
+```
+
 ## Code
 
 All the code is released under the [GPLv3+] license, but if you use only the data and not the code, it does not apply to you.
