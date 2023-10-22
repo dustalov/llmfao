@@ -31,8 +31,9 @@ jobs:
         pipenv install --python "3.11" --dev --system --skip-lock
     - name: Run Jupyter
       run: |
+        pipenv run leaderboard
         mkdir jupyter
-        jupyter nbconvert --to html --TagRemovePreprocessor.remove_input_tags remove_input --output jupyter/index.html --execute leaderboard.ipynb
+        mv leaderboard.html jupyter/index.html
     - name: Setup Pages
       uses: actions/configure-pages@v3
     - name: Upload artifact

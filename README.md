@@ -86,9 +86,9 @@ erDiagram
 All the code is released under the [GPLv3+] license, but if you use only the data and not the code, it does not apply to you.
 
 ```shell
-./transform.py pairs  # generates pairs.jsonl and pairs-crowd.jsonl
-./transform.py gpt3-requests  # generates gpt3.jsonl (makes no API requests)
-./transform.py gpt4-requests  # generates gpt4.jsonl (makes no API requests)
+pipenv run llmfao pairs  # generates pairs.jsonl and pairs-crowd.jsonl
+pipenv run llmfao gpt3-requests  # generates gpt3.jsonl (makes no API requests)
+pipenv run llmfao gpt4-requests  # generates gpt4.jsonl (makes no API requests)
 ```
 
 The generated `gpt3.jsonl` and `gpt4.jsonl` files can be used to make requests to the OpenAI API via [api_request_parallel_processor.py](https://github.com/openai/openai-cookbook/blob/main/examples/api_request_parallel_processor.py) (not included here).
