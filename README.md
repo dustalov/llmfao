@@ -86,7 +86,7 @@ erDiagram
 All the code is released under the [GPLv3+] license, but if you use only the data and not the code, it does not apply to you.
 
 ```shell
-./pairs.py  # generates pairs.jsonl and pairs-crowd.jsonl
+./transform.py pairs  # generates pairs.jsonl and pairs-crowd.jsonl
 ./transform.py gpt3-requests  # generates gpt3.jsonl (makes no API requests)
 ./transform.py gpt4-requests  # generates gpt4.jsonl (makes no API requests)
 ```
