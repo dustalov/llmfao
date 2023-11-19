@@ -20,5 +20,5 @@ llmfao = "python3 -m llmfao"
 leaderboard = "jupyter nbconvert --to html --TagRemovePreprocessor.remove_input_tags remove_input --output leaderboard.html --execute leaderboard.ipynb"
 
 [requires]
-python_version = "3.11"
-python_full_version = "3.11.6"
+python_version = "3.12"
+python_full_version = "3.12.0"
