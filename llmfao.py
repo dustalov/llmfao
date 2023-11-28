@@ -5,14 +5,13 @@ __license__ = 'GPL-3.0-or-later'
 
 import argparse
 import re
-import typing
 from collections import defaultdict, Counter
 from contextlib import nullcontext
 from functools import partial
 from operator import itemgetter
 from random import Random
 from string import Template
-from typing import Dict, List
+from typing import DefaultDict, Dict, List
 
 import networkx as nx
 import pandas as pd
@@ -21,23 +20,23 @@ from tqdm.auto import tqdm
 
 
 def graph(df_slice: pd.DataFrame, n: int = 3) -> nx.Graph:
-    counts: typing.DefaultDict[str, typing.Counter[str]] = defaultdict(Counter)
+    counts: DefaultDict[str, Counter[str]] = defaultdict(Counter)
 
-    for _, a in df_slice.iterrows():
-        for _, b in df_slice.iterrows():
-            if a['model'] != b['model']:
-                counts[a['model']][b['model']] += distance(
-                    a['result'].strip().lower(),
-                    b['result'].strip().lower()
+    for model_a, result_a in df_slice[['model', 'result']].itertuples(index=False):
+        for model_b, result_b in df_slice[['model', 'result']].itertuples(index=False):
+            if model_a != model_b:
+                counts[model_a][model_b] += distance(
+                    result_a.strip().lower(),
+                    result_b.strip().lower()
                 )
 
     G = nx.Graph()
 
     G.add_nodes_from(df_slice['model'])
 
-    for _, row in df_slice.iterrows():
-        for top, weight in counts[row['model']].most_common(n):
-            G.add_edge(row['model'], top, weight=weight)
+    for model in df_slice['model']:
+        for top, weight in counts[model].most_common(n):
+            G.add_edge(model, top, weight=weight)
 
     assert nx.is_connected(G), 'G should be connected'
 
