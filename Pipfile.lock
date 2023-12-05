@@ -691,20 +691,20 @@
         },
         "fsspec": {
             "hashes": [
-                "sha256:330c66757591df346ad3091a53bd907e15348c2ba17d63fd54f5c39c4457d2a5",
-                "sha256:346a8f024efeb749d2a5fca7ba8854474b1ff9af7c3faaf636a4548781136529"
+                "sha256:6271f1d3075a378bfe432f6f42bf7e1d2a6ba74f78dd9b512385474c579146a0",
+                "sha256:c4da01a35ac65c853f833e43f67802c25213f560820d54ddf248f92eddd5e990"
             ],
             "markers": "python_version >= '3.8'",
-            "version": "==2023.10.0"
+            "version": "==2023.12.1"
         },
         "gradio-client": {
             "hashes": [
-                "sha256:1ecd8bbddbe6e0488e23ed4065d4e45ffbc31c876aa940744bfb5425b1511bc6",
-                "sha256:f8c3552737da5a8725bb3e1bea10f77bbd37823f0d794d410e985ef7127209ac"
+                "sha256:21f4c3fc38bfba113ee59092f782195c19399aa114bdca642bd45c4bf1c5a062",
+                "sha256:65bd0bc2ebe3f4d1e9e2936852d701b45dc989d08bf590ed6ce76163019016cf"
             ],
             "index": "pypi",
             "markers": "python_version >= '3.8'",
-            "version": "==0.7.0"
+            "version": "==0.7.1"
         },
         "h11": {
             "hashes": [
@@ -1636,7 +1636,6 @@
                 "sha256:d302b3c5b53d47bce91fea46679d9c3c6508cf6332229aa1e7d8653723793386",
                 "sha256:d88e651f9db8d8551a62556d3cff9e3034274ca5d66e93197cf2490e2dcb69c7"
             ],
-            "index": "pypi",
             "markers": "python_version >= '3.7'",
             "version": "==4.66.1"
         },
