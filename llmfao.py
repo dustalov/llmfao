@@ -11,7 +11,7 @@ from functools import partial
 from operator import itemgetter
 from random import Random
 from string import Template
-from typing import DefaultDict, Dict, List
+from typing import DefaultDict, Dict, List, Any
 
 import networkx as nx
 import pandas as pd
@@ -54,7 +54,7 @@ def pairs(args: argparse.Namespace) -> None:
     df_results.set_index('id', inplace=True)
 
     tqdm.pandas(desc='Graphs')
-    df_prompts['graph'] = df_results.groupby('prompt').progress_apply(partial(graph, n=args.neighbors))
+    df_prompts['graph'] = df_results.groupby('prompt').progress_apply(partial(graph, n=args.neighbors))  # type: ignore
     df_prompts['pairs'] = df_prompts['graph'].apply(lambda G: G.edges)
 
     df_pairs = df_prompts.explode('pairs')
@@ -101,7 +101,7 @@ def pairs(args: argparse.Namespace) -> None:
     df_pairs.to_json(args.pairs_crowd, orient='records', lines=True)
 
 
-def build_gpt_request_metadata(row: pd.Series) -> Dict[str, int]:
+def build_gpt_request_metadata(row: 'pd.Series[Any]') -> Dict[str, int]:
     return {
         'id': row['id'],
         'prompt': row['prompt'],
@@ -138,7 +138,7 @@ def gpt4_requests(args: argparse.Namespace) -> None:
     df['max_tokens'] = 3
     df['model'] = 'gpt-4'
 
-    def chat_completion(row: pd.Series) -> List[Dict[str, str]]:
+    def chat_completion(row: 'pd.Series[Any]') -> List[Dict[str, str]]:
         prompt = template.safe_substitute(
             text=row['text'].strip(),
             result_x=row['result_x'].strip(),
@@ -159,7 +159,7 @@ def gpt4_requests(args: argparse.Namespace) -> None:
 
 
 def join_gpt_responses(df: pd.DataFrame, df_pairs: pd.DataFrame, df_models: pd.DataFrame) -> pd.DataFrame:
-    df = pd.concat((pd.json_normalize(df['metadata']), df), axis=1)
+    df = pd.concat((pd.json_normalize(df['metadata']), df), axis=1)  # type: ignore
     df.set_index('id', inplace=True)
     del df['input'], df['completion'], df['metadata']
 
@@ -189,7 +189,7 @@ def gpt3_comparisons(args: argparse.Namespace) -> None:
     df_models.set_index('id', inplace=True)
 
     df = pd.read_json(args.responses, lines=True)
-    df.columns = ['input', 'completion', 'metadata']
+    df.columns = pd.Index(['input', 'completion', 'metadata'])
     df['winner'] = df['completion'].apply(lambda completion: completion['choices'][0]['text'].strip())
 
     df = join_gpt_responses(df, df_pairs, df_models)
@@ -212,7 +212,7 @@ def gpt4_comparisons(args: argparse.Namespace) -> None:
     df_models.set_index('id', inplace=True)
 
     df = pd.read_json(args.responses, lines=True)
-    df.columns = ['input', 'completion', 'metadata']
+    df.columns = pd.Index(['input', 'completion', 'metadata'])
 
     df['success'] = df['completion'].apply(
         lambda completions: isinstance(completions, dict) and 'choices' in completions
