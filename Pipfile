@@ -13,6 +13,7 @@ tqdm = "*"
 mypy = "*"
 jupyter = "*"
 plotly = "*"
+pandas-stubs = "*"
 gradio-client = "*"
 
 [scripts]
