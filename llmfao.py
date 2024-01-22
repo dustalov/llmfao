@@ -11,7 +11,7 @@ from functools import partial
 from operator import itemgetter
 from random import Random
 from string import Template
-from typing import DefaultDict, Dict, List, Any
+from typing import Any
 
 import networkx as nx
 import pandas as pd
@@ -20,7 +20,7 @@ from tqdm.auto import tqdm
 
 
 def graph(df_slice: pd.DataFrame, n: int = 3) -> nx.Graph:
-    counts: DefaultDict[str, Counter[str]] = defaultdict(Counter)
+    counts: defaultdict[str, Counter[str]] = defaultdict(Counter)
 
     for model_a, result_a in df_slice[['model', 'result']].itertuples(index=False):
         for model_b, result_b in df_slice[['model', 'result']].itertuples(index=False):
@@ -101,7 +101,7 @@ def pairs(args: argparse.Namespace) -> None:
     df_pairs.to_json(args.pairs_crowd, orient='records', lines=True)
 
 
-def build_gpt_request_metadata(row: 'pd.Series[Any]') -> Dict[str, int]:
+def build_gpt_request_metadata(row: 'pd.Series[Any]') -> dict[str, int]:
     return {
         'id': row['id'],
         'prompt': row['prompt'],
@@ -138,7 +138,7 @@ def gpt4_requests(args: argparse.Namespace) -> None:
     df['max_tokens'] = 3
     df['model'] = 'gpt-4'
 
-    def chat_completion(row: 'pd.Series[Any]') -> List[Dict[str, str]]:
+    def chat_completion(row: 'pd.Series[Any]') -> list[dict[str, str]]:
         prompt = template.safe_substitute(
             text=row['text'].strip(),
             result_x=row['result_x'].strip(),
