@@ -707,12 +707,12 @@
         },
         "gradio-client": {
             "hashes": [
-                "sha256:0d817e9ff72fc1ba0866c11612a2b1c995d370ab7ea0fbf2bd0649e6da49ad76",
-                "sha256:19714dbc3d86f64d6725a90c4270ec22376f0c3b48271389bd81ede86a733cda"
+                "sha256:0fa5ba334a174dce918ba4f164d573507b7db740cf3b48704284d568f2e9cfd2",
+                "sha256:5a987492905314baf64b50bc12319d8208bbe23bd0c6fb4c2dcd4d9a8825fb56"
             ],
             "index": "pypi",
             "markers": "python_version >= '3.8'",
-            "version": "==0.8.0"
+            "version": "==0.8.1"
         },
         "h11": {
             "hashes": [
@@ -740,11 +740,11 @@
         },
         "huggingface-hub": {
             "hashes": [
-                "sha256:8c88c4c3c8853e22f2dfb4d84c3d493f4e1af52fb3856a90e1eeddcf191ddbb1",
-                "sha256:ecfdea395a8bc68cd160106c5bd857f7e010768d95f9e1862a779010cc304831"
+                "sha256:94e7f8e074475fbc67d6a71957b678e1b4a74ff1b64a644fd6cbb83da962d05d",
+                "sha256:d988ae4f00d3e307b0c80c6a05ca6dbb7edba8bba3079f74cda7d9c2e562a7b6"
             ],
             "markers": "python_full_version >= '3.8.0'",
-            "version": "==0.20.1"
+            "version": "==0.20.3"
         },
         "idna": {
             "hashes": [
@@ -1677,7 +1677,6 @@
                 "sha256:d302b3c5b53d47bce91fea46679d9c3c6508cf6332229aa1e7d8653723793386",
                 "sha256:d88e651f9db8d8551a62556d3cff9e3034274ca5d66e93197cf2490e2dcb69c7"
             ],
-            "index": "pypi",
             "markers": "python_version >= '3.7'",
             "version": "==4.66.1"
         },
@@ -1721,11 +1720,11 @@
         },
         "urllib3": {
             "hashes": [
-                "sha256:55901e917a5896a349ff771be919f8bd99aff50b79fe58fec595eb37bbc56bb3",
-                "sha256:df7aa8afb0148fa78488e7899b2c59b5f4ffcfa82e6c54ccb9dd37c1d7b52d54"
+                "sha256:051d961ad0c62a94e50ecf1af379c3aba230c66c710493493560c0c223c49f20",
+                "sha256:ce3711610ddce217e6d113a2732fafad960a03fd0318c91faa79481e35c11224"
             ],
             "markers": "python_version >= '3.8'",
-            "version": "==2.1.0"
+            "version": "==2.2.0"
         },
         "wcwidth": {
             "hashes": [
