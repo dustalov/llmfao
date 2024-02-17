@@ -19,7 +19,7 @@ from Levenshtein import distance
 from tqdm.auto import tqdm
 
 
-def graph(df_slice: pd.DataFrame, n: int = 3) -> nx.Graph:
+def graph(df_slice: pd.DataFrame, n: int = 3) -> nx.Graph[str]:
     counts: defaultdict[str, Counter[str]] = defaultdict(Counter)
 
     for model_a, result_a in df_slice[['model', 'result']].itertuples(index=False):
@@ -30,7 +30,7 @@ def graph(df_slice: pd.DataFrame, n: int = 3) -> nx.Graph:
                     result_b.strip().lower()
                 )
 
-    G = nx.Graph()
+    G: nx.Graph[str] = nx.Graph()
 
     G.add_nodes_from(df_slice['model'])
 
@@ -38,7 +38,7 @@ def graph(df_slice: pd.DataFrame, n: int = 3) -> nx.Graph:
         for top, weight in counts[model].most_common(n):
             G.add_edge(model, top, weight=weight)
 
-    assert nx.is_connected(G), 'G should be connected'  # type: ignore[no-untyped-call]
+    assert nx.is_connected(G), 'G should be connected'
 
     return G
 
