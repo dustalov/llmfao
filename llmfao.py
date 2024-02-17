@@ -38,7 +38,7 @@ def graph(df_slice: pd.DataFrame, n: int = 3) -> nx.Graph:
         for top, weight in counts[model].most_common(n):
             G.add_edge(model, top, weight=weight)
 
-    assert nx.is_connected(G), 'G should be connected'
+    assert nx.is_connected(G), 'G should be connected'  # type: ignore[no-untyped-call]
 
     return G
 

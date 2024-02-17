@@ -10,15 +10,19 @@ networkx = "*"
 tqdm = "*"
 
 [dev-packages]
-mypy = "*"
-jupyter = "*"
-plotly = "*"
-pandas-stubs = "*"
 gradio-client = "*"
+jupyter = "*"
+mypy = "*"
+nbqa = "*"
+pandas-stubs = "*"
+plotly = "*"
+ruff = "*"
+types-networkx = "*"
+types-tqdm = "*"
 
 [scripts]
 llmfao = "python3 -m llmfao"
 leaderboard = "jupyter nbconvert --to html --TagRemovePreprocessor.remove_input_tags remove_input --output leaderboard.html --execute leaderboard.ipynb"
 
 [requires]
-python_version = "3"
+python_version = "3.12"
