@@ -19,7 +19,7 @@ from Levenshtein import distance
 from tqdm.auto import tqdm
 
 
-def graph(df_slice: pd.DataFrame, n: int = 3) -> nx.Graph[str]:
+def graph(df_slice: pd.DataFrame, n: int = 3) -> 'nx.Graph[str]':
     counts: defaultdict[str, Counter[str]] = defaultdict(Counter)
 
     for model_a, result_a in df_slice[['model', 'result']].itertuples(index=False):
