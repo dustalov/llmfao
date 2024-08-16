@@ -4,6 +4,7 @@ This is a minimalistic [large language model](https://en.wikipedia.org/wiki/Larg
 
 - Overview: <https://evalovernite.substack.com/p/llmfao-human-ranking>
 - Leaderboard: <https://dustalov.github.io/llmfao/>
+- Dataset: <https://huggingface.co/datasets/dustalov/llmfao>
 
 ## Data
 
@@ -19,6 +20,7 @@ All other data files were released under the same [CC&nbsp;BY 4.0] license by [D
 - `gpt3.jsonl`, `gpt4.jsonl`: GPT-3 and GPT-4 API requests
 - `gpt*-responses.jsonl`: GPT-3 and GPT-4 API responses
 - `*-comparisons.csv`: pairwise comparisons
+- `*-crowd-comparisons.csv`: pairwise comparisons without code-related pairs
 
 ```mermaid
 erDiagram

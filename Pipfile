@@ -4,19 +4,20 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-pandas = "*"
+evalica = "*"
+pandas = "2.1.*"
 pyarrow = "*"
 Levenshtein = "*"
 networkx = "*"
 tqdm = "*"
 
 [dev-packages]
-gradio-client = "*"
 jupyter = "*"
 mypy = "*"
 nbqa = "*"
 pandas-stubs = "*"
 plotly = "*"
+pyupgrade = "*"
 ruff = "*"
 types-networkx = "*"
 types-tqdm = "*"

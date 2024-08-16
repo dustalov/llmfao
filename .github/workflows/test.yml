@@ -10,20 +10,32 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      DO_NOT_TRACK: 1
+      PIP_DISABLE_PIP_VERSION_CHECK: 1
     steps:
     - uses: actions/checkout@v4
-    - name: Set up Python 3.12
+    - name: Set up Python
       uses: actions/setup-python@v5
       with:
         python-version: "3.12"
+        cache: pipenv
     - name: Install dependencies
       run: |
         python3 -m pip install --upgrade pip
         pip install pipenv
-        pipenv install --python "3.12" --dev --system --skip-lock
-    - name: Lint with Mypy
-      run: mypy .
+        pipenv install --python "3.12" --dev
     - name: Lint with Ruff
-      uses: chartboost/ruff-action@v1
+      run: |
+        pipenv run ruff check
+        pipenv run nbqa ruff *.ipynb --extend-ignore B018
+    - name: Lint with Mypy
+      run: |
+        pipenv run mypy .
+        pipenv run nbqa mypy *.ipynb
+    - name: Lint with pyupgrade
+      run: |
+        pipenv run pyupgrade --py312-plus
+        pipenv run nbqa pyupgrade *.ipynb --py312-plus
     - name: Run LLMFAO
-      run: python3 -m llmfao --help
+      run: pipenv run python3 -m llmfao --help

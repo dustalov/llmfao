@@ -1,0 +1,12 @@
+line-length = 120
+target-version = "py312"
+
+[lint]
+select = ["ALL"]
+ignore = [
+    "D",    # pydocstyle
+    "N803", # invalid-argument-name
+    "N806", # non-lowercase-variable-in-function
+    "S101", # assert
+    "S311", # suspicious-non-cryptographic-random-usage
+]
