@@ -6,6 +6,8 @@ This is a minimalistic [large language model](https://en.wikipedia.org/wiki/Larg
 - Leaderboard: <https://dustalov.github.io/llmfao/>
 - Dataset: <https://huggingface.co/datasets/dustalov/llmfao>
 
+The pairwise comparisons are transformed into scores using the [Evalica](https://github.com/dustalov/evalica) library.
+
 ## Data
 
 The original [Crowdsourced LLM Benchmark](https://benchmarks.llmonitor.com/) dataset in files `prompts.jsonl`, `models.jsonl`, and `results.jsonl` was kindly provided by the team at [llmonitor.com](https://llmonitor.com/) under a [CC&nbsp;BY 4.0] license.
